@@ -1,0 +1,21 @@
+{
+  "name": "radagast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-timestamp": "^0.1.4",
+    "generate-object-property": "^1.2.0",
+    "hawk": "^6.0.1",
+    "jsonfile": "^2.4.0",
+    "twit": "^2.2.5",
+    "unirest": "^0.5.1"
+  }
+}

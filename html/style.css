@@ -1,0 +1,210 @@
+.topnav {
+  position:fixed;
+  top:0px;
+  background-color: #89A;
+  overflow: hidden;
+  float: top;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ABC;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #14F;
+  color: white;
+}
+
+
+
+body { 
+  position: absolute;
+  top: 50px;
+  width: 100%; 
+  margin: 0px;
+  padding: 0px;
+
+  background-image: url("/favicon.png");
+  background-size: 300px;
+
+  background-repeat: no-repeat;
+  background-position: 200px 75px; 
+  background-attachment: fixed;
+  /*background-color: #cccccc;*/
+
+}
+
+* { 
+  border: 0px;
+  padding: 0px;
+  font-family: Helvetica; 
+  vertical-align: center;
+}
+
+
+div {
+  width: 100%;
+  margin: 0px;
+}
+
+div.topnav {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 { 
+  background: #ADF;
+  background: linear-gradient(#CFF, #ADF , #CFF);
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px #88AAFF;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 100px;
+  margin: 0px 10px;  
+  padding-left: 10px;
+  width: 90%;
+  /*vertical-align: center;*/
+}
+
+h1:hover {
+  background: linear-gradient(#DFF, #BEF , #DFF);
+  box-shadow: 0px 0px 8px #AACCFF;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 16px #ADF;
+}
+
+h3 {
+  background: #DDD;
+  background: -webkit-linear-gradient(left, #DDD , #EEE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #DDD, #EEE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #DDD, #EEE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #DDD , #EEE); /* Standard syntax */
+  margin-left: -10px;
+  font-family: Courier;
+  padding: 5px 10px;
+  border-radius: 4px 4px 0px 0px;
+}
+h4 {
+  margin-top: 0px;
+}
+p {
+  margin: 10px 0px;
+}
+footer p {
+  margin: 0px 10px;
+
+}
+#ep {
+  width: calc(90% - 20px);
+  /*padding: 10px;*/
+
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #EEE;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px #888888;
+}
+
+#ep:hover {
+  box-shadow: 0px 0px 4px #888888;
+}
+
+#exbox {
+  width: calc(100% - 20px);
+  align-content: center;
+  background: #F6F6F6;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 0px;
+  border-radius: 4px;
+}
+
+#example {
+  font-family: courier;
+}
+
+#box {
+	display: inline-block;
+  width: calc(50% - 80px);
+  min-width: 500px;
+  min-height: 300px;
+  height: auto;
+  max-height: 900px;
+  /*padding: 10px;*/
+
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #EEE;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px #888888;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+#box:hover {
+	box-shadow: 0px 0px 4px #888888;
+}
+
+footer {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #F0F0F0, #FFF);
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #AAA;
+}
+
+
+
+#butSearch, #textfield {
+  box-shadow: 1px 1px 4px #888;
+  width: auto;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 300;
+}
+#textfield {
+  width: calc(80% - 40px);
+}
+
+#butSearch {
+  width: 20%;
+  margin-left: 4px;
+  color: #FFF;
+  background: #08F;
+}
