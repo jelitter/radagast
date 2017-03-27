@@ -9,7 +9,7 @@ process.stdout.write('\033c');  // clear console
 
 console.log("##########################################################");
 preload();
-console.log("  RADAGAST - Twitter search API started on port "+port);
+console.log("  RADAGAST - Twitter search API started on port "+ (process.env.PORT || 5000));
 console.log("##########################################################");
 app.set('view engine', 'jade');
 app.use(time.init);
