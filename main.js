@@ -1,4 +1,4 @@
-var port       = 80;
+// var port       = .listen(process.env.PORT || 5000);
 var twitter    = require('./twitter'); 
 var favourites = require('./favourites');
 var express    = require('express');
@@ -168,7 +168,8 @@ function about(req, res) {
 //         Server Start
 // ----------------------------------------------------
 
-app.listen(port);
+// app.listen(port);
+app.listen(process.env.PORT || 5000);
 
 
 
