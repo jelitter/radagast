@@ -1,4 +1,4 @@
-var port       = 5000;
+var port       = 80;
 var twitter    = require('./twitter'); 
 var favourites = require('./favourites');
 var express    = require('express');
