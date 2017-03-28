@@ -129,17 +129,17 @@ exports.getSentimentScore = function(text) {
       totalwords = 0,
       words      = text.split(' ');
 
-  words.forEach(function(word) {
-    console.log("Looking up in dictionary: "+ word);
-    if (warriner[word.toLowerCase()]) {
-      totalscore += warriner[word.toLowerCase()];
+  for (let w in words) {
+    console.log("Looking up in dictionary: "+ words[w]);
+    if (warriner[words[w].toLowerCase()]) {
+      totalscore += warriner[words[w].toLowerCase()];
       totalwords++;
-      console.log("Found in dictionary: "+ word+ " with score " + warriner[word.toLowerCase()]);
-    } else if (warriner[st.stem(word.toLowerCase())]) {
-      totalscore += warriner[word.toLowerCase()];
+      console.log("Found in dictionary: "+ words[w]+ " with score " + warriner[words[w].toLowerCase()]);
+    } else if (warriner[st.stem(words[w].toLowerCase())]) {
+      totalscore += warriner[words[w].toLowerCase()];
       totalwords++;
     }
-  });
+  };
 
   if (totalscore > 0) {
     score = totalscore / totalwords;  // Scores go from 1 to 9
