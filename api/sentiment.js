@@ -111,7 +111,7 @@ exports.getSentiment = function(res, search, twits) {
 };
 
 
-function getSentimentScore(text) {
+exports.getSentimentScore = function(text) {
 
   var score      = 0,
       score_perc = 0;
@@ -155,7 +155,7 @@ function getSentimentScore(text) {
   return ret_score;
 }
 
-function toPercent(n) {
+exports.toPercent = function(n) {
   return Math.round((n*100) / 9, 2);
 }
 
