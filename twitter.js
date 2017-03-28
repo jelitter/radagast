@@ -12,6 +12,8 @@ var config = {
   timeout_ms:           60*1000  // optional HTTP request timeout to apply to all requests.
 }
 
+console.log('CONFIG: ' + JSON.stringify(config));
+
 var T      = new Twit(config);
 
 
