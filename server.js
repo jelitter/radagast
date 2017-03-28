@@ -73,7 +73,7 @@ app.get('/api/v1/favourites/remove/', function(req, res){
 });
 
 app.get('/api/v1/favourites/get/', function(req, res){
-  console.log(req.timestamp.format() + "-> /api/v1/favourites/get/ -> " + req.query.user);
+  log(req, req.query.user);
 
   if (!req.query.user) {
     log(req, "Incorrect query")
