@@ -6,7 +6,7 @@ var st       = require('./stemmer-porter2');
 var results  = {}
 var warriner = jsonfile.readFileSync('./api/data/warriner-english.json');
 
-console.log("  Sentiment dictionary loaded.")
+// console.log("  Sentiment dictionary loaded.")
 
 jsonfile.spaces = 2;
 var file = './api/data/data.json'

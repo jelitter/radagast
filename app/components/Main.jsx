@@ -19,7 +19,7 @@ var Main = React.createClass({
         TwitterCall.getTweetData(busqueda).then(function(response){
             _this.setState({
                 fulltext: response.Text,
-                score: response.Score,
+                score: response.Score.score_perc,
                 isSearching: false
             })
         }, function(errorMsg){
