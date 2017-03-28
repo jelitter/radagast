@@ -107,7 +107,7 @@ exports.getSentiment = function(res, search, twits) {
   results[search.toLowerCase()]["Stemmed Text"] = stemmedText
   // results[search]["Twits"] = 
 
-  console.log("Sentiment for \"" +search+ "\" is " + ret_score.score_perc + " % possitive.");
+  console.log("Sentiment for \"" +search+ "\" is " + results[search.toLowerCase()]["Score"].score_perc + " % possitive.");
 
   res.send (results[search.toLowerCase()]);
 
