@@ -55,11 +55,12 @@ exports.getSentiment = function(res, search, twits) {
   } else {
     console.log("New search topic: " + search)
     results[search.toLowerCase()] = {
-      "Score"        : "",
-      "Raw Text"     : "",
-      "Text"         : "",
-      "Stemmed Text" : "",
-      "Twits"        : []
+      "Score"          : "",
+      "numberOfTweets" : "",
+      "Raw Text"       : "",
+      "Text"           : "",
+      "Stemmed Text"   : "",
+      "Twits"          : []
     }
   }
 
@@ -99,6 +100,8 @@ exports.getSentiment = function(res, search, twits) {
   var stemmedText = stems.join(' ').replace(/\s{2,}/g, " ").trim();;
   
   results[search.toLowerCase()]["Score"] = this.getSentimentScore(txt);
+  results[search.toLowerCase()]["numberOfTweets"] = results[search.toLowerCase()].Twits.length;
+
   results[search.toLowerCase()]["Raw Text"] = alltwits
   results[search.toLowerCase()]["Text"] = txt
   results[search.toLowerCase()]["Stemmed Text"] = stemmedText
