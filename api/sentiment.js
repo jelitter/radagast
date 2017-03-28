@@ -150,10 +150,7 @@ function getSentimentScore(text) {
     "words"      : totalwords
   };
 
-  console.log(
-    "Text: " + text + "\n" +
-    JSON.stringify(ret_score);
-    )
+  console.log("Text: " + text + "\n" + JSON.stringify(ret_score));
 
   return ret_score;
 }
