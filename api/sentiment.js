@@ -57,8 +57,8 @@ exports.getSentiment = function(res, search, twits) {
   } else {
     console.log("New search topic: " + search)
     results[search.toLowerCase()] = {
-      "Score"          : "",
-      "numberOfTweets" : "",
+      "Score"          : 0,
+      "numberOfTweets" : 0,
       "Raw Text"       : "",
       "Text"           : "",
       "Stemmed Text"   : "",
