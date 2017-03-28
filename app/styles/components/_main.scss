@@ -1,0 +1,21 @@
+.box {
+	display: inline-block;
+  width: calc(50% - 80px);
+  min-width: 500px;
+  min-height: 300px;
+  height: auto;
+  max-height: 900px;
+  /*padding: 10px;*/
+
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #EEE;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px #888888;
+  vertical-align: top;
+  overflow: hidden;
+}
+
