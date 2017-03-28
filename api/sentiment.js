@@ -140,7 +140,7 @@ exports.getSentimentScore = function(text) {
       thisscore = Number(warriner[st.stem(words[w].toLowerCase())]);
       totalscore += thisscore;
       totalwords++;
-      console.log("STEM Found in dictionary: "+ words[w]+ " --> "+ st.stem(words[w].toLowerCase()) +" with score: " thisscore);
+      console.log("STEM Found in dictionary: "+ words[w]+ " --> "+ st.stem(words[w].toLowerCase()) +" with score: " + thisscore);
       console.log("Total score: " + totalscore + " - Total words: " + totalwords);
     }
   };
