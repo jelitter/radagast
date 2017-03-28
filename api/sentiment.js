@@ -50,7 +50,7 @@ exports.getAll = function(res, req) {
 exports.getSentiment = function(res, search, twits) {
 
   var alltwits = "";
-  if (results[search..toLowerCase()]) {
+  if (results[search.toLowerCase()]) {
     console.log("Adding more results for: " + search)
   } else {
     console.log("New search topic: " + search)
