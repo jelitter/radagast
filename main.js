@@ -42,11 +42,9 @@ app.use(time.init);
 
 app.get('/api/v1/twitter/search/', function(req, res){
   if (!req.query.q) {
-    // console.log(req.timestamp.format() + "-> Wrong query: " + JSON.stringify(req.query));
     log(req, "Incorrect query");
     res.sendFile('html/api-doc.html', {root: __dirname })
   } else {
-    // console.log(req.timestamp.format() + "-> /api/v1/search/ -> " + req.query.q);
     log(req, "Search: " + req.query.q);
     twitter.getTwitsSearch(res, req.query.q, req.query.lang, req.query.count);
   }
@@ -54,18 +52,15 @@ app.get('/api/v1/twitter/search/', function(req, res){
 
 app.get('/api/v1/twitter/remove/', function(req, res){
   if (!req.query.q) {
-    // console.log(req.timestamp.format() + "-> Wrong query: " + JSON.stringify(req.query));
     log(req, "Incorrect query");
     res.sendFile('html/api-doc.html', {root: __dirname })
   } else {
-    // console.log(req.timestamp.format() + "-> /api/v1/search/ -> " + req.query.q);
     log(req, "Remove: " + req.query.q);
     twitter.removeTwitsSearch(res, req.query.q);
   }
 });
 
 app.get('/api/v1/twitter/all/', function(req, res){
-  // console.log(req.timestamp.format() + "-> /api/v1/all/");
   log(req, "All results");
   twitter.getAllTwits(res, req);
 });
@@ -76,11 +71,9 @@ app.get('/api/v1/twitter/all/', function(req, res){
 // ----------------------------------------------------
 
 app.get('/api/v1/favourites/add/', function(req, res){
-  // console.log(req.timestamp.format() + "-> /api/v1/favourites/add/ -> " + req.query.user + " -> " + req.query.text);
   log(req, req.query.user +", "+ req.query.text);
 
   if (!req.query.user || !req.query.text) {
-    // console.log(req.timestamp.format() + "-> Wrong query: " + JSON.stringify(req.query));
     log(req, "Incorrect query");
     res.sendFile('html/api-doc.html', {root: __dirname })
   } else {
@@ -89,11 +82,9 @@ app.get('/api/v1/favourites/add/', function(req, res){
 });
 
 app.get('/api/v1/favourites/remove/', function(req, res){
-  // console.log(req.timestamp.format() + "-> /api/v1/favourites/remove/ -> " + req.query.user + " -> " + req.query.text);
   log(req, req.query.user +", "+ req.query.text);
 
   if (!req.query.user || !req.query.text) {
-    // console.log(req.timestamp.format() + "-> Wrong query: " + JSON.stringify(req.query));
     log(req, "Incorrect query")
     res.sendFile('html/api-doc.html', {root: __dirname })
   } else {
@@ -105,7 +96,6 @@ app.get('/api/v1/favourites/get/', function(req, res){
   console.log(req.timestamp.format() + "-> /api/v1/favourites/get/ -> " + req.query.user);
 
   if (!req.query.user) {
-    // console.log(req.timestamp.format() + "-> Wrong query: " + JSON.stringify(req.query));
     log(req, "Incorrect query")
     res.sendFile('html/api-doc.html', {root: __dirname })
   } else {
@@ -120,12 +110,10 @@ app.get('/api/v1/favourites/get/', function(req, res){
 
 app.get('/api/',function (req, res) {
   res.sendFile('html/api-doc.html', {root: __dirname });
-  // console.log(req.timestamp.format() + "-> Help");
   log(req, "API Doc");
 });
 
 app.get('/api/?*',function (req, res) {
-  // console.warn(req.timestamp.format() + "-> Wrong route: " + + req.originalUrl);
   log(req, "Incorrect API call");
   res.redirect('/api/');
 });
@@ -136,7 +124,6 @@ app.use(express.static(__dirname + "/html"));
 
 app.get(/\w{1,}/,function (req, res) {
   log(req, "Wrong route (404)");
-  // console.warn(req.timestamp.format() + "-> Wrong route (404): " + req.originalUrl);
   res.sendFile('html/404.html', {root: __dirname });
 });
 
@@ -196,8 +183,6 @@ function preload() {
 }
 
 function log(req, log) {
-
-  // var ip = (req.ip || req.connection.remoteAddress).replace(/::ffff:/, "");
   var ip;
   if (req.ip) {
     ip = req.ip.replace(/::ffff:/, "");
