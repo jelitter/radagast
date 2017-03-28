@@ -123,6 +123,7 @@ exports.getSentimentScore = function(text) {
       .replace(/\)/, "");
 
   var score      = 0,
+      thisscore  = 0,
       score_perc = 0,
       totalscore = 0, 
       totalwords = 0,
@@ -130,14 +131,16 @@ exports.getSentimentScore = function(text) {
 
   for (var w in words) {
     if (warriner[words[w].toLowerCase()]) {
-      totalscore += warriner[words[w].toLowerCase()];
+      thisscore = Number(warriner[words[w].toLowerCase()]);
+      totalscore += thisscore;
       totalwords++;
-      console.log("WORD Found in dictionary: "+ words[w]+ " with score " + warriner[words[w].toLowerCase()]);
+      console.log("WORD Found in dictionary: "+ words[w]+ " with score: " + thisscore);
       console.log("Total score: " + totalscore + " - Total words: " + totalwords);
     } else if (warriner[st.stem(words[w].toLowerCase())]) {
-      totalscore += warriner[words[w].toLowerCase()];
+      thisscore = Number(warriner[st.stem(words[w].toLowerCase())]);
+      totalscore += thisscore;
       totalwords++;
-      console.log("STEM Found in dictionary: "+ words[w]+ " --> "+ st.stem(words[w].toLowerCase()) +" with score " + warriner[st.stem(words[w].toLowerCase())]);
+      console.log("STEM Found in dictionary: "+ words[w]+ " --> "+ st.stem(words[w].toLowerCase()) +" with score: " thisscore);
       console.log("Total score: " + totalscore + " - Total words: " + totalwords);
     }
   };
