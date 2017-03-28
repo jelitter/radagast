@@ -1,8 +1,9 @@
-var unirest = require('unirest');
-var mashapeKey = "D1jk6XoHkpmsh4wd3y1bCHuTr6STp1TqCAPjsnwAtZ6kHUUBay";
-var st = require('./stemmer-porter2');
-var results = {}
+// var mashapeKey = "D1jk6XoHkpmsh4wd3y1bCHuTr6STp1TqCAPjsnwAtZ6kHUUBay";
+
+var unirest  = require('unirest');
 var jsonfile = require('jsonfile')
+var st       = require('./stemmer-porter2');
+var results  = {}
 var warriner = jsonfile.readFileSync('./api/data/warriner-english.json');
 
 jsonfile.spaces = 2;
@@ -49,11 +50,11 @@ exports.getAll = function(res, req) {
 exports.getSentiment = function(res, search, twits) {
 
   var alltwits = "";
-  if (results[search]) {
+  if (results[search..toLowerCase()]) {
     console.log("Adding more results for: " + search)
   } else {
     console.log("New search topic: " + search)
-    results[search] = {
+    results[search.toLowerCase()] = {
       "Score"        : "",
       "Raw Text"     : "",
       "Text"         : "",
@@ -66,19 +67,19 @@ exports.getSentiment = function(res, search, twits) {
   for (let i = 0; i < twits.length; i++) {
 
     found = false;
-    for (let j = 0; j < results[search].Twits.length; j++) {
-      if (twits[i].id == results[search].Twits[j].id ) {
+    for (let j = 0; j < results[search.toLowerCase()].Twits.length; j++) {
+      if (twits[i].id == results[search.toLowerCase()].Twits[j].id ) {
         found = true;
         break;
       }
     }
     if (!found) {
-      results[search].Twits.push(twits[i]);
+      results[search.toLowerCase()].Twits.push(twits[i]);
     }
   }
 
-  for (let i = 0; i < results[search].Twits.length; i++) {
-    alltwits += results[search].Twits[i].text + " "
+  for (let i = 0; i < results[search.toLowerCase()].Twits.length; i++) {
+    alltwits += results[search.toLowerCase()].Twits[i].text + " "
   }
 
 
@@ -93,7 +94,7 @@ exports.getSentiment = function(res, search, twits) {
   var words = txt.split(/\W/);
   var stems = [];
   for (var w in words) {
-    stems.push(st.stem(words[w]));
+    stems.push(st.stem(words[w].toLowerCase()));
   }
   var stemmedText = stems.join(' ').replace(/\s{2,}/g, " ").trim();;
   
@@ -104,7 +105,7 @@ exports.getSentiment = function(res, search, twits) {
   // results[search]["Twits"] = 
 
 
-  res.send (results[search]);
+  res.send (results[search.toLowerCase()]);
 
   saveData();
 };
@@ -129,11 +130,11 @@ function getSentimentScore(text) {
       words      = text.split(' ');
 
   words.forEach(function(word) {
-    if (warriner[word]) {
-      totalscore += warriner[word];
+    if (warriner[word.toLowerCase()]) {
+      totalscore += warriner[word.toLowerCase()];
       totalwords++;
-    } else if (warriner[st.stem(word)]) {
-      totalscore += warriner[word];
+    } else if (warriner[st.stem(word.toLowerCase())]) {
+      totalscore += warriner[word.toLowerCase()];
       totalwords++;
     }
   });
@@ -143,11 +144,18 @@ function getSentimentScore(text) {
     score_perc = toPercent(score);    //  Negative 0%  <---> 100% Positive
   }
 
-  return {
+  var ret_score = {
     "score"      : score,
     "score_perc" : score_perc,
     "words"      : totalwords
-  }
+  };
+
+  console.log(
+    "Text: " + text + "\n" +
+    JSON.stringify(ret_score);
+    )
+
+  return ret_score;
 }
 
 function toPercent(n) {
