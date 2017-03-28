@@ -28,8 +28,8 @@ exports.loadData = function() {
 
 exports.removeTopicResults = function(res, text) {
 
-  if (results[text]) {
-    delete results[text];
+  if (results[text.toLowerCase()]) {
+    delete results[text.toLowerCase()];
     res.send({
       "status" : "OK",
       "message" : "Cached results removed for topic: " + text
@@ -125,14 +125,16 @@ exports.getSentimentScore = function(text) {
       .replace(/\(/, "")
       .replace(/\)/, "");
 
-  let totalscore      = 0, 
+  let totalscore = 0, 
       totalwords = 0,
       words      = text.split(' ');
 
   words.forEach(function(word) {
+    console.log("Looking up in dictionary: "+ word);
     if (warriner[word.toLowerCase()]) {
       totalscore += warriner[word.toLowerCase()];
       totalwords++;
+      console.log("Found in dictionary: "+ word+ " with score " + warriner[word.toLowerCase()]);
     } else if (warriner[st.stem(word.toLowerCase())]) {
       totalscore += warriner[word.toLowerCase()];
       totalwords++;
