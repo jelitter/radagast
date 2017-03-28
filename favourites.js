@@ -75,7 +75,7 @@ exports.get = function(user, req, res) {
   res.send(favourites[user]);
 }
 
-exports.load = function () {
+exports.load = function() {
   try {
     favourites = jsonfile.readFileSync(favfile);
   } catch (e) {
