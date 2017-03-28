@@ -124,7 +124,7 @@ app.use(function (req, res, next){
 app.use(express.static('public'));
 
 app.listen(PORT, function(){
-    log("Express is running on port " + PORT);
+    log(req, "Express is running on port " + PORT);
 })
 
 
@@ -137,16 +137,16 @@ app.listen(PORT, function(){
 function preload() {
   try {
     twitter.loadData();
-    log("  Twitter data loaded.");
+    log(req, "  Twitter data loaded.");
   } catch (e) {
-    log("[!] Couldn't load Twitter data.");
+    log(req, "[!] Couldn't load Twitter data.");
   }
 
   try {
     favourites.load()
-    log("  Favourites loaded.");
+    log(req, "  Favourites loaded.");
   } catch (e) {
-    log("[!] Couldn't load favourites.\n" + JSON.stringify(e));
+    log(req, "[!] Couldn't load favourites.\n" + JSON.stringify(e));
   }
 }
 
