@@ -5,10 +5,10 @@ var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
 var config = {
-  consumer_key:         process.env.twitter_consumer_key,
-  consumer_secret:      process.env.twitter_consumer_secret,
-  access_token:         process.env.twitter_access_token,
-  access_token_secret:  process.env.twitter_access_token_secret,
+  consumer_key:         process.env.consumer_key,
+  consumer_secret:      process.env.consumer_secret,
+  access_token:         process.env.access_token,
+  access_token_secret:  process.env.access_token_secret,
   timeout_ms:           60*1000  // optional HTTP request timeout to apply to all requests.
 }
 
