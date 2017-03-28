@@ -122,10 +122,11 @@ app.use(function (req, res, next){
 
 
 app.use(express.static('public'));
+app.listen(PORT);
 
-app.listen(PORT, function(){
-    console.log("  Express is running on port " + PORT);
-})
+// app.listen(PORT, function(){
+//     console.log("  Express is running on port " + PORT);
+// })
 
 
 
