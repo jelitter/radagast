@@ -125,24 +125,25 @@ exports.getSentimentScore = function(text) {
       .replace(/\(/, "")
       .replace(/\)/, "");
 
-  let totalscore = 0, 
+  var totalscore = 0, 
       totalwords = 0,
       words      = text.split(' ');
 
-  for (let w in words) {
+  for (var w in words) {
     console.log("Looking up in dictionary: "+ words[w]);
     if (warriner[words[w].toLowerCase()]) {
       totalscore += warriner[words[w].toLowerCase()];
       totalwords++;
-      console.log("Found in dictionary: "+ words[w]+ " with score " + warriner[words[w].toLowerCase()]);
+      console.log("WORD Found in dictionary: "+ words[w]+ " with score " + warriner[words[w].toLowerCase()]);
     } else if (warriner[st.stem(words[w].toLowerCase())]) {
       totalscore += warriner[words[w].toLowerCase()];
       totalwords++;
+      console.log("STEM Found in dictionary: "+ words[w]+ " with score " + warriner[words[w].toLowerCase()]);
     }
   };
 
   if (totalscore > 0) {
-    score = totalscore / totalwords;  // Scores go from 1 to 9
+    score = totalscore / totalwords;       //  Scores go from 1 to 9
     score_perc = this.toPercent(score);    //  Negative 0%  <---> 100% Positive
   }
 
