@@ -1,4 +1,4 @@
-const API_URL = "http://46.7.66.70:3005/api/v1/twitter/search/?q="
+const API_URL = "/api/v1/twitter/search/?q="
 
 $(document).ready(function(){
     $('#textfield').keypress(function(e){
