@@ -152,7 +152,7 @@ exports.getSentimentScore = function(text) {
   }
 
   var ret_score = {
-    "score"      : Math.round(score, 1),
+    "score"      : score.toFixed(2),
     "score_perc" : score_perc,
     "words"      : totalwords
   };
@@ -161,7 +161,7 @@ exports.getSentimentScore = function(text) {
 }
 
 exports.toPercent = function(n) {
-  return Math.round((n*100) / 9, 2);
+  return ((n*100) / 9).toFixed(2);
 }
 
 // exports.getSentiment2 = function(txt) {
