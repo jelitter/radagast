@@ -1,13 +1,10 @@
-//     ┌──────────────────┐
-//     │ Work in Progress │
-//     └──────────────────┘
-
 var unirest = require('unirest');
 var mashapeKey = "D1jk6XoHkpmsh4wd3y1bCHuTr6STp1TqCAPjsnwAtZ6kHUUBay";
 var st = require('./stemmer-porter2');
 var results = {}
-
 var jsonfile = require('jsonfile')
+var warriner = jsonfile.readFileSync('./api/data/warriner-english.json');
+
 jsonfile.spaces = 2;
 var file = './api/data/data.json'
 
@@ -22,8 +19,8 @@ exports.loadData = function() {
   try {
     results = jsonfile.readFileSync(file);
   } catch (e) {
-      console.log("File: ", file)
-  console.log("Results: ", results);
+    console.log("File: ", file)
+    console.log("Results: ", results);
     console.log("Error parsing JSON data from file.")
   }
 }
@@ -57,7 +54,7 @@ exports.getSentiment = function(res, search, twits) {
   } else {
     console.log("New search topic: " + search)
     results[search] = {
-      "Score"        : 0.6,
+      "Score"        : "",
       "Raw Text"     : "",
       "Text"         : "",
       "Stemmed Text" : "",
@@ -88,7 +85,7 @@ exports.getSentiment = function(res, search, twits) {
   // Removing retweet tag 'RT', New line char, double spaces, #Hashtags, URLs and @mentions.
   var txt = alltwits
     .replace(/\bRT\b|\n|#\S+|https?\:\/\/\S+|\@\w+/g, "")
-    .replace(/[^a-zA-Z\!\?\,\.'\- ]/g, "")
+    .replace(/[^a-zA-Záéíóúàèìòùâêîôûäëïöü\!\?\,\.'\- ]/g, "")
     .replace(/\s{2,}/g, " ")
     .trim();
 
@@ -100,6 +97,7 @@ exports.getSentiment = function(res, search, twits) {
   }
   var stemmedText = stems.join(' ').replace(/\s{2,}/g, " ").trim();;
   
+  results[search]["Score"] = getSentimentScore(txt);
   results[search]["Raw Text"] = alltwits
   results[search]["Text"] = txt
   results[search]["Stemmed Text"] = stemmedText
@@ -109,22 +107,52 @@ exports.getSentiment = function(res, search, twits) {
   res.send (results[search]);
 
   saveData();
-
-  // unirest.post("https://community-sentiment.p.mashape.com/text/")
-  // .header("X-Mashape-Key", mashapeKey)
-  // .header("Content-Type", "application/x-www-form-urlencoded")
-  // .header("Accept", "application/json")
-  // .send("txt=" + txt)
-  // .end(function (result) {
-    
-  //   console.log(result);
-  //   res.send({
-  //     "text" : txt,
-  //     "sentiment": result.body.result.sentiment, 
-  //     "confidence" : result.body.result.confidence });
-
-  // });
 };
+
+
+function getSentimentScore(text) {
+
+  var score      = 0,
+      score_perc = 0;
+
+  text.replace(/\n/, "")
+      .replace(/\r/, "")
+      .replace(/\./, "")
+      .replace(/\,/, "")
+      .replace(/\//, "")
+      .replace(/\//, "")
+      .replace(/\(/, "")
+      .replace(/\)/, "");
+
+  let totalscore      = 0, 
+      totalwords = 0,
+      words      = text.split(' ');
+
+  words.forEach(function(word) {
+    if (warriner[word]) {
+      totalscore += warriner[word];
+      totalwords++;
+    } else if (warriner[st.stem(word)]) {
+      totalscore += warriner[word];
+      totalwords++;
+    }
+  });
+
+  if (totalscore > 0) {
+    score = totalscore / totalwords;  // Scores go from 1 to 9
+    score_perc = toPercent(score);    //  Negative 0%  <---> 100% Positive
+  }
+
+  return {
+    "score"      : score,
+    "score_perc" : score_perc,
+    "words"      : totalwords
+  }
+}
+
+function toPercent(n) {
+  return Math.round((n*100) / 9, 2);
+}
 
 // exports.getSentiment2 = function(txt) {
 //   // https://market.mashape.com/loudelement/free-natural-language-processing-service

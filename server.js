@@ -7,9 +7,8 @@ var   time       = require('express-timestamp')
 var   page404    = 'public/404.html';
 var   pageApiDoc = 'public/api-doc.html';
 
-preload();
-
 console.log("##########################################################");
+preload();
 console.log("  RADAGAST - Twitter search API started on port "+ PORT);
 console.log("##########################################################\n");
 app.set('view engine', 'jade');
