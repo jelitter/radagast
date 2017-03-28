@@ -204,5 +204,5 @@ function log(req, log) {
   } else {
     ip = ""
   }
-  console.warn(req.timestamp.format() + " ["+ ip +"] "+req.originalUrl + " : "+ log);
+  console.log(req.timestamp.format() + " ["+ ip +"] "+req.originalUrl + " : "+ log);
 }
