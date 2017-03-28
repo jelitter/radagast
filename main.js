@@ -5,7 +5,7 @@ var express    = require('express');
 var time       = require('express-timestamp')
 var app        = express();
 
-process.stdout.write('\033c');  // clear console
+// process.stdout.write('\033c');  // clear console
 
 console.log("##########################################################");
 preload();
