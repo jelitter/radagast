@@ -1,4 +1,4 @@
-const API_URL = "/api/v1/twitter/search/?q="
+const API_URL = "https://radagast-cit.herokuapp.com/api/v1/twitter/search/?q="
 
 $(document).ready(function(){
     $('#textfield').keypress(function(e){
