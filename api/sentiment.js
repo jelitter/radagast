@@ -152,16 +152,18 @@ exports.getSentimentScore = function(text) {
   }
 
   var ret_score = {
-    "score"      : score.toFixed(2),
+    "score"      : Number(score.toFixed(2)),
     "score_perc" : score_perc,
     "words"      : totalwords
   };
+
+  console.log("Sentiment for \"" +text+ "\" is " + ret_score.score_perc + " % possitive.");
 
   return ret_score;
 }
 
 exports.toPercent = function(n) {
-  return ((n*100) / 9).toFixed(2);
+  return Number(((n*100) / 9).toFixed(2));
 }
 
 // exports.getSentiment2 = function(txt) {
