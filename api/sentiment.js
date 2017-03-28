@@ -98,7 +98,7 @@ exports.getSentiment = function(res, search, twits) {
   }
   var stemmedText = stems.join(' ').replace(/\s{2,}/g, " ").trim();;
   
-  results[search]["Score"] = getSentimentScore(txt);
+  results[search]["Score"] = this.getSentimentScore(txt);
   results[search]["Raw Text"] = alltwits
   results[search]["Text"] = txt
   results[search]["Stemmed Text"] = stemmedText
@@ -141,7 +141,7 @@ function getSentimentScore(text) {
 
   if (totalscore > 0) {
     score = totalscore / totalwords;  // Scores go from 1 to 9
-    score_perc = toPercent(score);    //  Negative 0%  <---> 100% Positive
+    score_perc = this.toPercent(score);    //  Negative 0%  <---> 100% Positive
   }
 
   var ret_score = {
