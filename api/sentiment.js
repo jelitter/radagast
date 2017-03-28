@@ -2,9 +2,9 @@ var unirest = require('unirest');
 var mashapeKey = "D1jk6XoHkpmsh4wd3y1bCHuTr6STp1TqCAPjsnwAtZ6kHUUBay";
 var st = require('./stemmer-porter2');
 var results = {}
+var jsonfile = require('jsonfile')
 var warriner = jsonfile.readFileSync('./api/data/warriner-english.json');
 
-var jsonfile = require('jsonfile')
 jsonfile.spaces = 2;
 var file = './api/data/data.json'
 
