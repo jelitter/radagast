@@ -85,12 +85,7 @@
       <p id="example">/api/v1/favourites/get/?user=manuel</p>
     </div>
   </div>
-  <footer id="about">
-    <p> </p>
-    <p>Manuel Colorado</p>
-    <p>Isaac Sanchez</p>
-    <p>March, 2017</p>
-  </footer>
+
 </body>
 </html>
 
