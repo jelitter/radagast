@@ -98,10 +98,10 @@ exports.getSentiment = function(res, search, twits) {
   }
   var stemmedText = stems.join(' ').replace(/\s{2,}/g, " ").trim();;
   
-  results[search]["Score"] = this.getSentimentScore(txt);
-  results[search]["Raw Text"] = alltwits
-  results[search]["Text"] = txt
-  results[search]["Stemmed Text"] = stemmedText
+  results[search.toLowerCase()]["Score"] = this.getSentimentScore(txt);
+  results[search.toLowerCase()]["Raw Text"] = alltwits
+  results[search.toLowerCase()]["Text"] = txt
+  results[search.toLowerCase()]["Stemmed Text"] = stemmedText
   // results[search]["Twits"] = 
 
 
