@@ -9,7 +9,12 @@ var Main = React.createClass({
     getInitialState: function(){
         return {
             fulltext: "",
-            sentiment: 5
+            score: {
+                score: 5.2,
+                score_perc: 57.77,
+                words: 244
+            }, 
+            user: "default"
         }
     },
     handleSearch: function(busqueda) {
@@ -19,7 +24,7 @@ var Main = React.createClass({
         TwitterCall.getTweetData(busqueda).then(function(response){
             _this.setState({
                 fulltext: response.Text,
-                score: response.Score.score_perc,
+                score: response.Score,
                 isSearching: false
             })
         }, function(errorMsg){
