@@ -29,6 +29,11 @@
   color: white;
 }
 
+.right-nav {
+  position: absolute;
+  right: 10px;
+}
+
 
 
 body { 
@@ -208,3 +213,4 @@ footer {
   color: #FFF;
   background: #08F;
 }
+
