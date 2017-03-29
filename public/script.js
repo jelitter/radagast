@@ -26,7 +26,7 @@ function dataReceived(data) {
 	}
 
 
-	$('#sentimentresults').append('<p>Results for SENTIMENT:</p>');
+	// $('#sentimentresults').append('<p>Results for SENTIMENT:</p>');
 	$('#sentimentresults').append('<p>'+ data.Score.score_perc +'% possitive</p>');
 	$('#sentimentresults').append('<p>'+ data.Score.score +' score [1 (Negative) to 9 (Possitive)]</p>');
 	$('#sentimentresults').append('<p>'+ data.Score.words +' scored words</p>');
