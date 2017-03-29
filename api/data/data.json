@@ -373,10 +373,14 @@
     ]
   },
   "pizza": {
-    "Score": 0.6,
-    "Raw Text": "RT @Team10official: Dear Pizza 🍕 https://t.co/6ujx4nMeIC RT @angieeeeepm: Yesterday's Pizza Zoo was my favorite the music was so good @TurnUpClown Good call! Did anyone give you a hard time for ordering pineapple on your pizza? ",
-    "Text": "Dear Pizza Yesterday's Pizza Zoo was my favorite the music was so good Good call! Did anyone give you a hard time for ordering pineapple on your pizza?",
-    "Stemmed Text": "dear pizza yesterday s pizza zoo was my favorit the music was so good good call did anyon give you a hard time for order pineappl on your pizza",
+    "Score": {
+      "score": 6.22,
+      "score_perc": 69.1,
+      "words": 73
+    },
+    "Raw Text": "RT @Team10official: Dear Pizza 🍕 https://t.co/6ujx4nMeIC RT @angieeeeepm: Yesterday's Pizza Zoo was my favorite the music was so good @TurnUpClown Good call! Did anyone give you a hard time for ordering pineapple on your pizza? RT @jonygitar: https://t.co/uPQvmax0oV #PodestaEmails, it's not just pizza and peener anymore folks, dahmer art, blood rites, and FEC viola… RT artsofdrawing: Pizza! Must watch https://t.co/F2kNZcyGML RT @kind_ofa_bitch: ....&amp; then Satan said, lets make them think putting pineapple on pizza is a good idea ... @jaredddd_25_ The real question is have you voted on my form about pizza 👀 craving for pizza and lasagna RT @baseballusna: @chuckschumer You are Moronic for sure and also very creepy 👀👀👀pizza gate participant ???👹👹 https://t.co/SKfb3AbVFp @GodandtheBear @jdirtFOREVER DOLT45 knocked up Ivanka in a pizza parlor in DC &amp; created the inbred imbecile Barron.… https://t.co/zRsfEE5dKG RT @MsSkarsgaard: He won't let me put pineapple on the pizza so I'm not going to let him put his cock in my ass. \n💅 Robots Delivering Domino’s Pizza Are Coming to Europe https://t.co/ao8pSAZUkP Like the deep-fried Mars bars in the chippy next to the pies, deep-fried pizza and fish suppers...a little uneasily… https://t.co/MEag7Fs2pO ",
+    "Text": "Dear Pizza Yesterday's Pizza Zoo was my favorite the music was so good Good call! Did anyone give you a hard time for ordering pineapple on your pizza? it's not just pizza and peener anymore folks, dahmer art, blood rites, and FEC viola artsofdrawing Pizza! Must watch ....amp then Satan said, lets make them think putting pineapple on pizza is a good idea ... The real question is have you voted on my form about pizza craving for pizza and lasagna You are Moronic for sure and also very creepy pizza gate participant ??? DOLT knocked up Ivanka in a pizza parlor in DC amp created the inbred imbecile Barron. He won't let me put pineapple on the pizza so I'm not going to let him put his cock in my ass. Robots Delivering Dominos Pizza Are Coming to Europe Like the deep-fried Mars bars in the chippy next to the pies, deep-fried pizza and fish suppers...a little uneasily",
+    "Stemmed Text": "dear pizza yesterday s pizza zoo was my favorit the music was so good good call did anyon give you a hard time for order pineappl on your pizza it s not just pizza and peener anymor folk dahmer art blood rite and fec viola artsofdraw pizza must watch amp then satan said let make them think put pineappl on pizza is a good idea the real question is have you vote on my form about pizza crave for pizza and lasagna you are moron for sure and also veri creepi pizza gate particip dolt knock up ivanka in a pizza parlor in dc amp creat the inbr imbecil barron he won t let me put pineappl on the pizza so i m not go to let him put his cock in my ass robot deliv domino pizza are come to europ like the deep fri mar bar in the chippi next to the pie deep fri pizza and fish supper a littl uneasili",
     "Twits": [
       {
         "text": "RT @Team10official: Dear Pizza 🍕 https://t.co/6ujx4nMeIC",
@@ -392,8 +396,59 @@
         "text": "@TurnUpClown Good call! Did anyone give you a hard time for ordering pineapple on your pizza?",
         "id": 846482969984413700,
         "location": "Hackensack, NJ"
+      },
+      {
+        "text": "RT @jonygitar: https://t.co/uPQvmax0oV #PodestaEmails, it's not just pizza and peener anymore folks, dahmer art, blood rites, and FEC viola…",
+        "id": 847060617034940400,
+        "location": ""
+      },
+      {
+        "text": "RT artsofdrawing: Pizza! Must watch https://t.co/F2kNZcyGML",
+        "id": 847060612400234500,
+        "location": "Worldwide !"
+      },
+      {
+        "text": "RT @kind_ofa_bitch: ....&amp; then Satan said, lets make them think putting pineapple on pizza is a good idea ...",
+        "id": 847060589570490400,
+        "location": "Aussie expat on the move"
+      },
+      {
+        "text": "@jaredddd_25_ The real question is have you voted on my form about pizza 👀",
+        "id": 847060585804128300,
+        "location": ""
+      },
+      {
+        "text": "craving for pizza and lasagna",
+        "id": 847060582641610800,
+        "location": ""
+      },
+      {
+        "text": "RT @baseballusna: @chuckschumer You are Moronic for sure and also very creepy 👀👀👀pizza gate participant ???👹👹 https://t.co/SKfb3AbVFp",
+        "id": 847060580070572000,
+        "location": ""
+      },
+      {
+        "text": "@GodandtheBear @jdirtFOREVER DOLT45 knocked up Ivanka in a pizza parlor in DC &amp; created the inbred imbecile Barron.… https://t.co/zRsfEE5dKG",
+        "id": 847060578124398600,
+        "location": ""
+      },
+      {
+        "text": "RT @MsSkarsgaard: He won't let me put pineapple on the pizza so I'm not going to let him put his cock in my ass. \n💅",
+        "id": 847060577751060500,
+        "location": "Over it "
+      },
+      {
+        "text": "Robots Delivering Domino’s Pizza Are Coming to Europe https://t.co/ao8pSAZUkP",
+        "id": 847060576329236500,
+        "location": "Mission Viejo, CA"
+      },
+      {
+        "text": "Like the deep-fried Mars bars in the chippy next to the pies, deep-fried pizza and fish suppers...a little uneasily… https://t.co/MEag7Fs2pO",
+        "id": 847060575171596300,
+        "location": "UK-wide"
       }
-    ]
+    ],
+    "numberOfTweets": 13
   },
   "horse": {
     "Score": 0.6,
@@ -1356,17 +1411,72 @@
     ]
   },
   "batman": {
-    "Score": 0.6,
-    "Raw Text": "#Toys #Gift #Batman Begins Ducard And Speed Sled #Batman #Figures https://t.co/2jycymUqA6 #Share #Like https://t.co/J4XuT2wRWx ",
-    "Text": "Begins Ducard And Speed Sled",
-    "Stemmed Text": "begin ducard and speed sled",
+    "Score": {
+      "score": 5.9,
+      "score_perc": 65.6,
+      "words": 51
+    },
+    "Raw Text": "#Toys #Gift #Batman Begins Ducard And Speed Sled #Batman #Figures https://t.co/2jycymUqA6 #Share #Like https://t.co/J4XuT2wRWx Mnuchin plugged the \"Lego Batman\" movie he exec produced in an interview as a cabinet secretary.  https://t.co/hKQ4KS0jBA Yall aint warm up to Giggs verse on KMT yet? The accent holding yall back or the Batman line?? Theres some dope acts from the UK. dont sleep Democrat says Treasury Secretary Steven Mnuchin may have violated ethics rules with his joking \"Lego Batman\" plug… https://t.co/noZVCtApKa RT @EmmaCannestra: I'm crying https://t.co/iDUIlAmnm3 The LEGO Batman Movie (2017) • dir. Chris McKay @TheMilesLuna Yes, don't give up Miles, one day Batman will notice you and make you his protégé (Robin). @cussandspit hahahaha yeah I've been complaining about this. They're doing a serious Snagglepuss series &amp; Batman/Elmer Fudd too. Oh. Yeah. Batman was there https://t.co/cMg3tn9usC Holy batshit batman wow https://t.co/METBzpupsb RT @1frankthetank1: As always, a great listen. Batman people, your ears will be delighted. @Howisthismovie https://t.co/NR0Fxxbs8M ",
+    "Text": "Begins Ducard And Speed Sled Mnuchin plugged the Lego Batman movie he exec produced in an interview as a cabinet secretary. Yall aint warm up to Giggs verse on KMT yet? The accent holding yall back or the Batman line?? Theres some dope acts from the UK. dont sleep Democrat says Treasury Secretary Steven Mnuchin may have violated ethics rules with his joking Lego Batman plug I'm crying The LEGO Batman Movie dir. Chris McKay Yes, don't give up Miles, one day Batman will notice you and make you his protégé Robin. hahahaha yeah I've been complaining about this. They're doing a serious Snagglepuss series amp BatmanElmer Fudd too. Oh. Yeah. Batman was there Holy batshit batman wow As always, a great listen. Batman people, your ears will be delighted.",
+    "Stemmed Text": "begin ducard and speed sled mnuchin plug the lego batman movi he exec produc in an interview as a cabinet secretari yall aint warm up to gigg vers on kmt yet the accent hold yall back or the batman line there some dope act from the uk dont sleep democrat say treasuri secretari steven mnuchin may have violat ethic rule with his joke lego batman plug i m cri the lego batman movi dir chris mckay yes don t give up mile one day batman will notic you and make you his prot g robin hahahaha yeah i ve been complain about this they re do a serious snagglepuss seri amp batmanelm fudd too oh yeah batman was there holi batshit batman wow as alway a great listen batman peopl your ear will be delight",
     "Twits": [
       {
         "text": "#Toys #Gift #Batman Begins Ducard And Speed Sled #Batman #Figures https://t.co/2jycymUqA6 #Share #Like https://t.co/J4XuT2wRWx",
         "id": 846712407598612500,
         "location": ""
+      },
+      {
+        "text": "Mnuchin plugged the \"Lego Batman\" movie he exec produced in an interview as a cabinet secretary.  https://t.co/hKQ4KS0jBA",
+        "id": 846651049272365000,
+        "location": ""
+      },
+      {
+        "text": "Yall aint warm up to Giggs verse on KMT yet? The accent holding yall back or the Batman line?? Theres some dope acts from the UK. dont sleep",
+        "id": 846414398965121000,
+        "location": "My Momma's Basement."
+      },
+      {
+        "text": "Democrat says Treasury Secretary Steven Mnuchin may have violated ethics rules with his joking \"Lego Batman\" plug… https://t.co/noZVCtApKa",
+        "id": 846476427423891500,
+        "location": ""
+      },
+      {
+        "text": "RT @EmmaCannestra: I'm crying https://t.co/iDUIlAmnm3",
+        "id": 847065023407108100,
+        "location": ""
+      },
+      {
+        "text": "The LEGO Batman Movie (2017) • dir. Chris McKay",
+        "id": 847065007108042800,
+        "location": "final front ear ™"
+      },
+      {
+        "text": "@TheMilesLuna Yes, don't give up Miles, one day Batman will notice you and make you his protégé (Robin).",
+        "id": 847064986786512900,
+        "location": "Yangon"
+      },
+      {
+        "text": "@cussandspit hahahaha yeah I've been complaining about this. They're doing a serious Snagglepuss series &amp; Batman/Elmer Fudd too.",
+        "id": 847064984886661100,
+        "location": "gainesville, fl"
+      },
+      {
+        "text": "Oh. Yeah. Batman was there https://t.co/cMg3tn9usC",
+        "id": 847064978674864100,
+        "location": "London"
+      },
+      {
+        "text": "Holy batshit batman wow https://t.co/METBzpupsb",
+        "id": 847064971808837600,
+        "location": "New York, USA"
+      },
+      {
+        "text": "RT @1frankthetank1: As always, a great listen. Batman people, your ears will be delighted. @Howisthismovie https://t.co/NR0Fxxbs8M",
+        "id": 847064950015246300,
+        "location": "United States"
       }
-    ]
+    ],
+    "numberOfTweets": 11
   },
   "happy": {
     "Score": 0.6,
@@ -1405,17 +1515,107 @@
     ]
   },
   "obama": {
-    "Score": 0.6,
-    "Raw Text": "RT @USARedOrchestra: Trump will sign an EO today to undo Obama climate change regulations, aimed at boosting coal production, but there is… ",
-    "Text": "Trump will sign an EO today to undo Obama climate change regulations, aimed at boosting coal production, but there is",
-    "Stemmed Text": "trump will sign an EO today to undo obama climat chang regul aim at boost coal product but there is",
+    "Score": {
+      "score": 5.48,
+      "score_perc": 60.91,
+      "words": 97
+    },
+    "Raw Text": "RT @USARedOrchestra: Trump will sign an EO today to undo Obama climate change regulations, aimed at boosting coal production, but there is… Trump, who railed against Obama for golfing while in office, notched his 13th golf course visit as president… https://t.co/rINUy1LnL9 WATCH: Kayleigh McEnany: Obama rushed off to golf after Daniel Pearl was beheaded. \n\nPearl was killed in 2002. Obam… https://t.co/CeD7OE9jBf OK police officer killed in the line of duty. Obama and Black LIES Matter emphasis on de-escalation didn't work. RIP https://t.co/rm55SOz8Ma @neiltyson What are ur thoughts on the recent exec order reversing President Obama's climate change protections?  #PleaseTalktotheWH Thanks RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp… RT @JackPosobiec: Obama Staffer Admits He Spied on Trump, Live on MSNBC \nhttps://t.co/T8OYr8ZwsB RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp… PLOT THICKENS: Obama's Own Defense Deputy Admits WH Spied on DJT:\nAssociated with NEOCON Pro-Ukraine/Anti-RU Efforts https://t.co/VZlMBPZ7Zx RT @elijahdaniel: why the fuck do all these moms have so much to say about malia obama at a bar like do u even know where ur daughter is sh… RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp… @larryelder he still didn't say Obama did it.. you tried it though Larry RT @correctthemedia: BREAKING: Obama aide Dr. Evelyn Farkas just admitted live on MSNBC that the Obama administration actively spied on Tru… RT @voxdotcom: Devin Nunes's botched effort to scuttle the Trump/Russia investigation, explained https://t.co/sAYYfpZqEi https://t.co/Y9tUm… RT @gerfingerpoken: Obama's Rasputin, Valerie Jarrett, Moves into the Bunker - American Thinker https://t.co/uR9VUb9DxF #MAGA #PJNET 111 ht… RT @aedwardslevy: Flashback to last December: The environment was among the topics on which public gave Obama the *best* ratings as he left… RT @TEN_GOP: This is big! Evelyn Farkas admits she helped spy on Trump for Obama. https://t.co/frE05opRHr Fox News BOMBSHELL!!..John Podesta was 'given' $35 million by the Russians when HE was advising Hillary as SOS and… https://t.co/jIiu7LDp7h ",
+    "Text": "Trump will sign an EO today to undo Obama climate change regulations, aimed at boosting coal production, but there is Trump, who railed against Obama for golfing while in office, notched his th golf course visit as president WATCH Kayleigh McEnany Obama rushed off to golf after Daniel Pearl was beheaded. Pearl was killed in . Obam OK police officer killed in the line of duty. Obama and Black LIES Matter emphasis on de-escalation didn't work. RIP What are ur thoughts on the recent exec order reversing President Obama's climate change protections? Thanks Let's not forget that Russia gave John Podesta Billion M to 'advise' Hillary Clinton amp Barack Obama. !http Obama Staffer Admits He Spied on Trump, Live on MSNBC Let's not forget that Russia gave John Podesta Billion M to 'advise' Hillary Clinton amp Barack Obama. !http PLOT THICKENS Obama's Own Defense Deputy Admits WH Spied on DJTAssociated with NEOCON Pro-UkraineAnti-RU Efforts why the fuck do all these moms have so much to say about malia obama at a bar like do u even know where ur daughter is sh Let's not forget that Russia gave John Podesta Billion M to 'advise' Hillary Clinton amp Barack Obama. !http he still didn't say Obama did it.. you tried it though Larry BREAKING Obama aide Dr. Evelyn Farkas just admitted live on MSNBC that the Obama administration actively spied on Tru Devin Nunes's botched effort to scuttle the TrumpRussia investigation, explained Obama's Rasputin, Valerie Jarrett, Moves into the Bunker - American Thinker ht Flashback to last December The environment was among the topics on which public gave Obama the best ratings as he left This is big! Evelyn Farkas admits she helped spy on Trump for Obama. Fox News BOMBSHELL!!..John Podesta was 'given' million by the Russians when HE was advising Hillary as SOS and",
+    "Stemmed Text": "trump will sign an eo today to undo obama climat chang regul aim at boost coal product but there is trump who rail against obama for golf while in offic notch his th golf cours visit as presid watch kayleigh mcenani obama rush off to golf after daniel pearl was behead pearl was kill in obam ok polic offic kill in the line of duti obama and black lie matter emphasi on de escal didn t work rip what are ur thought on the recent exec order revers presid obama s climat chang protect thank let s not forget that russia gave john podesta billion m to advis hillari clinton amp barack obama http obama staffer admit he spi on trump live on msnbc let s not forget that russia gave john podesta billion m to advis hillari clinton amp barack obama http plot thicken obama s own defens deputi admit wh spi on djtassoci with neocon pro ukraineanti ru effort whi the fuck do all these mom have so much to say about malia obama at a bar like do u even know where ur daughter is sh let s not forget that russia gave john podesta billion m to advis hillari clinton amp barack obama http he still didn t say obama did it you tri it though larri break obama aid dr evelyn farka just admit live on msnbc that the obama administr activ spi on tru devin nune s botch effort to scuttl the trumprussia investig explain obama s rasputin valeri jarrett move into the bunker american thinker ht flashback to last decemb the environ was among the topic on which public gave obama the best rate as he left this is big evelyn farka admit she help spi on trump for obama fox news bombshel john podesta was given million by the russian when he was advis hillari as sos and",
     "Twits": [
       {
         "text": "RT @USARedOrchestra: Trump will sign an EO today to undo Obama climate change regulations, aimed at boosting coal production, but there is…",
         "id": 846718479289978900,
         "location": ""
+      },
+      {
+        "text": "Trump, who railed against Obama for golfing while in office, notched his 13th golf course visit as president… https://t.co/rINUy1LnL9",
+        "id": 846780372549546000,
+        "location": ""
+      },
+      {
+        "text": "WATCH: Kayleigh McEnany: Obama rushed off to golf after Daniel Pearl was beheaded. \n\nPearl was killed in 2002. Obam… https://t.co/CeD7OE9jBf",
+        "id": 846584836517179400,
+        "location": ""
+      },
+      {
+        "text": "OK police officer killed in the line of duty. Obama and Black LIES Matter emphasis on de-escalation didn't work. RIP https://t.co/rm55SOz8Ma",
+        "id": 846694126120812500,
+        "location": "Milwaukee, WI"
+      },
+      {
+        "text": "@neiltyson What are ur thoughts on the recent exec order reversing President Obama's climate change protections?  #PleaseTalktotheWH Thanks",
+        "id": 847064326007672800,
+        "location": ""
+      },
+      {
+        "text": "RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp…",
+        "id": 847064325537849300,
+        "location": "Pensacola, FL"
+      },
+      {
+        "text": "RT @JackPosobiec: Obama Staffer Admits He Spied on Trump, Live on MSNBC \nhttps://t.co/T8OYr8ZwsB",
+        "id": 847064320420786200,
+        "location": "West Columbia, SC"
+      },
+      {
+        "text": "RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp…",
+        "id": 847064319154114600,
+        "location": "De.(the home of plugs)"
+      },
+      {
+        "text": "PLOT THICKENS: Obama's Own Defense Deputy Admits WH Spied on DJT:\nAssociated with NEOCON Pro-Ukraine/Anti-RU Efforts https://t.co/VZlMBPZ7Zx",
+        "id": 847064318927687700,
+        "location": ""
+      },
+      {
+        "text": "RT @elijahdaniel: why the fuck do all these moms have so much to say about malia obama at a bar like do u even know where ur daughter is sh…",
+        "id": 847064318667620400,
+        "location": "Florida, USA"
+      },
+      {
+        "text": "RT @YoungDems4Trump: Let's not forget that Russia gave John Podesta ₽2 Billion ($35M) to 'advise' Hillary Clinton &amp; Barack Obama. RT!\n\nhttp…",
+        "id": 847064318638264300,
+        "location": "USA"
+      },
+      {
+        "text": "@larryelder he still didn't say Obama did it.. you tried it though Larry",
+        "id": 847064423265194000,
+        "location": ""
+      },
+      {
+        "text": "RT @correctthemedia: BREAKING: Obama aide Dr. Evelyn Farkas just admitted live on MSNBC that the Obama administration actively spied on Tru…",
+        "id": 847064423059656700,
+        "location": ""
+      },
+      {
+        "text": "RT @voxdotcom: Devin Nunes's botched effort to scuttle the Trump/Russia investigation, explained https://t.co/sAYYfpZqEi https://t.co/Y9tUm…",
+        "id": 847064422904348700,
+        "location": "spokane, wa"
+      },
+      {
+        "text": "RT @gerfingerpoken: Obama's Rasputin, Valerie Jarrett, Moves into the Bunker - American Thinker https://t.co/uR9VUb9DxF #MAGA #PJNET 111 ht…",
+        "id": 847064421625204700,
+        "location": "United States"
+      },
+      {
+        "text": "RT @aedwardslevy: Flashback to last December: The environment was among the topics on which public gave Obama the *best* ratings as he left…",
+        "id": 847064421549719600,
+        "location": "New York, NY"
+      },
+      {
+        "text": "RT @TEN_GOP: This is big! Evelyn Farkas admits she helped spy on Trump for Obama. https://t.co/frE05opRHr",
+        "id": 847064420572368900,
+        "location": "Texas, USA"
+      },
+      {
+        "text": "Fox News BOMBSHELL!!..John Podesta was 'given' $35 million by the Russians when HE was advising Hillary as SOS and… https://t.co/jIiu7LDp7h",
+        "id": 847064420203290600,
+        "location": ""
       }
-    ]
+    ],
+    "numberOfTweets": 18
   },
   "robama": {
     "Score": 0.6,
@@ -1529,6 +1729,322 @@
       {
         "text": "RT @youngweonhi: I CAN'T BELIEVE THIS HAPPENED Y'ALL????????????? RIP MY ICE CREAM https://t.co/JNuwcpFL1Y",
         "id": 846722641763422200,
+        "location": ""
+      }
+    ]
+  },
+  "broccoli": {
+    "Score": {
+      "score": 5.15,
+      "score_perc": 57.25,
+      "words": 165
+    },
+    "numberOfTweets": 46,
+    "Raw Text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i Please RT #recipes #food #cooking #delicious #cook #recipe Broiler Beef &amp; Broccoli - Everyday Food with...… https://t.co/P8xX0KRR4K RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/eo1U9n8Oa7 RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/KUnlgRYjsh RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp Not sure what's making my lunch this afternoon so fresh - the crisp green beans, the crunchy broccoli, diced...… https://t.co/sxm0uvL1n3 Char your way to better broccoli (via @healthy_ish) https://t.co/BxGWxVfjTo Broccoli is the Hitler of vegetables. RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @nii__amu: Congrats bro. @darkovibes model bitches gonna roll up that broccoli 🔥 https://t.co/6OGW4vwbEM RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/M9oYL3gYU6\n\n— TheTruthAb… Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/dcCkyvkTZE\n\n— TheTruthAb… RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o https://t.co/mZvFprgJOx\n\n— TheTruthAb… Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/cuXzZudJp6\n\n— TheTruthAb… If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o https://t.co/29RCBxNceo RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i ",
+    "Text": "broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure Please Broiler Beef amp Broccoli - Everyday Food with... broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe broccoli has caused system failure my broccoli said fuck you broccoli has caused system failure my broccoli said fuck you Not sure what's making my lunch this afternoon so fresh - the crisp green beans, the crunchy broccoli, diced... Char your way to better broccoli via Broccoli is the Hitler of vegetables. broccoli has caused system failure Congrats bro. model bitches gonna roll up that broccoli my broccoli said fuck you broccoli has caused system failure my broccoli said fuck you broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure broccoli has caused system failure Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe TheTruthAb Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe TheTruthAb my broccoli said fuck you broccoli has caused system failure If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o TheTruthAb Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe TheTruthAb If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o broccoli has caused system failure broccoli has caused system failure",
+    "Stemmed Text": "broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur pleas broiler beef amp broccoli everyday food with broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur are you a broccoli lover or a broccoli hater with this easi to make recip it won t matter eith broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur are you a broccoli lover or a broccoli hater with this easi to make recip it won t matter eith broccoli has caus system failur my broccoli said fuck you broccoli has caus system failur my broccoli said fuck you not sure what s make my lunch this afternoon so fresh the crisp green bean the crunchi broccoli dice char your way to better broccoli via broccoli is the hitler of veget broccoli has caus system failur congrat bro model bitch gonna roll up that broccoli my broccoli said fuck you broccoli has caus system failur my broccoli said fuck you broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur broccoli has caus system failur are you a broccoli lover or a broccoli hater with this easi to make recip it won t matter eith thetruthab are you a broccoli lover or a broccoli hater with this easi to make recip it won t matter eith thetruthab my broccoli said fuck you broccoli has caus system failur if you ve had troubl grow broccoli befor read these tip for get a tasti crop grow your o thetruthab are you a broccoli lover or a broccoli hater with this easi to make recip it won t matter eith thetruthab if you ve had troubl grow broccoli befor read these tip for get a tasti crop grow your o broccoli has caus system failur broccoli has caus system failur",
+    "Twits": [
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061307635458000,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061292796055600,
+        "location": "Puerto Rico"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061253981810700,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061220758900700,
+        "location": "Emss my boothang// MIA"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061161182822400,
+        "location": "จ.กำแพงเพชร, ประเทศไทย"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061154002296800,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061122914017300,
+        "location": "love is lie"
+      },
+      {
+        "text": "Please RT #recipes #food #cooking #delicious #cook #recipe Broiler Beef &amp; Broccoli - Everyday Food with...… https://t.co/P8xX0KRR4K",
+        "id": 847061056904183800,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061054848811000,
+        "location": "Bozeman, MT"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061053573861400,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061425432420400,
+        "location": "#SPEHR2K #Gสับปลับ,โคตรโฉด"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061407472521200,
+        "location": ""
+      },
+      {
+        "text": "Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/eo1U9n8Oa7",
+        "id": 847061373897097200,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061356528336900,
+        "location": "sep 29"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061342041358300,
+        "location": "904"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061779297583100,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061747559272400,
+        "location": "Viseu, Portugal"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061744765800400,
+        "location": "Dorset UK "
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061712838705200,
+        "location": "150317"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061697697402900,
+        "location": ""
+      },
+      {
+        "text": "Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/KUnlgRYjsh",
+        "id": 847061651706859500,
+        "location": "Turn on tweet notifications!!"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061635168718800,
+        "location": ""
+      },
+      {
+        "text": "RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp",
+        "id": 847061597503729700,
+        "location": "Lynwood, CA"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061579493445600,
+        "location": "Portugal"
+      },
+      {
+        "text": "RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp",
+        "id": 847061577203363800,
+        "location": "D [M] V"
+      },
+      {
+        "text": "Not sure what's making my lunch this afternoon so fresh - the crisp green beans, the crunchy broccoli, diced...… https://t.co/sxm0uvL1n3",
+        "id": 846760539149799400,
+        "location": "Toronto, ON"
+      },
+      {
+        "text": "Char your way to better broccoli (via @healthy_ish) https://t.co/BxGWxVfjTo",
+        "id": 846516142021607400,
+        "location": ""
+      },
+      {
+        "text": "Broccoli is the Hitler of vegetables.",
+        "id": 846549911566921700,
+        "location": "arizona"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062115760259100,
+        "location": "Straight Outta Woodlands"
+      },
+      {
+        "text": "RT @nii__amu: Congrats bro. @darkovibes model bitches gonna roll up that broccoli 🔥 https://t.co/6OGW4vwbEM",
+        "id": 847062057258225700,
+        "location": "skrr skrr"
+      },
+      {
+        "text": "RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp",
+        "id": 847062052539641900,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062041042968600,
+        "location": "Thailand"
+      },
+      {
+        "text": "RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp",
+        "id": 847062031350009900,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061996965167100,
+        "location": "Las Piedras, PR"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847061991424450600,
+        "location": "OR-WV"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062218566885400,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062210207735800,
+        "location": "2350"
+      },
+      {
+        "text": "Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/M9oYL3gYU6\n\n— TheTruthAb…",
+        "id": 847062179870376000,
+        "location": "The Universe"
+      },
+      {
+        "text": "Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/dcCkyvkTZE\n\n— TheTruthAb…",
+        "id": 847062127537999900,
+        "location": "The Universe"
+      },
+      {
+        "text": "RT @CauseWereGuys: my broccoli said fuck you https://t.co/5VVOOaqUkp",
+        "id": 847062322719965200,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062317858799600,
+        "location": ""
+      },
+      {
+        "text": "If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o https://t.co/mZvFprgJOx\n\n— TheTruthAb…",
+        "id": 847062304453746700,
+        "location": ""
+      },
+      {
+        "text": "Are you a broccoli lover - or a broccoli hater? With this easy-to-make recipe, it won't matter eithe https://t.co/cuXzZudJp6\n\n— TheTruthAb…",
+        "id": 847062298065817600,
+        "location": ""
+      },
+      {
+        "text": "If you've had trouble growing broccoli before, read these tips for getting a tasty crop. Grow your o https://t.co/29RCBxNceo",
+        "id": 847062277173981200,
+        "location": ""
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062256248651800,
+        "location": "Pontault-Combault"
+      },
+      {
+        "text": "RT @BrokenAnimaIs: broccoli has caused system failure https://t.co/Wn1A2UNX1i",
+        "id": 847062252247121900,
+        "location": "Pasay City"
+      }
+    ]
+  },
+  "carrot": {
+    "Score": {
+      "score": 6.14,
+      "score_perc": 68.25,
+      "words": 66
+    },
+    "numberOfTweets": 12,
+    "Raw Text": "Grab your carrot pen and learn to draw #Zootopia's Judy Hopps with a Disney Publishing Artist, live right now:… https://t.co/ewPr5CHfZX Carrot Cake for Dogs\nThis pup could not be more excited about a cake made specially for him!\nRECIPE:… https://t.co/KwpbXQtyhE Traditional carrot-and-stick motivators come up short. Again. https://t.co/Uja776aQ2W Suddenly got the panicked thought that if Dave Chappelle ever met Carrot Top the universe would explode. Must... not... let them! @KatePow3ll PMSL u enjoy it carrot and I'll enjoy my pig roast Created this brand pattern with a paring knife, a carrot, acrylic paint, and muslin. Some brands need that imperfe…… https://t.co/5NOqYSPyBj I feel that this horse will shade or curve me if I try to give it a sugar cube or a carrot https://t.co/GngRibLEKt @AlanFraser7 @isoshepherd Content yourself with your carrot-shaped happiness RT @boucherhayes: I don't know who retrieved this, but well done. \n\nJan 1st 1973 https://t.co/uwYbawhdnp @chrisrock your with the next generation of comedy giants. The next,Richard Pryor,Don Rickles,and the black Carrot Top RT @binoftrash1: So when I don't wanna work, I pixel in mc now xD should do one of twitch at some point, and maybe carrot So who's carrot cake but me🤔 ",
+    "Text": "Grab your carrot pen and learn to draw Judy Hopps with a Disney Publishing Artist, live right now Carrot Cake for DogsThis pup could not be more excited about a cake made specially for him!RECIPE Traditional carrot-and-stick motivators come up short. Again. Suddenly got the panicked thought that if Dave Chappelle ever met Carrot Top the universe would explode. Must... not... let them! PMSL u enjoy it carrot and I'll enjoy my pig roast Created this brand pattern with a paring knife, a carrot, acrylic paint, and muslin. Some brands need that imperfe I feel that this horse will shade or curve me if I try to give it a sugar cube or a carrot Content yourself with your carrot-shaped happiness I don't know who retrieved this, but well done. Jan st your with the next generation of comedy giants. The next,Richard Pryor,Don Rickles,and the black Carrot Top So when I don't wanna work, I pixel in mc now xD should do one of twitch at some point, and maybe carrot So who's carrot cake but me",
+    "Stemmed Text": "grab your carrot pen and learn to draw judi hopp with a disney publish artist live right now carrot cake for dogsthi pup could not be more excit about a cake made special for him recip tradit carrot and stick motiv come up short again sudden got the panick thought that if dave chappell ever met carrot top the univers would explod must not let them pmsl u enjoy it carrot and i ll enjoy my pig roast creat this brand pattern with a pare knife a carrot acryl paint and muslin some brand need that imperf i feel that this hors will shade or curv me if i tri to give it a sugar cube or a carrot content yourself with your carrot shape happi i don t know who retriev this but well done jan st your with the next generat of comedi giant the next richard pryor don rickl and the black carrot top so when i don t wanna work i pixel in mc now xd should do one of twitch at some point and mayb carrot so who s carrot cake but me",
+    "Twits": [
+      {
+        "text": "Grab your carrot pen and learn to draw #Zootopia's Judy Hopps with a Disney Publishing Artist, live right now:… https://t.co/ewPr5CHfZX",
+        "id": 846423331922432000,
+        "location": ""
+      },
+      {
+        "text": "Carrot Cake for Dogs\nThis pup could not be more excited about a cake made specially for him!\nRECIPE:… https://t.co/KwpbXQtyhE",
+        "id": 846811808681738200,
+        "location": ""
+      },
+      {
+        "text": "Traditional carrot-and-stick motivators come up short. Again. https://t.co/Uja776aQ2W",
+        "id": 846354434720481300,
+        "location": "Washington, DC, USA"
+      },
+      {
+        "text": "Suddenly got the panicked thought that if Dave Chappelle ever met Carrot Top the universe would explode. Must... not... let them!",
+        "id": 847063861949857800,
+        "location": "East Coast U.S. "
+      },
+      {
+        "text": "@KatePow3ll PMSL u enjoy it carrot and I'll enjoy my pig roast",
+        "id": 847063755380998100,
+        "location": ""
+      },
+      {
+        "text": "Created this brand pattern with a paring knife, a carrot, acrylic paint, and muslin. Some brands need that imperfe…… https://t.co/5NOqYSPyBj",
+        "id": 847063711630143500,
+        "location": "Newark, DE"
+      },
+      {
+        "text": "I feel that this horse will shade or curve me if I try to give it a sugar cube or a carrot https://t.co/GngRibLEKt",
+        "id": 847063503399764000,
+        "location": "Louisville, KY"
+      },
+      {
+        "text": "@AlanFraser7 @isoshepherd Content yourself with your carrot-shaped happiness",
+        "id": 847063477571211300,
+        "location": "Glasgow"
+      },
+      {
+        "text": "RT @boucherhayes: I don't know who retrieved this, but well done. \n\nJan 1st 1973 https://t.co/uwYbawhdnp",
+        "id": 847063425540931600,
+        "location": "Sofia"
+      },
+      {
+        "text": "@chrisrock your with the next generation of comedy giants. The next,Richard Pryor,Don Rickles,and the black Carrot Top",
+        "id": 847063294162751500,
+        "location": "Ontario, Canada"
+      },
+      {
+        "text": "RT @binoftrash1: So when I don't wanna work, I pixel in mc now xD should do one of twitch at some point, and maybe carrot",
+        "id": 847064084499521500,
+        "location": "Thailand"
+      },
+      {
+        "text": "So who's carrot cake but me🤔",
+        "id": 847064039201083400,
         "location": ""
       }
     ]

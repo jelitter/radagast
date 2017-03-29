@@ -14,6 +14,20 @@ console.log("##########################################################\n");
 app.set('view engine', 'jade');
 app.use(time.init);
 
+// Disable HTTP caching - 304 responses
+// app.disable('etag');  
+// app.use(function(req, res, next) {
+//   req.headers['if-none-match'] = 'no-match-for-this';
+//   next();    
+// });
+function nocache(req, res, next) {
+  res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
+  res.header('Expires', '-1');
+  res.header('Pragma', 'no-cache');
+  next();
+}
+app.use(nocache)
+
 
 // ----------------------------------------------------
 //         TWITTER SEARCH

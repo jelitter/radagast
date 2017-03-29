@@ -12,6 +12,20 @@ var config = {
   timeout_ms:           60*1000  // optional HTTP request timeout to apply to all requests.
 }
 
+
+// For local testing
+if (process.env.consumer_key == undefined) {
+  config = {
+    consumer_key:         'YVSEGPaUbmFz2LhY8y0jn22qJ',
+    consumer_secret:      'gN0KSUpYmJ3KYIuXnf3mEGwisLSbSAxBHjcnIv9NDSv0rklP23',
+    access_token:         '827055257297510400-HS7TQ0zSq2Tp0MAv8iDm9sfsY8sVFZg',
+    access_token_secret:  'sKJ2SoeyqUKdA9NNjZgAeNLoxJRcA8I9MBx8UTF3Z2YQO',
+    timeout_ms:           60*1000
+  }
+}
+
+
+
 var T      = new Twit(config);
 
 
@@ -30,7 +44,7 @@ exports.getTwitsSearch = function(res, search, lang, count) {
     q: search,
     lang: lang ? lang : "en",
     count: count ? count : _count,
-    result_type: "recent"
+    result_type: "mixed" // mixed, recent, popular
   }, function (err, data, response) {
 
     twits = [];
