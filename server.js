@@ -26,7 +26,7 @@ function nocache(req, res, next) {
   res.header('Pragma', 'no-cache');
   next();
 }
-app.use(nocache)
+app.use(nocache);
 
 
 // ----------------------------------------------------
@@ -36,7 +36,7 @@ app.use(nocache)
 app.get('/api/v1/twitter/search/', function(req, res){
   if (!req.query.q) {
     log(req, "Incorrect query");
-    res.sendFile(pageApiDoc, {root: __dirname })
+    res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     log(req, "Search: " + req.query.q);
     twitter.getTwitsSearch(res, req.query.q, req.query.lang, req.query.count);
@@ -46,7 +46,7 @@ app.get('/api/v1/twitter/search/', function(req, res){
 app.get('/api/v1/twitter/remove/', function(req, res){
   if (!req.query.q) {
     log(req, "Incorrect query");
-    res.sendFile(pageApiDoc, {root: __dirname })
+    res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     log(req, "Remove: " + req.query.q);
     twitter.removeTwitsSearch(res, req.query.q);
@@ -68,7 +68,7 @@ app.get('/api/v1/favourites/add/', function(req, res){
 
   if (!req.query.user || !req.query.text) {
     log(req, "Incorrect query");
-    res.sendFile(pageApiDoc, {root: __dirname })
+    res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     favourites.add(req.query.user, req.query.text, res);
   }
@@ -78,8 +78,8 @@ app.get('/api/v1/favourites/remove/', function(req, res){
   log(req, req.query.user +", "+ req.query.text);
 
   if (!req.query.user || !req.query.text) {
-    log(req, "Incorrect query")
-    res.sendFile(pageApiDoc, {root: __dirname })
+    log(req, "Incorrect query");
+    res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     favourites.remove(req.query.user, req.query.text, res);
   }
@@ -89,8 +89,8 @@ app.get('/api/v1/favourites/get/', function(req, res){
   log(req, req.query.user);
 
   if (!req.query.user) {
-    log(req, "Incorrect query")
-    res.sendFile(pageApiDoc, {root: __dirname })
+    log(req, "Incorrect query");
+    res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     favourites.get(req.query.user, req, res);
   }
@@ -131,7 +131,7 @@ app.use(function (req, res, next){
     } else { 
         next();
     }
-})
+});
 
 
 app.use(express.static('public'));
@@ -157,7 +157,7 @@ function preload() {
   }
 
   try {
-    favourites.load()
+    favourites.load();
     console.log("  Favourites loaded.");
   } catch (e) {
     console.log("  [!] Couldn't load favourites.\n" + JSON.stringify(e));
@@ -169,7 +169,7 @@ function log(req, log) {
   if (req.ip) {
     ip = req.ip.replace(/::ffff:/, "");
   } else {
-    ip = ""
+    ip = "";
   }
   console.log(req.timestamp.format() + " ["+ ip +"] "+req.originalUrl + " : "+ log);
 }
