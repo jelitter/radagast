@@ -19,7 +19,7 @@ function search() {
 	$.getJSON(API_URL + text, dataReceived);
 }
 
-function dataReceived(data, renderSentiment) {
+function dataReceived(data) {
 
 	$('#searchresults').append('<p>Score: '+ data.Score.score_perc + '</p>');	
 	for (let i = 0; i < data.Twits.length; i++) {
