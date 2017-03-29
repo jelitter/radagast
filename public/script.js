@@ -1,5 +1,6 @@
-const API_URL = "https://radagast-cit.herokuapp.com/api/v1/twitter/search/?q="
-// const API_URL = "http://localhost:5000/api/v1/twitter/search/?q="
+// const API_URL = "https://radagast-cit.herokuapp.com/api/v1/twitter/search/?q="
+const API_URL = "./api/v1/twitter/search/?q="
+// const API_URL = "http://localhost:5000          /api/v1/twitter/search/?q="
 
 $(document).ready(function(){
     $('#textfield').keypress(function(e){
@@ -18,7 +19,7 @@ function search() {
 	$.getJSON(API_URL + text, dataReceived);
 }
 
-function dataReceived(data, renderSentiment) {
+function dataReceived(data) {
 
 	$('#searchresults').append('<p>Score: '+ data.Score.score_perc + '</p>');	
 	for (let i = 0; i < data.Twits.length; i++) {
