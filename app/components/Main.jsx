@@ -9,11 +9,7 @@ var Main = React.createClass({
     getInitialState: function(){
         return {
             fulltext: "",
-            score: {
-                score: 5.2,
-                score_perc: 57.77,
-                words: 244
-            }, 
+            score: {},
             user: "default"
         }
     },
