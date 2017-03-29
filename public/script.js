@@ -33,7 +33,7 @@ function dataReceived(data) {
 
 	$('#mapresults').append('<p>Results for WORLDMAP</p>');
 
-	$('#wordcloudresults').append('<p>Results for WORDCLOUD</p>');
+	// $('#wordcloudresults').append('<p>Results for WORDCLOUD</p>');
 	// $('#wordcloudresults').append('<p>'+ data.Text +'</p>');
 
 	wordcloud(data.Text);
