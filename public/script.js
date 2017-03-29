@@ -64,11 +64,15 @@ function wordcloud(text) {
 	text = text.split(" ");
 
 	var wordfreqs = {};
+	var higher = 0;
 
 	for (var i = 0; i < text.length; i++) {
 		thisword = text[i].toLowerCase();
 		if (wordfreqs.hasOwnProperty(thisword)) {
 			wordfreqs[thisword]++;
+			if (higher < wordfreqs[thisword]) {
+				higher = wordfreqs[thisword];
+			}
 		} else {
 			wordfreqs[thisword] = 1;
 		}
@@ -78,7 +82,9 @@ function wordcloud(text) {
 
 	$('#wordcloudresults').append('<ul class="word-cloud">');
 	
-	for (var i = 0; i < wordfreqs.length; i++) {
-		$('#wordcloudresults').append('<li class="wc '+classes[Math.floor(Math.random()*classes.length)]+'">' + wordfreqs[i] + '</li>');
+	// for (var i = 0; i < wordfreqs.length; i++) {
+
+	for (var k in wordfreqs) {
+		$('#wordcloudresults').append('<li class="wc '+classes[Math.floor(Math.random()*classes.length)]+'">' + k + '</li>');
 	}
 }
