@@ -214,3 +214,56 @@ footer {
   background: #08F;
 }
 
+
+
+
+/*    WORD CLOUD  2  */
+
+.word-cloud {
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: justify;
+}
+
+.wc {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #90d6f3;
+}
+
+.wc_xsmall,
+.wc_small {
+  font-weight: 100;
+}
+
+.wc_xsmall {
+  font-size: 10px;
+  color: #c6e8f7;
+}
+
+.wc_small {
+  font-size: 13px;
+  color: #b0def2;
+}
+
+.wc_large {
+  font-size: 22px;
+  color: #0fa0dd;
+}
+
+.wc_xlarge {
+  font-size: 32px;
+  letter-spacing: -0.0125em;
+  color: #0a79a7;
+}
+
+/*
+<ul class="word-cloud">
+    <li class="wc wc_xsmall">bring</li>
+*/
+
+
