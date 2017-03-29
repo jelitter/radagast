@@ -60,7 +60,7 @@ function dataReceived(data) {
 
 
 function wordcloud(text) {
-	var classes = ["wc_xsmall","wc_small","wc_xsmall","wc_small","wc_large","wc_xlarge"];
+	var classes = ["wc_xsmall","wc_small","wc_large","wc_xlarge"];
 	text = text.split(" ");
 
 	var wordfreqs = {};
@@ -85,6 +85,13 @@ function wordcloud(text) {
 	// for (var i = 0; i < wordfreqs.length; i++) {
 
 	for (var k in wordfreqs) {
-		$('#wordcloudresults').append('<li class="wc '+classes[Math.floor(Math.random()*classes.length)]+'">' + k + '</li>');
+		var thisfreq = wordfreqs[k]
+		var class_index = Math.floor(map(1, higher, 0, classes.length));
+		$('#wordcloudresults').append('<li class="wc '+classes[class_index]+'">' + k + '</li>');
 	}
+}
+
+
+Number.prototype.map = function (in_min, in_max, out_min, out_max) {
+  return (this - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
