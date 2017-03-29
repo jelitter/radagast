@@ -86,6 +86,8 @@ function wordcloud(text) {
 
 	for (var k in wordfreqs) {
 		var thisfreq = wordfreqs[k]
+		if (thisfreq < 3)
+			continue;
 		var class_index = Math.floor(thisfreq.map(1, higher, 0, classes.length));
 		$('#wordcloudresults').append('<li class="wc '+classes[class_index]+'">' + k + '</li>');
 	}
