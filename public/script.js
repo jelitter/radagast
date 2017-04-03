@@ -3,20 +3,26 @@ const API_URL = "./api/v1/twitter/search/?q="
     // const API_URL = "http://localhost:5000          /api/v1/twitter/search/?q="
 
 const IGNORED_WORDS = {
+    "about": true,
     "amp": true,
     "and": true,
     "are": true,
+    "been": true,
     "but": true,
     "can": true,
+    "could": true,
     "did": true,
+    "does": true,
     "for": true,
     "from": true,
     "had": true,
     "has": true,
+    "have": true,
     "her": true,
     "his": true,
     "how": true,
     "http": true,
+    "https": true,
     "just": true,
     "let": true,
     "not": true,
@@ -24,8 +30,11 @@ const IGNORED_WORDS = {
     "out": true,
     "she": true,
     "some": true,
+    "than": true,
     "that": true,
     "the": true,
+    "them": true,
+    "then": true,
     "there": true,
     "they": true,
     "this": true,
@@ -37,6 +46,8 @@ const IGNORED_WORDS = {
     "who": true,
     "will": true,
     "with": true,
+    "with": true,
+    "would": true,
     "you": true
 }
 
