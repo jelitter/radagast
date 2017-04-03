@@ -1,5 +1,5 @@
 var rate   = 15000;
-var _count  = 10;
+var _count  = 100;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
