@@ -75,6 +75,7 @@ function dataReceived(data) {
 
 function wordcloud(text) {
 
+	var font_multiplier = 10;
     text = text.split(/\W/);
 
     var wordfreqs = {};
@@ -96,6 +97,9 @@ function wordcloud(text) {
     }
     console.log(wordfreqs);
 
+    var max = 7,
+    	min = -7;
+
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
         if (thisfreq < 3)
@@ -103,9 +107,12 @@ function wordcloud(text) {
         // var class_index = Math.floor(thisfreq.map(1, higher, 0, classes.length - 1));
 
         // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
-        $('#wordcloudresults').append('<li id="li_' + k + '" class="wc">' + k + ' </li>');
+        $('#wordcloudresults').append('<li id="li_' + k + '" class="wc"> ' + k + ' </li>');
         $('#li_' + k).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
-        $('#li_' + k).css('font-size',  ((thisfreq*4 > 120) ? 120 : thisfreq*4) +"px" );
+        $('#li_' + k).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
+        $('#li_' + k).css('text-shadow',  "0px 0px 4px Black");
+        let angle = Math.floor(Math.random() * (max - min + 1)) + min;
+        $('#li_' + k).css('transform',  "rotate("+ angle +"deg)");
     }
 }
 
