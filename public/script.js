@@ -19,14 +19,17 @@ const IGNORED_WORDS = {
     "let": true,
     "not": true,
     "now": true,
+    "out": true,
     "she": true,
     "that": true,
     "the": true,
+    "there": true,
     "they": true,
     "this": true,
     "thx": true,
     "via": true,
     "was": true,
+    "what": true,
     "when": true,
     "who": true,
     "will": true,
@@ -127,7 +130,7 @@ function dataReceived(data) {
 
 function wordcloud(text) {
 
-	var font_multiplier = 10;
+    var font_multiplier = 10;
     text = text.split(/\W/);
 
     var wordfreqs = {};
@@ -150,7 +153,7 @@ function wordcloud(text) {
     console.log(wordfreqs);
 
     var max = 7,
-    	min = -7;
+        min = -7;
 
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
@@ -161,10 +164,10 @@ function wordcloud(text) {
         // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
         $('#wordcloudresults').append('<li id="li_' + k + '" class="wc"> ' + k + ' </li>');
         $('#li_' + k).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
-        $('#li_' + k).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
-        $('#li_' + k).css('text-shadow',  "0px 0px 4px Black");
+        $('#li_' + k).css('font-size', ((thisfreq * font_multiplier > 200) ? 120 : thisfreq * font_multiplier) + "px");
+        $('#li_' + k).css('text-shadow', "0px 0px 4px Black");
         let angle = Math.floor(Math.random() * (max - min + 1)) + min;
-        $('#li_' + k).css('transform',  "rotate("+ angle +"deg)");
+        $('#li_' + k).css('transform', "rotate(" + angle + "deg)");
     }
 }
 
