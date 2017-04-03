@@ -7,6 +7,8 @@ const IGNORED_WORDS = {
     "amp": true,
     "and": true,
     "are": true,
+    "but": true,
+    "can": true,
     "did": true,
     "for": true,
     "from": true,
@@ -22,6 +24,7 @@ const IGNORED_WORDS = {
     "now": true,
     "out": true,
     "she": true,
+    "some": true,
     "that": true,
     "the": true,
     "there": true,
@@ -100,8 +103,8 @@ function wordcloud(text) {
     }
     console.log(wordfreqs);
 
-    var max = 7,
-    	min = -7;
+    var max = 5,
+    	min = -5;
 
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
