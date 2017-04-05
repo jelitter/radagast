@@ -182,7 +182,7 @@ function wordcloud(text) {
 
         // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
         
-        let k2 = k.replace(new RegExp("'t", 'g'), "-t");
+        let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
         console.log("k, k2", k, k2);
 
         $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
