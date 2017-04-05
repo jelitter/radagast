@@ -31,6 +31,8 @@ const IGNORED_WORDS = {
     "now": true,
     "our": true,
     "out": true,
+    "one": true,
+    "over": true,
     "she": true,
     "should": true,
     "some": true,
@@ -48,6 +50,7 @@ const IGNORED_WORDS = {
     "was": true,
     "what": true,
     "when": true,
+    "whether": true,
     "who": true,
     "will": true,
     "with": true,
@@ -79,77 +82,23 @@ function dataReceived(data) {
         $('#searchresults').append('<p>' + data.Twits[i].text + '</p>');
     }
 
-
-    // $('#sentimentresults').append('<p>Results for SENTIMENT:</p>');
     $('#sentimentresults').append('<p>' + data.Score.score_perc + '% possitive</p>');
     $('#sentimentresults').append('<p>' + data.Score.score + ' score [1 (Negative) to 9 (Possitive)]</p>');
     $('#sentimentresults').append('<p>' + data.Score.words + ' scored words</p>');
 
     $('#mapresults').append('<p>Results for WORLDMAP</p>');
 
-    // $('#wordcloudresults').append('<p>Results for WORDCLOUD</p>');
-    // $('#wordcloudresults').append('<p>'+ data.Text +'</p>');
-
-    wordcloud(data.Text);
-
-    // renderSentiment();
-    // renderWorldMap();
-    // renderWordCloud();
+    wordcloud(data.Text, 60);
 }
-
-
-// function renderSentiment(renderWorldMap) {
-// 	$('#sentimentresults').append('<p>Results for SENTIMENT: '+ data.Score.score_perc +'</p>');
-// }
-
-// function renderWorldMap() {
-// 	$('#mapresults').append('<p>Results for WORLDMAP</p>');
-// }
-
-// function renderWordCloud() {
-// 	$('#wordcloudresults').append('<p>Results for WORDCLOUD</p>');
-// 	$('#wordcloudresults').append('<p>'+ data.Text +'</p>');
-// }
-
-
-
-// function wordcloud(text) {
-//     var classes = ["wc_xsmall", "wc_small", "wc_large", "wc_xlarge"];
-//     text = text.split(" ");
-
-//     var wordfreqs = {};
-//     var higher = 0;
-
-//     for (var i = 0; i < text.length; i++) {
-//         thisword = text[i].toLowerCase();
-//         if (wordfreqs.hasOwnProperty(thisword)) {
-//             wordfreqs[thisword]++;
-//             if (higher < wordfreqs[thisword]) {
-//                 higher = wordfreqs[thisword];
-//             }
-//         } else {
-//             wordfreqs[thisword] = 1;
-//         }
-//     }
-
-//     console.log(wordfreqs);
-
-//     $('#wordcloudresults').append('<ul class="word-cloud">');
-
-//     // for (var i = 0; i < wordfreqs.length; i++) {
-
-//     for (var k in wordfreqs) {
-//         var thisfreq = wordfreqs[k];
-//         if (thisfreq < higher / classes.length)
-//             continue;
-//         var class_index = Math.floor(thisfreq.map(1, higher, 0, classes.length));
-//         $('#wordcloudresults').append('<li class="wc ' + classes[class_index] + '">' + k + '</li>');
-//     }
-// }
 
 function wordcloud(text, top=20) {
 
-	var font_multiplier = 10;
+	const font_multiplier = 10;
+    const max_font_size = 120;
+    const min_font_size = 12;
+    const maxangle = 5;
+    const minangle = -5;
+
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
     var wordfreqs = {};
 
@@ -157,21 +106,17 @@ function wordcloud(text, top=20) {
         thisword = text[i].toLowerCase();
         if ((thisword.length < 3) || IGNORED_WORDS.hasOwnProperty(thisword))
             continue;
-
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
         } else {
             wordfreqs[thisword] = 1;
         }
     }
-    console.log(wordfreqs);
-
 
     // Extracting top values
     topValues = [];
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
-    topValues.sort((t1,t2) => { return t2[0] - t1[0] });
-    topValues = topValues.slice(0, top);
+    topValues.sort((t1,t2) => { return t2[0] - t1[0] || t2[1] - t1[1] });
 
     // Creating tag clouds using logarithmic interpolation 
     // https://skozan.wordpress.com/2015/10/11/creating-tag-clouds-using-logarithmic-interpolation-in-python/
@@ -181,34 +126,23 @@ function wordcloud(text, top=20) {
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
     });
 
-    console.log("Min, Max", mincount, maxcount);
-    console.log(topValues);
-
-
-    var maxangle = 5,
-    	minangle = -5;
+    topValues = topValues.slice(0, top);
 
     topValues.forEach((item) => {
-        console.log("Word: " + item[1] + " has count of " + item[0]);
+        let k = item[1];
+        let k2 = k.replace(new RegExp("'t", 'g'), "t").replace(new RegExp("'", 'g'), "");
+        let size = (item[2] * max_font_size) | 0;
+        size = (size.map(mincount, maxcount, min_font_size, max_font_size)) | 0;
+
+        if (size >= min_font_size) {
+            $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
+            $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
+            $('#li_' + k2).css('font-size',  size +"px" );
+            $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
+            let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
+            $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
+        }
     });
-
-    for (var k in wordfreqs) {
-        var thisfreq = wordfreqs[k];
-        if (thisfreq < 3)
-            continue;
-        
-        let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
-        
-        if (k !== k2)
-            console.log("k, k2", k, k2);
-
-        $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
-        $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
-        $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
-        $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
-        let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
-        $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
-    }
 }
 
 Number.prototype.map = function(in_min, in_max, out_min, out_max) {
