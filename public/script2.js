@@ -98,6 +98,7 @@ function dataReceived(data) {
 function wordcloud(text, top=20) {
 
 	var font_multiplier = 10;
+    const max_font_size = 120;
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
     var wordfreqs = {};
 
@@ -140,6 +141,8 @@ function wordcloud(text, top=20) {
         console.log("Word: " + item[1] + " has count of " + item[0]);
     });
 
+    // TO-DO : Loop topValues and add words with size (log i) * max_size ;
+
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
         if (thisfreq < 3)
@@ -152,6 +155,7 @@ function wordcloud(text, top=20) {
 
         $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
         $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
+        // $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
         $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
         $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
         let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
