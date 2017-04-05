@@ -184,7 +184,7 @@ function wordcloud(text, top=20) {
     var mincount = topValues[topValues.length - 1][0];
 
     topValues.forEach((item) => { 
-        item[2] = (log(item[0]) - log(mincount)) / (log(maxcount) - log(mincount)); 
+        item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
     });
 
    
