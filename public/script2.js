@@ -136,7 +136,7 @@ function wordcloud(text) {
         $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
         $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
         let angle = Math.floor(Math.random() * (max - min + 1)) + min;
-        $('#li_' + k).css('transform',  "rotate("+ angle +"deg)");
+        $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
     }
 }
 
