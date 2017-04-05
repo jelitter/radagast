@@ -29,12 +29,14 @@ const IGNORED_WORDS = {
     "now": true,
     "out": true,
     "she": true,
+    "should": true,
     "some": true,
     "than": true,
     "that": true,
     "the": true,
     "them": true,
     "then": true,
+    "their": true,
     "there": true,
     "they": true,
     "this": true,
@@ -145,7 +147,7 @@ function dataReceived(data) {
 function wordcloud(text) {
 
     var font_multiplier = 10;
-    text = text.split(/\W/);
+    text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
 
     var wordfreqs = {};
     var higher = 0;
