@@ -5,6 +5,7 @@ const API_URL = "./api/v1/twitter/search/?q="
 
 const IGNORED_WORDS = {
     "about": true,
+    "all": true,
     "amp": true,
     "and": true,
     "are": true,
@@ -16,6 +17,7 @@ const IGNORED_WORDS = {
     "does": true,
     "for": true,
     "from": true,
+    "get": true,
     "had": true,
     "has": true,
     "have": true,
@@ -28,6 +30,7 @@ const IGNORED_WORDS = {
     "let": true,
     "not": true,
     "now": true,
+    "our": true,
     "out": true,
     "she": true,
     "should": true,
@@ -127,9 +130,8 @@ function wordcloud(text) {
 
         // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
         
-        let k2 = k.replace(new RegExp("'", 'g'), "-");
-        console.log("k", k);
-        console.log("k2", k2);
+        let k2 = k.replace(new RegExp("'t", 'g'), "-t");
+        console.log("k, k2", k, k2);
 
         $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
         $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));

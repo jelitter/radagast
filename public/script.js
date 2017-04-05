@@ -4,6 +4,7 @@ const API_URL = "./api/v1/twitter/search/?q="
 
 const IGNORED_WORDS = {
     "about": true,
+    "all": true,
     "amp": true,
     "and": true,
     "are": true,
@@ -15,6 +16,7 @@ const IGNORED_WORDS = {
     "does": true,
     "for": true,
     "from": true,
+    "get": true,
     "had": true,
     "has": true,
     "have": true,
@@ -27,6 +29,7 @@ const IGNORED_WORDS = {
     "let": true,
     "not": true,
     "now": true,
+    "our": true,
     "out": true,
     "she": true,
     "should": true,
@@ -146,7 +149,7 @@ function dataReceived(data) {
 
 function wordcloud(text) {
 
-    var font_multiplier = 10;
+	var font_multiplier = 10;
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
 
     var wordfreqs = {};
@@ -169,7 +172,7 @@ function wordcloud(text) {
     console.log(wordfreqs);
 
     var max = 5,
-        min = -5;
+    	min = -5;
 
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
@@ -178,12 +181,16 @@ function wordcloud(text) {
         // var class_index = Math.floor(thisfreq.map(1, higher, 0, classes.length - 1));
 
         // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
-        $('#wordcloudresults').append('<li id="li_' + k + '" class="wc"> ' + k + ' </li>');
-        $('#li_' + k).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
-        $('#li_' + k).css('font-size', ((thisfreq * font_multiplier > 200) ? 120 : thisfreq * font_multiplier) + "px");
-        $('#li_' + k).css('text-shadow', "0px 0px 4px Black");
+        
+        let k2 = k.replace(new RegExp("'t", 'g'), "-t");
+        console.log("k, k2", k, k2);
+
+        $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
+        $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
+        $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
+        $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
         let angle = Math.floor(Math.random() * (max - min + 1)) + min;
-        $('#li_' + k).css('transform', "rotate(" + angle + "deg)");
+        $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
     }
 }
 
