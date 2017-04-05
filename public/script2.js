@@ -101,7 +101,7 @@ function wordcloud(text) {
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
 
     var wordfreqs = {};
-    var higher = 0;
+    // var higher = 0;
 
     for (var i = 0; i < text.length; i++) {
         thisword = text[i].toLowerCase();
@@ -110,20 +110,30 @@ function wordcloud(text) {
 
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
-            if (higher < wordfreqs[thisword]) {
-                higher = wordfreqs[thisword];
-            }
+            // if (higher < wordfreqs[thisword]) {
+            //     higher = wordfreqs[thisword];
+            // }
         } else {
             wordfreqs[thisword] = 1;
         }
     }
     console.log(wordfreqs);
 
+    var maxcount = 0;
+    var mincount = 0;
+
     // Extracting top values
     topValues = [];
-    for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
+    for (var w in wordfreqs) { 
+        topValues.push([wordfreqs[w], w]); 
+        // if (wordfreqs[w] > maxcount) maxcount = wordfreqs[w];
+        // else if (wordfreqs[w] < mincount) mincount = wordfreqs[w];
+    }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] });
-    topValues = topValues.slice(0,10);
+    topValues = topValues.slice(0,top);
+    
+
+    
     console.log("top words", topValues);
 
 

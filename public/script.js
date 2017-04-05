@@ -162,20 +162,29 @@ function wordcloud(text, top=20) {
 
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
-            if (higher < wordfreqs[thisword]) {
-                higher = wordfreqs[thisword];
-            }
+            // if (higher < wordfreqs[thisword]) {
+            //     higher = wordfreqs[thisword];
+            // }
         } else {
             wordfreqs[thisword] = 1;
         }
     }
     console.log(wordfreqs);
 
+
     // Extracting top values
     topValues = [];
-    for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
+    for (var w in wordfreqs) { 
+        topValues.push( [wordfreqs[w], w] ); 
+        // if (wordfreqs[w] > maxcount) maxcount = wordfreqs[w];
+        // else if (wordfreqs[w] < mincount) mincount = wordfreqs[w];
+    }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] });
     topValues = topValues.slice(0, top);
+
+    var maxcount = topValues[0][0];
+    var mincount = topValues[topValues.length - 1][0];
+
     
     // Word count average in top
     let average = 0;
@@ -186,6 +195,7 @@ function wordcloud(text, top=20) {
     topValues.forEach((item) => { item[2] = item[0] - average; });
 
     console.log("Average", average);
+    console.log("Min, Max", mincount, maxcount);
     console.log(topValues);
 
 
