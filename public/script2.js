@@ -124,7 +124,7 @@ function wordcloud(text) {
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] });
     topValues = topValues.slice(0,10);
-    console.log("top words", topvalues);
+    console.log("top words", topValues);
 
 
     var max = 5,
