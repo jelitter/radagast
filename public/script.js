@@ -181,7 +181,7 @@ function wordcloud(text) {
         
         let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
         
-        if (!k.equals(k2))
+        if (k !== k2)
             console.log("k, k2", k, k2);
 
         $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');

@@ -126,12 +126,10 @@ function wordcloud(text) {
         var thisfreq = wordfreqs[k];
         if (thisfreq < 3)
             continue;
-        // var class_index = Math.floor(thisfreq.map(1, higher, 0, classes.length - 1));
-
-        // $('#wordcloudresults').append('<li id="li_' + k + '" class="wc ' + classes[class_index] + '">' + k + ' </li>');
         
         let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
-        console.log("k, k2", k, k2);
+        if (k !== k2)
+            console.log("k, k2", k, k2);
 
         $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
         $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
