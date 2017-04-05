@@ -147,7 +147,7 @@ function dataReceived(data) {
 //     }
 // }
 
-function wordcloud(text) {
+function wordcloud(text, top=20) {
 
 	var font_multiplier = 10;
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
@@ -175,8 +175,18 @@ function wordcloud(text) {
     topValues = [];
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] });
-    topValues = topValues.slice(0,10);
-    // console.log("top words", topValues);
+    topValues = topValues.slice(0, top);
+    
+    // Word count average in top
+    let average = 0;
+    topValues.forEach((item) => { average += item[0]; });
+    average = average / top;
+
+    //Variances
+    topValues.forEach((item) => { item[2] = item[0] - average; });
+
+    console.log("Average", average);
+    console.log(topValues);
 
 
     var max = 5,
