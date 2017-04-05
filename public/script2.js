@@ -95,13 +95,11 @@ function dataReceived(data) {
 }
 
 
-function wordcloud(text) {
+function wordcloud(text, top=20) {
 
 	var font_multiplier = 10;
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
-
     var wordfreqs = {};
-    // var higher = 0;
 
     for (var i = 0; i < text.length; i++) {
         thisword = text[i].toLowerCase();
@@ -110,35 +108,37 @@ function wordcloud(text) {
 
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
-            // if (higher < wordfreqs[thisword]) {
-            //     higher = wordfreqs[thisword];
-            // }
         } else {
             wordfreqs[thisword] = 1;
         }
     }
     console.log(wordfreqs);
 
-    var maxcount = 0;
-    var mincount = 0;
 
     // Extracting top values
     topValues = [];
-    for (var w in wordfreqs) { 
-        topValues.push([wordfreqs[w], w]); 
-        // if (wordfreqs[w] > maxcount) maxcount = wordfreqs[w];
-        // else if (wordfreqs[w] < mincount) mincount = wordfreqs[w];
-    }
+    for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] });
-    topValues = topValues.slice(0,top);
-    
+    topValues = topValues.slice(0, top);
 
-    
-    console.log("top words", topValues);
+    // Creating tag clouds using logarithmic interpolation 
+    // https://skozan.wordpress.com/2015/10/11/creating-tag-clouds-using-logarithmic-interpolation-in-python/
+    var maxcount = topValues[0][0];
+    var mincount = topValues[topValues.length - 1][0];
+    topValues.forEach((item) => { 
+        item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
+    });
+
+    console.log("Min, Max", mincount, maxcount);
+    console.log(topValues);
 
 
-    var max = 5,
-    	min = -5;
+    var maxangle = 5,
+    	minangle = -5;
+
+    topValues.forEach((item) => {
+        console.log("Word: " + item[1] + " has count of " + item[0]);
+    });
 
     for (var k in wordfreqs) {
         var thisfreq = wordfreqs[k];
@@ -146,6 +146,7 @@ function wordcloud(text) {
             continue;
         
         let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
+        
         if (k !== k2)
             console.log("k, k2", k, k2);
 
@@ -153,10 +154,11 @@ function wordcloud(text) {
         $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
         $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
         $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
-        let angle = Math.floor(Math.random() * (max - min + 1)) + min;
+        let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
         $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
     }
 }
+
 
 
 Number.prototype.map = function(in_min, in_max, out_min, out_max) {
