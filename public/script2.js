@@ -93,7 +93,7 @@ function dataReceived(data) {
 function wordcloud(text) {
 
 	var font_multiplier = 10;
-    text = text.split(/\W/);
+    text = text.split(/[\s\.\,\?\!]/);
 
     var wordfreqs = {};
     var higher = 0;
