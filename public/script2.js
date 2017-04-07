@@ -101,10 +101,9 @@ function dataReceived(data) {
 function wordcloud(text, top=20) {
 
 	const font_multiplier = 10;
-    const max_font_size = 120;
-    const min_font_size = 12;
-    const maxangle = 5;
-    const minangle = -5;
+    const max_font_size   = 200;
+    const min_font_size   = 16;
+    const angles          = [0];
 
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
     var wordfreqs = {};
@@ -125,6 +124,8 @@ function wordcloud(text, top=20) {
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
     topValues.sort((t1,t2) => { return t2[0] - t1[0] || t2[1] - t1[1] });
 
+    topValues = topValues.slice(0, top);
+
     // Creating tag clouds using logarithmic interpolation 
     // https://skozan.wordpress.com/2015/10/11/creating-tag-clouds-using-logarithmic-interpolation-in-python/
     var maxcount = topValues[0][0];
@@ -133,7 +134,6 @@ function wordcloud(text, top=20) {
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
     });
 
-    topValues = topValues.slice(0, top);
 
     topValues.forEach((item) => {
         let k = item[1];
@@ -146,7 +146,7 @@ function wordcloud(text, top=20) {
             $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
             $('#li_' + k2).css('font-size',  size +"px" );
             $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
-            let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
+            let angle = angles[Math.floor(Math.random()*angles.length)];
             $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
         }
     });

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="/style2.css">
   <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -8,58 +9,117 @@
   <script type="text/javascript" src="/script2.js"></script>
   <title>RADAGAST - Main Page</title>
 </head>
+
 <body>
-<div class="header">
-  <ul>
-    <a href="/index2.html">
-      <li>RADAGAST</li>
-    </a>
-    <a href="/api">
-      <li>API</li>
-    </a>
-    <a href="#/about.html">
-      <li>About</li>
-    </a>
-  </ul>
-</div>
-<div class="container">
-  <div class="container-left">
-    <div class="article">
-      <h3>Search</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <div id="form">
-        <input id="textfield" placeholder="Search" autofocus>
-        <button id="butSearch" onclick="search()" type="submit">Go</button>
+  <div class="header">
+    <ul>
+      <a href="/index2.html">
+        <li>RADAGAST</li>
+      </a>
+      <a href="/api">
+        <li>API</li>
+      </a>
+      <a href="#/about.html">
+        <li>About</li>
+      </a>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="container-left">
+      <div class="article">
+        <h3>Search</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div id="form">
+          <input id="textfield" placeholder="Search" autofocus>
+          <button id="butSearch" onclick="search()" type="submit">Go</button>
+        </div>
+        <pre id="searchresults"></pre>
       </div>
-      <pre id="searchresults"></pre>
+      <div class="article">
+        <h3>Sentiment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <pre id="sentimentresults"></pre>
+      </div>
     </div>
-    <div class="article">
-      <h3>Sentiment</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <pre id="sentimentresults"></pre>
+    <div class="container-right">
+      <div class="article">
+        <h3>World Map</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consectetur quae dolores illo voluptatibus vero unde est nostrum, recusandae perspiciatis facilis, laudantium nam
+          ad odio, fuga quibusdam praesentium nihil quis delectus. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Consectetur eum optio repudiandae aperiam ullam sapiente neque, quibusdam obcaecati nobis sunt
+          ea, nam odit! Voluptas aspernatur fugit consectetur cupiditate libero, repellat asperiores sint. Praesentium repellendus
+          magni eum consequuntur repellat quos esse asperiores. Rerum reiciendis quos, culpa totam, qui mollitia expedita
+          voluptatum!</p>
+      </div>
+      <div class="article">
+        <h3>Word Cloud</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <!-- <pre id="wordcloudresults" class="word-cloud"></pre> -->
+
+        <ul id="wordcloudresults" class="word-cloud">
+
+          <!--<li class="wc">orem</li>
+          <li class="wc">ipsum</li>
+          <li class="wc">dolor</li>
+          <li class="wc">sit</li>
+          <li class="wc">amet</li>
+          <li class="wc">consectetur</li>
+          <li class="wc">adipisicing</li>
+          <li class="wc">elit</li>
+          <li class="wc">Lorem</li>
+          <li class="wc">ipsum</li>
+          <li class="wc">dolor</li>
+          <li class="wc">sit</li>
+          <li class="wc">amet</li>
+          <li class="wc">consectetur</li>
+          <li class="wc">adipisicing</li>
+          <li class="wc">elit</li>
+          <li class="wc">Consectetur</li>
+          <li class="wc">quae</li>
+          <li class="wc">dolores</li>
+          <li class="wc">illo</li>
+          <li class="wc">voluptatibus</li>
+          <li class="wc">vero</li>
+          <li class="wc">unde</li>
+          <li class="wc">est</li>
+          <li class="wc">nostrum</li>
+          <li class="wc">recusandae</li>
+          <li class="wc">perspiciatis</li>
+          <li class="wc">facilis</li>
+          <li class="wc">laudantium</li>
+          <li class="wc">nam</li>
+          <li class="wc">ad</li>
+          <li class="wc">odio</li>
+          <li class="wc">fuga</li>
+          <li class="wc">quibusdam</li>
+          <li class="wc">praesentium</li>
+          <li class="wc">nihil</li>
+          <li class="wc">quis</li>
+          <li class="wc">delectus</li>
+          <li class="wc">Lorem</li>
+          <li class="wc">ipsum</li>
+          <li class="wc">dolor</li>
+          <li class="wc">Lorem</li>
+          <li class="wc">ipsum</li>
+          <li class="wc">dolor</li>
+          <li class="wc">sit</li>
+          <li class="wc">amet</li>
+          <li class="wc">consectetur</li>
+          <li class="wc">adipisicing</li>-->
+
+        </ul>
+
+
+      </div>
     </div>
   </div>
-  <div class="container-right">
-    <div class="article">
-      <h3>World Map</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quae dolores illo voluptatibus vero unde est nostrum, recusandae perspiciatis facilis, laudantium nam ad odio, fuga quibusdam
-        praesentium nihil quis delectus. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum optio repudiandae aperiam ullam sapiente neque, quibusdam obcaecati nobis sunt ea, nam odit! Voluptas aspernatur fugit
-        consectetur cupiditate libero, repellat asperiores sint. Praesentium repellendus magni eum consequuntur repellat quos esse asperiores. Rerum reiciendis quos, culpa totam, qui mollitia expedita voluptatum!</p>
-    </div>
-    <div class="article">
-      <h3>Word Cloud</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <!-- <pre id="wordcloudresults" class="word-cloud"></pre> -->
-
-      <ul id="wordcloudresults" class="word-cloud"></ul>
-
-
-    </div>
+  <div class="footer">
+    <a href="#">
+      <p>More info here</p>
+    </a>
   </div>
-</div>
-<div class="footer">
-  <a href="#"><p>More info here</p></a>
-</div>
 
 </body>
+
 </html>
