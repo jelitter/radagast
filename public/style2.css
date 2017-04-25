@@ -21,18 +21,6 @@ body {
   margin: 0;
 }
 
-header {
-    opacity: 0.7;
-    width: 100%;
-    height: 100%;
-    background-color: #EEE;
-    background: url(https://unsplash.it/800/600/?blur&random) no-repeat; 
-    background-size:cover;
-    top: 0;
-    position: fixed;
-    z-index: -1;
-}
-
 input {
   padding: 5px;
   font-size: 1.5em;
@@ -198,14 +186,24 @@ h3 {
   margin-bottom: 0;
   
   list-style: none;
-  text-align: justify;
+  /*text-align: justify;*/
+
+  display: flex;
+  justify-content: center;
+  /*flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  align-items: baseline;
+  align-content: center;
 }
 
 .wc {
-  display: inline-block;
+  /*display: inline-block;*/
+  /*display: flex;*/
+  margin: 0px;
+  padding: 0px;
   font-family: 'Francois One', sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  /*line-height: 24px;*/
   color: #90d6f3;
 }
 

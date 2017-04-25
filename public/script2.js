@@ -32,6 +32,8 @@ const IGNORED_WORDS = {
     "now": true,
     "our": true,
     "out": true,
+    "one": true,
+    "over": true,
     "she": true,
     "should": true,
     "some": true,
@@ -49,6 +51,7 @@ const IGNORED_WORDS = {
     "was": true,
     "what": true,
     "when": true,
+    "whether": true,
     "who": true,
     "will": true,
     "with": true,
@@ -91,14 +94,17 @@ function dataReceived(data) {
 
     $('#mapresults').append('<p>Results for WORLDMAP</p>');
 
-    wordcloud(data.Text);
+    wordcloud(data.Text, 40);
 }
 
 
 function wordcloud(text, top=20) {
 
-	var font_multiplier = 10;
-    const max_font_size = 120;
+	const font_multiplier = 10;
+    const max_font_size   = 200;
+    const min_font_size   = 16;
+    const angles          = [0];
+
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
     var wordfreqs = {};
 
@@ -106,20 +112,18 @@ function wordcloud(text, top=20) {
         thisword = text[i].toLowerCase();
         if ((thisword.length < 3) || IGNORED_WORDS.hasOwnProperty(thisword))
             continue;
-
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
         } else {
             wordfreqs[thisword] = 1;
         }
     }
-    console.log(wordfreqs);
-
 
     // Extracting top values
     topValues = [];
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
-    topValues.sort((t1,t2) => { return t2[0] - t1[0] });
+    topValues.sort((t1,t2) => { return t2[0] - t1[0] || t2[1] - t1[1] });
+
     topValues = topValues.slice(0, top);
 
     // Creating tag clouds using logarithmic interpolation 
@@ -130,37 +134,22 @@ function wordcloud(text, top=20) {
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
     });
 
-    console.log("Min, Max", mincount, maxcount);
-    console.log(topValues);
-
-
-    var maxangle = 5,
-    	minangle = -5;
 
     topValues.forEach((item) => {
-        console.log("Word: " + item[1] + " has count of " + item[0]);
+        let k = item[1];
+        let k2 = k.replace(new RegExp("'t", 'g'), "t").replace(new RegExp("'", 'g'), "");
+        let size = (item[2] * max_font_size) | 0;
+        size = (size.map(mincount, maxcount, min_font_size, max_font_size)) | 0;
+
+        if (size >= min_font_size) {
+            $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
+            $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
+            $('#li_' + k2).css('font-size',  size +"px" );
+            $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
+            let angle = angles[Math.floor(Math.random()*angles.length)];
+            $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
+        }
     });
-
-    // TO-DO : Loop topValues and add words with size (log i) * max_size ;
-
-    for (var k in wordfreqs) {
-        var thisfreq = wordfreqs[k];
-        if (thisfreq < 3)
-            continue;
-        
-        let k2 = k.replace(new RegExp("'t", 'g'), "-t").replace(new RegExp("'", 'g'), "");
-        
-        if (k !== k2)
-            console.log("k, k2", k, k2);
-
-        $('#wordcloudresults').append('<li id="li_' + k2 + '" class="wc"> ' + k + ' </li>');
-        $('#li_' + k2).css('color', "#" + Math.floor(Math.random() * 0x1000000).toString(16));
-        // $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
-        $('#li_' + k2).css('font-size',  ((thisfreq*font_multiplier > 200) ? 120 : thisfreq*font_multiplier) +"px" );
-        $('#li_' + k2).css('text-shadow',  "0px 0px 4px Black");
-        let angle = Math.floor(Math.random() * (maxangle - minangle + 1)) + minangle;
-        $('#li_' + k2).css('transform',  "rotate("+ angle +"deg)");
-    }
 }
 
 
