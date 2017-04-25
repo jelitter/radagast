@@ -18,16 +18,17 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
+    "compression": "^1.6.2",
     "d3": "^4.7.3",
     "d3-cloud": "^1.2.4",
     "express": "^4.14.1",
     "express-timestamp": "^0.1.4",
     "generate-object-property": "^1.2.0",
     "hawk": "^6.0.1",
+    "jsonfile": "^2.4.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
-    "jsonfile": "^2.4.0",
     "twit": "^2.2.5",
     "unirest": "^0.5.1"
   },
