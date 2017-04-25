@@ -1,3 +1,4 @@
+var   compression = require('compression');
 var   express    = require('express');
 var   app        = express();
 const PORT       = process.env.PORT || 3000;
@@ -13,6 +14,7 @@ console.log("  RADAGAST - Twitter search API started on port "+ PORT);
 console.log("##########################################################\n");
 app.set('view engine', 'jade');
 app.use(time.init);
+app.use(compression());
 
 // Disable HTTP caching - 304 responses
 // app.disable('etag');  
