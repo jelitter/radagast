@@ -9,15 +9,13 @@ var   page404    = 'public/404.html';
 var   pageApiDoc = 'public/api-doc.html';
 
 console.log("\n");
-console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ");
-console.log("   ░░█▀▀█░█▀█░█▀▀░░█▀█░█▀▀▀░█▀█░█▀▀░▀█▀░");
-console.log("   ░░█▀█▀░█▀█░█░░█░█▀█░█░▀█░█▀█░▀▀█░░█░░");
-console.log("   ░░▀ ░▀░▀ ▀░▀▀▀░░▀░▀░▀▀▀▀░▀░▀░▀▀▀░░▀░░");
-console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
-console.log("\n")
-console.log(" ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
-console.log(" ░░ Twitter search API started on port "+ PORT +" ░░");
-console.log(" ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+console.log("   ░░░░░░█▀▀█░█▀█░█▀▀░░█▀█░█▀▀▀░█▀█░█▀▀░▀█▀░░░░░░");
+console.log("   ░░░░░░█▀█▀░█▀█░█░░█░█▀█░█░▀█░█▀█░▀▀█░░█░░░░░░░");
+console.log("   ░░░░░░▀ ░▀░▀ ▀░▀▀▀░░▀░▀░▀▀▀▀░▀░▀░▀▀▀░░▀░░░░░░░");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+console.log("   ░░ Twitter search API started on port "+ PORT +" ░░");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n");
 
 app.set('view engine', 'jade');
 app.use(time.init);
