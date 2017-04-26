@@ -38,12 +38,15 @@ exports.getAllTwits = function(res, req) {
   sent.getAll(res, req);
 }
 
-exports.getTwitsSearch = function(res, search, lang, count) {
+exports.getTwitsSearch = function(res, search, lang, count, geocode) {
 
   T.get('search/tweets', {
     q: search,
     lang: lang ? lang : "en",
     count: count ? count : _count,
+    geocode: geocode,
+    include_entities: false,
+    // geocode: "0.0, 0.0, 10000km",
     result_type: "mixed" // mixed, recent, popular
   }, function (err, data, response) {
 
@@ -51,15 +54,20 @@ exports.getTwitsSearch = function(res, search, lang, count) {
 
     for (var t in data.statuses) {
 
-      twits.push({
-        "text" : data.statuses[t].text.trim(),
-        "id" : data.statuses[t].id,
-        "location" : data.statuses[t].user.location,
-        "coordinates" : data.statuses[t].coordinates
-      });
+      if (data.statuses[t].retweeted == "false") {
+        twits.push({
+          "text" : data.statuses[t].text.trim(),
+          "id" : data.statuses[t].id,
+          "location" : data.statuses[t].user.location,
+          "coordinates" : data.statuses[t].coordinates
+        });
+      }
       // twits.push(data.statuses[t].text.trim());
     }
-    sent.getSentiment(res, search, twits);
+
+    // sent.getSentiment(res, search, twits);
+    res.send(data);
+
   });
 }
 

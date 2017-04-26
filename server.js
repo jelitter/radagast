@@ -9,13 +9,26 @@ var   page404    = 'public/404.html';
 var   pageApiDoc = 'public/api-doc.html';
 
 console.log("\n");
-console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
-console.log("   ░░░░░░█▀▀█░█▀█░█▀▀░░█▀█░█▀▀▀░█▀█░█▀▀░▀█▀░░░░░░");
-console.log("   ░░░░░░█▀█▀░█▀█░█░░█░█▀█░█░▀█░█▀█░▀▀█░░█░░░░░░░");
-console.log("   ░░░░░░▀ ░▀░▀ ▀░▀▀▀░░▀░▀░▀▀▀▀░▀░▀░▀▀▀░░▀░░░░░░░");
-console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
-console.log("   ░░ Twitter search API started on port "+ PORT +" ░░");
-console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+console.log("   ░░░░░░█▀▀█░█▀█░█▀▀░░█▀█░█▀▀▀░█▀█░█▀▀░▀█▀░░░░░               .-. ");
+console.log("   ░░░░░░█▀█▀░█▀█░█░░█░█▀█░█░▀█░█▀█░▀▀█░░█░░░░░░         (`.__(. .) ");
+console.log("   ░░░░░░▀ ░▀░▀ ▀░▀▀▀░░▀░▀░▀▀▀░░▀░▀░▀▀▀░░▀░░░░░░         (      V \\ ");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░          \\/   )  /    () ");
+console.log("   ░░ Twitter search API started on port "+ PORT +" ░░          / _.'_.'  ()/'-(> ");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░========`'==>>=====<_(>");
+console.log("                                                                     <)'`-<>");
+
+// console.log("                  .-.");
+// console.log("            (`.__(. .)");
+// console.log("            (      V \\");
+// console.log("             \\/   )  /    ()");
+// console.log("             / _.'_.'  ()/'-(>");
+// console.log("===========`'==>>=====<_(>");
+// console.log("                    <)'`-<>");
+
+
+
+// https://www.npmjs.com/package/google-trends-api
 
 app.set('view engine', 'jade');
 app.use(time.init);
@@ -40,7 +53,7 @@ app.get('/api/v1/twitter/search/', function(req, res){
     res.sendFile(pageApiDoc, {root: __dirname });
   } else {
     log(req, "Search: " + req.query.q);
-    twitter.getTwitsSearch(res, req.query.q, req.query.lang, req.query.count);
+    twitter.getTwitsSearch(res, req.query.q, req.query.lang, req.query.count, req.query.geocode);
   }
 });
 
