@@ -8,20 +8,21 @@ var   time       = require('express-timestamp')
 var   page404    = 'public/404.html';
 var   pageApiDoc = 'public/api-doc.html';
 
-console.log("##########################################################");
-preload();
-console.log("  RADAGAST - Twitter search API started on port "+ PORT);
-console.log("##########################################################\n");
+console.log("\n");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ");
+console.log("   ░░█▀▀█░█▀█░█▀▀░░█▀█░█▀▀▀░█▀█░█▀▀░▀█▀░");
+console.log("   ░░█▀█▀░█▀█░█░░█░█▀█░█░▀█░█▀█░▀▀█░░█░░");
+console.log("   ░░▀ ░▀░▀ ▀░▀▀▀░░▀░▀░▀▀▀▀░▀░▀░▀▀▀░░▀░░");
+console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+console.log("\n")
+console.log(" ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+console.log(" ░░ Twitter search API started on port "+ PORT +" ░░");
+console.log(" ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n");
+
 app.set('view engine', 'jade');
 app.use(time.init);
 app.use(compression());
 
-// Disable HTTP caching - 304 responses
-// app.disable('etag');  
-// app.use(function(req, res, next) {
-//   req.headers['if-none-match'] = 'no-match-for-this';
-//   next();    
-// });
 function nocache(req, res, next) {
   res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
   res.header('Expires', '-1');
