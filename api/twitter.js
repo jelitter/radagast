@@ -1,5 +1,5 @@
 var rate   = 15000;
-var _count  = 100;
+var _count  = 2;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
@@ -48,16 +48,17 @@ exports.getTwitsSearch = function(res, search, lang, count) {
   }, function (err, data, response) {
 
     twits = [];
+
     for (var t in data.statuses) {
 
       twits.push({
         "text" : data.statuses[t].text.trim(),
         "id" : data.statuses[t].id,
-        "location" : data.statuses[t].user.location
+        "location" : data.statuses[t].user.location,
+        "coordinates" : data.statuses[t].coordinates
       });
       // twits.push(data.statuses[t].text.trim());
     }
-
     sent.getSentiment(res, search, twits);
   });
 }
