@@ -14,10 +14,8 @@ var SearchForm = React.createClass({
         return(
             <div>
                 <form onSubmit={this.onFormSubmit} className="row">
-                    <div className="column small-10">
+                    <div>
                         <input type="text" ref="busqueda" placeholder="Search tweets"/>
-                    </div>
-                    <div className="column small-2">
                         <button className="button">Go!</button>
                     </div>
                 </form>

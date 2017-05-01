@@ -34,24 +34,31 @@ var Main = React.createClass({
         var {score, fulltext} = this.state;
 
         return(
-            <div data-equalizer="dashboard" data-equalizer-mq="small-6" className="">
-                <div className="row small-up-1 medium-up-1 large-up-2">
-                    <div className="column small-6 box" data-equalizer-watch="dashboard">
-                        <h1 className="small-10 text-center titulo">Radagast</h1>
-                        <Search onSearch={this.handleSearch}/>
+            <div className="container">
+                <div className="container-left">
+                    <div className="article">
+                        <h3>Search</h3>
+                        <pre id="searchresults">
+                            <Search onSearch={this.handleSearch}/>
+                        </pre>
                     </div>
-                    <div className="column small-6 box" data-equalizer-watch="dashboard">
-                        <Sentiment score={score}/>
+                    <div className="article">
+                        <h3>Sentiment</h3>
+                        <pre id="sentimentresults">
+                            <Sentiment score={score}/>
+                        </pre>
                     </div>
                 </div>
-                <div className="row small-up-1 medium-up-1 large-up-2">
-                    <div className="column small-6 box" data-equalizer-watch="dashboard">
+                <div className="container-right">
+                    <div className="article">
+                        <h3>World Map</h3>
                         <Map/>
                     </div>
-                    <div className="column small-6 box" data-equalizer-watch="dashboard">
+                    <div className="article">
+                        <h3>Word Cloud</h3>
                         <Wordcloud text={fulltext}/>
                     </div>
-                </div> 
+                </div>
             </div>
         )
     }

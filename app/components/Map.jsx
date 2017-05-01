@@ -5,8 +5,8 @@ const accessToken = "pk.eyJ1IjoibmFyc2hlIiwiYSI6ImNqMjNwamRvYjAwMWozM25zM2g5cG5l
 const style = "mapbox://styles/mapbox/basic-v9";
 
 const mapStyle = {
-  height: '40vh',
-  width: '70vw'
+  height: '30vh',
+  width: '30vw'
 }
 
 class Map extends Component {
@@ -55,17 +55,13 @@ class Map extends Component {
       ]
     return (
         <div>
-            <h3>Trends Map</h3>
             <ReactMap
             style={style}
             accessToken={accessToken}
             containerStyle={mapStyle}
             center={[0,0]}
-            zoom={[0]}
-  
-            >
-            {this.createLayers(tempcoord)}
-    
+            zoom={[0]}>
+                {this.createLayers(tempcoord)}
             </ReactMap>
         </div>
     );
