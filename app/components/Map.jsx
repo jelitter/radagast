@@ -16,7 +16,6 @@ class Map extends Component {
 
     createLayers(data) {
         return data.map((element) => {
-            console.log(element.lon + " " + element.lat)
             return (
                 <Layer
                 key={element.id} 
@@ -74,35 +73,3 @@ class Map extends Component {
 }
 
 module.exports = Map;
-
-
-/*{this.createLayers(tempcoord)} */
-/**
- <Layer 
-                type="symbol"
-                id="marker"
-                layout={{ 
-                    "icon-image" : "marker-15", 
-                    "icon-size" : 2,
-                    "text-field": "test",
-                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                    "text-offset": [0, 0.6],
-                    "text-anchor": "top"
-                    }}>
-                <Feature coordinates={[-0.481747846041145, 51.3233379650232]}/>
-            </Layer>
-            <Layer 
-                type="symbol"
-                id="marker2"
-                layout={{ 
-                    "icon-image" : "marker-15", 
-                    "icon-size" : 2,
-                    "text-field": "test",
-                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                    "text-offset": [0, 0.6],
-                    "text-anchor": "top"
-                    }}>
-                <Feature coordinates={[-0.45, 55]}/>
-            </Layer>      
-
- */

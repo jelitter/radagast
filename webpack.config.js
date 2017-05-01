@@ -1,9 +1,9 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
     entry: [
         'script!jquery/dist/jquery.min.js',
-        'script!foundation-sites/dist/foundation.min.js',
         './app/app.jsx'
     ],
     externals: {
@@ -20,20 +20,13 @@ module.exports = {
         filename: './public/bundle.js'
     },
     resolve: {
-        root: __dirname, 
+        root: __dirname,
+        modulesDirectories:[
+            'node_modules',
+            './app/components',
+            './app/api'
+        ],
         alias: {
-            //Component: './components/Name.jsx
-            Main: 'app/components/Main.jsx',
-            Map: 'app/components/Map.jsx',
-            Search: 'app/components/Search.jsx',
-            SearchForm: 'app/components/SearchForm.jsx',
-            TwitterCall: 'app/api/TwitterCall.jsx',
-            Favourites: 'app/components/Favourites.jsx',
-            FavouritesElement: 'app/components/FavouritesElement.jsx',
-            Sentiment: 'app/components/Sentiment.jsx',
-            SentimentAPI: 'app/api/SentimentAPI.js',
-            Wordcloud: 'app/components/Wordcloud.jsx',
-            WordcloudAPI: 'app/api/WordcloudAPI.js',
             applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['', '.js', '.jsx']
