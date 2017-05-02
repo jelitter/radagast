@@ -18,16 +18,6 @@ console.log("   ░░ Twitter search API started on port "+ PORT +" ░░     
 console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░========`'==>>=====<_(>");
 console.log("                                                                     <)'`-<>");
 
-// console.log("                  .-.");
-// console.log("            (`.__(. .)");
-// console.log("            (      V \\");
-// console.log("             \\/   )  /    ()");
-// console.log("             / _.'_.'  ()/'-(>");
-// console.log("===========`'==>>=====<_(>");
-// console.log("                    <)'`-<>");
-
-
-
 // https://www.npmjs.com/package/google-trends-api
 
 app.set('view engine', 'jade');

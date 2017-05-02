@@ -97,7 +97,7 @@ function dataReceived(data) {
 export var wordcloud = function (text, top=20) {
 
 	const font_multiplier = 10;
-    const max_font_size   = 200;
+    const max_font_size   = 150;
     const min_font_size   = 16;
     const angles          = [0];
 
@@ -128,6 +128,7 @@ export var wordcloud = function (text, top=20) {
     var mincount = topValues[topValues.length - 1][0];
     topValues.forEach((item) => { 
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
+        console.log("log:", item[2]);
     });
 
     var result = [];
@@ -136,7 +137,8 @@ export var wordcloud = function (text, top=20) {
         let k = item[1];
         let k2 = k.replace(new RegExp("'t", 'g'), "t").replace(new RegExp("'", 'g'), "");
         let size = (item[2] * max_font_size) | 0;
-        size = (size.map(mincount, maxcount, min_font_size, max_font_size)) | 0;
+        // size = (size.map2(mincount, maxcount, min_font_size, max_font_size)) | 0;
+
         
 
         if (size >= min_font_size) {
@@ -145,7 +147,7 @@ export var wordcloud = function (text, top=20) {
                 index: k2,
                 style: {
                     "color": '#'+Math.floor(Math.random() * 0x1000000).toString(16),
-                    "fontSize": size/90 + 'px', //PLACEHOLDER dividing by 90 so results are not out of madre
+                    "fontSize": size + 'px', //PLACEHOLDER dividing by 90 so results are not out of madre
                     "textShadow": '0px 0px 4px Black',
                     "transform" : 'rotate(' + angle + 'deg)'
                 }, 
@@ -158,6 +160,6 @@ export var wordcloud = function (text, top=20) {
 
 
 
-Number.prototype.map = function(in_min, in_max, out_min, out_max) {
+Number.prototype.map2 = function(in_min, in_max, out_min, out_max) {
     return (this - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 };

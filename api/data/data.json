@@ -1,14 +1,901 @@
 {
+  "obama": {
+    "Score": {
+      "score": 5.59,
+      "score_perc": 62.08,
+      "words": 123
+    },
+    "numberOfTweets": 18,
+    "Raw Text": "The Trump administration is ending Michelle Obama's \"Let Girls Learn\" education program https://t.co/EeOS19CbyY https://t.co/5pjI948sQ1 #BREAKING: Trump ends Michelle Obama's girls education program https://t.co/K0mfkBu5sD https://t.co/g3sh7RNr10 Anniversary of bin Laden raid tomorrow. FOX graphics team:\n\nOBAMA FIRST 100 DAYS: BIN LADEN AT LARGE\nTRUMP FIRST 100 DAYS: BIN LADEN DEAD RT @TheComedyKitty: Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures https://t.co/KtY4bzTVjB @FirstTrampTrump I don't know probably loyalty to the USA the same thing then Obama declared last year Trump administration loosens Obama-era school lunch requirements https://t.co/yC62r9COQ5 via the @FoxNews Android app RT @MayProTrump: Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h… RT @JoeNBC: The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine… RT @AynRandPaulRyan: Here's the POTUS, literally running away from an interview when he can't answer the question about Obama \"wiretapping\"… @realDonaldTrump didn't realize being president is hard work. Imagine how tough Obama had it after Bush's\" great recession\". No golf 4 you! RT @danpfeiffer: Episode 700 in the long running series \"How would Fox News cover this if Obama did it\" (spoiler: like the end of the Repub… \"You don’t pay $400,000 a speech because you want to hire President Obama — you pay it because you want to be the... https://t.co/M0yr4x95By RT @YeeNAssociates: @nytimes @ChuckGrassley With #Obama u were a transparency hawk. W/ #Trump, you're like a cricket. No moral outrage at #… RT @theblaze: Liz Warren slams Obama and Democrats for ignoring the working class   https://t.co/ViVdKe93mE https://t.co/r0X8gs7qOt @CBSThisMorning @VP @mike_pence Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of… https://t.co/JKPvKiLTOA RT @KevinFarzad: The stats don't lie. Trump is crushing Obama https://t.co/C7Mxd86ItG RT @YoungDems4Trump: Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating!\nhttps://t.co/656cbWJ… Looks like overthrow of \"Obama's war on suburbs\" stalled as GOP attends to higher profile civil rights targets #AFFH https://t.co/1Z4Cp4Oueh ",
+    "Text": "The Trump administration is ending Michelle Obama's Let Girls Learn education program Trump ends Michelle Obama's girls education program Anniversary of bin Laden raid tomorrow. FOX graphics teamOBAMA FIRST DAYS BIN LADEN AT LARGETRUMP FIRST DAYS BIN LADEN DEAD Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures I don't know probably loyalty to the USA the same thing then Obama declared last year Trump administration loosens Obama-era school lunch requirements via the Android app Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine Here's the POTUS, literally running away from an interview when he can't answer the question about Obama wiretapping didn't realize being president is hard work. Imagine how tough Obama had it after Bush's great recession. No golf you! Episode in the long running series How would Fox News cover this if Obama did it spoiler like the end of the Repub You dont pay , a speech because you want to hire President Obama you pay it because you want to be the... With u were a transparency hawk. W you're like a cricket. No moral outrage at Liz Warren slams Obama and Democrats for ignoring the working class Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of The stats don't lie. Trump is crushing Obama Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating! Looks like overthrow of Obama's war on suburbs stalled as GOP attends to higher profile civil rights targets",
+    "Stemmed Text": "the trump administr is end michell obama s let girl learn educ program trump end michell obama s girl educ program anniversari of bin laden raid tomorrow fox graphic teamobama first day bin laden at largetrump first day bin laden dead malia obama is look insan hot in her most recent pictur i don t know probabl loyalti to the usa the same thing then obama declar last year trump administr loosen obama era school lunch requir via the android app paul ryan is the traitor to all american citizen becaus pryan is obama s follow run obama s deep state in d c h the man and his famili sacrif more than we will know how presid obama make his money in privat life now is his busin here s the potus liter run away from an interview when he can t answer the question about obama wiretap didn t realiz be presid is hard work imagin how tough obama had it after bush s great recess no golf you episod in the long run seri how would fox news cover this if obama did it spoiler like the end of the repub you dont pay a speech becaus you want to hire presid obama you pay it becaus you want to be the with u were a transpar hawk w you re like a cricket no moral outrag at liz warren slam obama and democrat for ignor the work class reliev there is no wall fund no cut to plan parenthood same practic of the stat don t lie trump is crush obama obama s fbi translat fell in love with the isi terrorist she was suppos to be investig look like overthrow of obama s war on suburb stall as gop attend to higher profil civil right target",
+    "Twits": [
+      {
+        "text": "The Trump administration is ending Michelle Obama's \"Let Girls Learn\" education program https://t.co/EeOS19CbyY https://t.co/5pjI948sQ1",
+        "id": 859095326623506400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "#BREAKING: Trump ends Michelle Obama's girls education program https://t.co/K0mfkBu5sD https://t.co/g3sh7RNr10",
+        "id": 859095997972193300,
+        "location": "Washington, DC",
+        "coordinates": null
+      },
+      {
+        "text": "Anniversary of bin Laden raid tomorrow. FOX graphics team:\n\nOBAMA FIRST 100 DAYS: BIN LADEN AT LARGE\nTRUMP FIRST 100 DAYS: BIN LADEN DEAD",
+        "id": 858851380550881300,
+        "location": "Washington, DC",
+        "coordinates": null
+      },
+      {
+        "text": "RT @TheComedyKitty: Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures https://t.co/KtY4bzTVjB",
+        "id": 859441940927979500,
+        "location": "USA",
+        "coordinates": null
+      },
+      {
+        "text": "@FirstTrampTrump I don't know probably loyalty to the USA the same thing then Obama declared last year",
+        "id": 859442048025456600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Trump administration loosens Obama-era school lunch requirements https://t.co/yC62r9COQ5 via the @FoxNews Android app",
+        "id": 859442043545952300,
+        "location": ".",
+        "coordinates": null
+      },
+      {
+        "text": "RT @MayProTrump: Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h…",
+        "id": 859442038474907600,
+        "location": "Irvine, California, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @JoeNBC: The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine…",
+        "id": 859442036402905100,
+        "location": "San Francisco Bay Area",
+        "coordinates": null
+      },
+      {
+        "text": "RT @AynRandPaulRyan: Here's the POTUS, literally running away from an interview when he can't answer the question about Obama \"wiretapping\"…",
+        "id": 859442035618721800,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@realDonaldTrump didn't realize being president is hard work. Imagine how tough Obama had it after Bush's\" great recession\". No golf 4 you!",
+        "id": 859442034754584600,
+        "location": "Houston, TX",
+        "coordinates": null
+      },
+      {
+        "text": "RT @danpfeiffer: Episode 700 in the long running series \"How would Fox News cover this if Obama did it\" (spoiler: like the end of the Repub…",
+        "id": 859442033018253300,
+        "location": "USA, USA",
+        "coordinates": null
+      },
+      {
+        "text": "\"You don’t pay $400,000 a speech because you want to hire President Obama — you pay it because you want to be the... https://t.co/M0yr4x95By",
+        "id": 859442406772658200,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @YeeNAssociates: @nytimes @ChuckGrassley With #Obama u were a transparency hawk. W/ #Trump, you're like a cricket. No moral outrage at #…",
+        "id": 859442406143414300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @theblaze: Liz Warren slams Obama and Democrats for ignoring the working class   https://t.co/ViVdKe93mE https://t.co/r0X8gs7qOt",
+        "id": 859442405841420300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@CBSThisMorning @VP @mike_pence Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of… https://t.co/JKPvKiLTOA",
+        "id": 859442404709081100,
+        "location": "Snellville, GA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @KevinFarzad: The stats don't lie. Trump is crushing Obama https://t.co/C7Mxd86ItG",
+        "id": 859442404629336000,
+        "location": "ok",
+        "coordinates": null
+      },
+      {
+        "text": "RT @YoungDems4Trump: Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating!\nhttps://t.co/656cbWJ…",
+        "id": 859442404532858900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Looks like overthrow of \"Obama's war on suburbs\" stalled as GOP attends to higher profile civil rights targets #AFFH https://t.co/1Z4Cp4Oueh",
+        "id": 859442404096712700,
+        "location": "",
+        "coordinates": null
+      }
+    ]
+  },
+  "trump": {
+    "Score": {
+      "score": 5.05,
+      "score_perc": 56.12,
+      "words": 109
+    },
+    "numberOfTweets": 17,
+    "Raw Text": "Andrew Jackson was a slaveholding plantation owner. He also died 16 years before the Civil War began. This Trump an… https://t.co/o0FyOyHRJu Final Tally: Trump said 488 lies or misleading statements in 100 Days. This. Is. Not. Normal. https://t.co/h5WckV2Utk This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. https://t.co/SJRSwN1rcE @Reuters The Anti-Trump !!!! RT @WXII: Pressure mounts on GOP health care bill https://t.co/kLhZfcJBfd https://t.co/2Yb1oVERYd RT @nytimes: Opinion: Donald Trump embraces another despot https://t.co/LRxImpjEqf https://t.co/bhiD8DNZ7S RT @kathieallenmd: Look who get's Trump's tax cuts: https://t.co/tMl6SZNgwV Trump - \"change rules now to 51%. Country needs a good \"shutdown\" in Sept. to fix mess!\" Imagine what Obama could have done w/o filibuster RT @Ruptly: Duterte may be 'too tied up' to accept Trump's US invite https://t.co/oaE7agoCRD https://t.co/qR2hiPWdaX I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo… https://t.co/JbCE6Nf6iS The Madder Trump Gets, the More Seriously the World Takes Him https://t.co/fU4wytm1KC RT @kalebhorton: Wait, hold up, let's savor this: Donald Trump *didn't even begin to understand* a metaphor made by *George W. Bush.* https… PAUL RYAN UNLEASHED=&gt; New House Budget RESTRICTS No FUNDING of Trump Border Wall‼️Fire... https://t.co/DPPH1NXoAx by #RichardTBurnett RT @washingtonpost: Opinion: Trump’s 100th-day speech may have been the most hate-filled in modern history https://t.co/IjIUqqi47u RT @CNNPR: In response to the Donald J. Trump for President campaign’s accusations of ad censorship: https://t.co/0Rbanpf0dn RT @YoungDems4Trump: Trump just had ICE arrest nearly 200 CRIMINAL illegal immigrants in just 5 states!\nhttps://t.co/eEvhSQo21d Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name… https://t.co/KAC6BhR2lV ",
+    "Text": "Andrew Jackson was a slaveholding plantation owner. He also died years before the Civil War began. This Trump an Final Tally Trump said lies or misleading statements in Days. This. Is. Not. Normal. This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. The Anti-Trump !!!! Pressure mounts on GOP health care bill Opinion Donald Trump embraces another despot Look who get's Trump's tax cuts Trump - change rules now to . Country needs a good shutdown in Sept. to fix mess! Imagine what Obama could have done wo filibuster Duterte may be 'too tied up' to accept Trump's US invite I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo The Madder Trump Gets, the More Seriously the World Takes Him Wait, hold up, let's savor this Donald Trump didn't even begin to understand a metaphor made by George W. Bush. https PAUL RYAN UNLEASHEDgt New House Budget RESTRICTS No FUNDING of Trump Border WallFire... by Opinion Trumps th-day speech may have been the most hate-filled in modern history In response to the Donald J. Trump for President campaigns accusations of ad censorship Trump just had ICE arrest nearly CRIMINAL illegal immigrants in just states! Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name",
+    "Stemmed Text": "andrew jackson was a slavehold plantat owner he also die year befor the civil war began this trump an final talli trump said lie or mislead statement in day this is not normal this exchang between trump and dickerson on trump s fals wiretap claim is stun must watch the anti trump pressur mount on gop health care bill opinion donald trump embrac anoth despot look who get s trump s tax cut trump chang rule now to countri need a good shutdown in sept to fix mess imagin what obama could have done wo filibust dutert may be too tie up to accept trump s us invit i m wait for her to play her trump card of call everyon think of vote tori a racist she s bound to soo the madder trump get the more serious the world take him wait hold up let s savor this donald trump didn t even begin to understand a metaphor made by georg w bush https paul ryan unleashedgt new hous budget restrict no fund of trump border wallfir by opinion trump th day speech may have been the most hate fill in modern histori in respons to the donald j trump for presid campaign accus of ad censorship trump just had ice arrest near crimin illeg immigr in just state speak of littl bitch barri also refus to say trump s name on numer occas even say trump s name",
+    "Twits": [
+      {
+        "text": "Andrew Jackson was a slaveholding plantation owner. He also died 16 years before the Civil War began. This Trump an… https://t.co/o0FyOyHRJu",
+        "id": 859026543317835800,
+        "location": "New York",
+        "coordinates": null
+      },
+      {
+        "text": "Final Tally: Trump said 488 lies or misleading statements in 100 Days. This. Is. Not. Normal. https://t.co/h5WckV2Utk",
+        "id": 858805436191055900,
+        "location": "Coral Gables, Fl",
+        "coordinates": null
+      },
+      {
+        "text": "This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. https://t.co/SJRSwN1rcE",
+        "id": 859070998418776000,
+        "location": "Manhattan, NY",
+        "coordinates": null
+      },
+      {
+        "text": "@Reuters The Anti-Trump !!!!",
+        "id": 859441965745700900,
+        "location": "New York, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @WXII: Pressure mounts on GOP health care bill https://t.co/kLhZfcJBfd https://t.co/2Yb1oVERYd",
+        "id": 859441964940501000,
+        "location": "North Carolina, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @nytimes: Opinion: Donald Trump embraces another despot https://t.co/LRxImpjEqf https://t.co/bhiD8DNZ7S",
+        "id": 859441964684644400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @kathieallenmd: Look who get's Trump's tax cuts: https://t.co/tMl6SZNgwV",
+        "id": 859441964521066500,
+        "location": "Baton Rouge",
+        "coordinates": null
+      },
+      {
+        "text": "Trump - \"change rules now to 51%. Country needs a good \"shutdown\" in Sept. to fix mess!\" Imagine what Obama could have done w/o filibuster",
+        "id": 859441964298653700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Ruptly: Duterte may be 'too tied up' to accept Trump's US invite https://t.co/oaE7agoCRD https://t.co/qR2hiPWdaX",
+        "id": 859441963749314600,
+        "location": "France",
+        "coordinates": null
+      },
+      {
+        "text": "I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo… https://t.co/JbCE6Nf6iS",
+        "id": 859441963745124400,
+        "location": "The Tower Of Song",
+        "coordinates": null
+      },
+      {
+        "text": "The Madder Trump Gets, the More Seriously the World Takes Him https://t.co/fU4wytm1KC",
+        "id": 859442448975528000,
+        "location": "Bruxelles, Belgique",
+        "coordinates": null
+      },
+      {
+        "text": "RT @kalebhorton: Wait, hold up, let's savor this: Donald Trump *didn't even begin to understand* a metaphor made by *George W. Bush.* https…",
+        "id": 859442448774385700,
+        "location": "Mechanicsburg, PA",
+        "coordinates": null
+      },
+      {
+        "text": "PAUL RYAN UNLEASHED=&gt; New House Budget RESTRICTS No FUNDING of Trump Border Wall‼️Fire... https://t.co/DPPH1NXoAx by #RichardTBurnett",
+        "id": 859442448766042100,
+        "location": "Texas",
+        "coordinates": null
+      },
+      {
+        "text": "RT @washingtonpost: Opinion: Trump’s 100th-day speech may have been the most hate-filled in modern history https://t.co/IjIUqqi47u",
+        "id": 859442448547934200,
+        "location": "Michigan, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @CNNPR: In response to the Donald J. Trump for President campaign’s accusations of ad censorship: https://t.co/0Rbanpf0dn",
+        "id": 859442448195604500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @YoungDems4Trump: Trump just had ICE arrest nearly 200 CRIMINAL illegal immigrants in just 5 states!\nhttps://t.co/eEvhSQo21d",
+        "id": 859442448153686000,
+        "location": "Cheyenne, Wyoming",
+        "coordinates": null
+      },
+      {
+        "text": "Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name… https://t.co/KAC6BhR2lV",
+        "id": 859442448124215300,
+        "location": "Kekistan👌🍌 (can't find carrot)",
+        "coordinates": null
+      }
+    ]
+  },
+  "jordan": {
+    "Score": {
+      "score": 4.99,
+      "score_perc": 55.48,
+      "words": 114
+    },
+    "numberOfTweets": 17,
+    "Raw Text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https://t.co/r22eOzzhan Another snack. Michael B(ae) Jordan. #MetGala https://t.co/rRlLiVRn80 It has happened again. Jordan Edwards was 15 years old; sitting in a car with his 16-year-old brother and friends i… https://t.co/XH1P4haROi RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… RT @RealJheneAiko_: *spends whole week w.her* \nAlright babe I'm heading out \nHer: https://t.co/ZbVY7C79jy RT @WangCecillia: Heartbroken, furious over police  killing of Jordan Edwards. Also furious at impulse to say he wasn't a \"thug.\" https://t… RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… RT @Salon: Police retracted their claim that Jordan Edwards was backing up \"in an aggressive matter\" https://t.co/kLWCExLZQc All I know is Jordan better had texted me RT @HBCUBuzz: Meet Howard University DJ Jordan Jetson https://t.co/hs8nq1PK8q RT @ShaunKing: The police lied for 3 days, saying Jordan's brother backed up and tried to run over them. \n\nLast night they admitted that ne… RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… NEW ON EBAY US! Nike Air Jordan 2 Retro Low Mens BASKETBALL Shoe (White/Red) NEW Mens Sz 9.5 https://t.co/aPjQYl3unf https://t.co/iQlq73eHWd RT @Phil_Lewis_: 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https:… RT @TrialDoc: Former Texas DA probably sent an innocent man to his death. Now he’s on trial for misconduct. https://t.co/LpZYPWFUzf by @chr… RT @InternetHippo: \"Blaming bankers for society's ills is no better than blaming immigrants,\" says man who forgot brain at home RT @GIRLposts: Auli'i Cravalho, Alessia Cara and Jordan Fisher performing \"How Far I'll Go\" on the #RDMAs is the best thing ever😍 https://t… ",
+    "Text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' Another snack. Michael Bae Jordan. It has happened again. Jordan Edwards was years old sitting in a car with his -year-old brother and friends i An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills spends whole week w.her Alright babe I'm heading out Her Heartbroken, furious over police killing of Jordan Edwards. Also furious at impulse to say he wasn't a thug. An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills Police retracted their claim that Jordan Edwards was backing up in an aggressive matter All I know is Jordan better had texted me Meet Howard University DJ Jordan Jetson The police lied for days, saying Jordan's brother backed up and tried to run over them. Last night they admitted that ne An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills NEW ON EBAY US! Nike Air Jordan Retro Low Mens BASKETBALL Shoe WhiteRed NEW Mens Sz . 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https Former Texas DA probably sent an innocent man to his death. Now hes on trial for misconduct. by Blaming bankers for society's ills is no better than blaming immigrants, says man who forgot brain at home Auli'i Cravalho, Alessia Cara and Jordan Fisher performing How Far I'll Go on the is the best thing ever",
+    "Stemmed Text": "jordan edward a straight a high school freshman was shot and kill when a polic offic fire at a vehicl anoth snack michael bae jordan it has happen again jordan edward was year old sit in a car with his year old brother and friend i an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill spend whole week w her alright babe i m head out her heartbroken furious over polic kill of jordan edward also furious at impuls to say he wasn t a thug an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill polic retract their claim that jordan edward was back up in an aggress matter all i know is jordan better had text me meet howard univers dj jordan jetson the polic lie for day say jordan s brother back up and tri to run over them last night they admit that ne an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill new on ebay us nike air jordan retro low men basketbal shoe whiter new men sz jordan edward a straight a high school freshman was shot and kill when a polic offic fire at a vehicl https former texa da probabl sent an innoc man to his death now hes on trial for misconduct by blame banker for societi s ill is no better than blame immigr say man who forgot brain at home auli i cravalho alessia cara and jordan fisher perform how far i ll go on the is the best thing ever",
+    "Twits": [
+      {
+        "text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https://t.co/r22eOzzhan",
+        "id": 859028873765425200,
+        "location": "Washington, DC",
+        "coordinates": null
+      },
+      {
+        "text": "Another snack. Michael B(ae) Jordan. #MetGala https://t.co/rRlLiVRn80",
+        "id": 859194201535258600,
+        "location": "Los Angeles, CA",
+        "coordinates": null
+      },
+      {
+        "text": "It has happened again. Jordan Edwards was 15 years old; sitting in a car with his 16-year-old brother and friends i… https://t.co/XH1P4haROi",
+        "id": 859104569212772400,
+        "location": "NYC",
+        "coordinates": null
+      },
+      {
+        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
+        "id": 859442008229896200,
+        "location": "somewhere crying as usual",
+        "coordinates": null
+      },
+      {
+        "text": "RT @RealJheneAiko_: *spends whole week w.her* \nAlright babe I'm heading out \nHer: https://t.co/ZbVY7C79jy",
+        "id": 859442008041173000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @WangCecillia: Heartbroken, furious over police  killing of Jordan Edwards. Also furious at impulse to say he wasn't a \"thug.\" https://t…",
+        "id": 859442005671379000,
+        "location": "Austin",
+        "coordinates": null
+      },
+      {
+        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
+        "id": 859442002513076200,
+        "location": "priv @awaytolose",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Salon: Police retracted their claim that Jordan Edwards was backing up \"in an aggressive matter\" https://t.co/kLWCExLZQc",
+        "id": 859442000189378600,
+        "location": "GTO - CA - TX",
+        "coordinates": null
+      },
+      {
+        "text": "All I know is Jordan better had texted me",
+        "id": 859441998838845400,
+        "location": "Fort Washington, MD",
+        "coordinates": null
+      },
+      {
+        "text": "RT @HBCUBuzz: Meet Howard University DJ Jordan Jetson https://t.co/hs8nq1PK8q",
+        "id": 859441995529543700,
+        "location": "Philly ➡️ D.C",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ShaunKing: The police lied for 3 days, saying Jordan's brother backed up and tried to run over them. \n\nLast night they admitted that ne…",
+        "id": 859442883572756500,
+        "location": "718 to your state",
+        "coordinates": null
+      },
+      {
+        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
+        "id": 859442880372289500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "NEW ON EBAY US! Nike Air Jordan 2 Retro Low Mens BASKETBALL Shoe (White/Red) NEW Mens Sz 9.5 https://t.co/aPjQYl3unf https://t.co/iQlq73eHWd",
+        "id": 859442880078852100,
+        "location": "United States",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Phil_Lewis_: 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https:…",
+        "id": 859442876102692900,
+        "location": "Dallas Texas",
+        "coordinates": null
+      },
+      {
+        "text": "RT @TrialDoc: Former Texas DA probably sent an innocent man to his death. Now he’s on trial for misconduct. https://t.co/LpZYPWFUzf by @chr…",
+        "id": 859442876006232000,
+        "location": "Miami, FL",
+        "coordinates": null
+      },
+      {
+        "text": "RT @InternetHippo: \"Blaming bankers for society's ills is no better than blaming immigrants,\" says man who forgot brain at home",
+        "id": 859442875314167800,
+        "location": "512",
+        "coordinates": null
+      },
+      {
+        "text": "RT @GIRLposts: Auli'i Cravalho, Alessia Cara and Jordan Fisher performing \"How Far I'll Go\" on the #RDMAs is the best thing ever😍 https://t…",
+        "id": 859442875188125700,
+        "location": "Singapore.",
+        "coordinates": null
+      }
+    ]
+  },
+  "obam": {
+    "Score": {
+      "score": 5.6,
+      "score_perc": 62.18,
+      "words": 53
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "@gaypassif20 Rase ! @chaut15gay Ton trou ^^ @dcexaminer Well, let's see, 19 mostly WORKING golf games vs. Obam's 333 golf games, total fail moron Schiff 💩🤡😂 https://t.co/dFlmXfDvEy Well, let's see, 19 mostly WORKING golf games vs. #Obam's 333 golf games, total fail moron @RepAdamSchiff 💩🤡😂… https://t.co/xMDa8hXQcR RT @mackenziejylu: IMPACT REPORT: 100 Examples of President Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/6TPjEqGIdj Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/Zh25D8oM3m Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide.  There are many witnesses, artic… RT @leeejohn: Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt ",
+    "Text": "Rase ! Ton trou Well, let's see, mostly WORKING golf games vs. Obam's golf games, total fail moron Schiff Well, let's see, mostly WORKING golf games vs. golf games, total fail moron IMPACT REPORT Examples of President Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide. There are many witnesses, artic Fabulous photo of Billy Obam and Leee Fabulous photo of Billy Obam and Leee",
+    "Stemmed Text": "rase ton trou well let s see most work golf game vs obam s golf game total fail moron schiff well let s see most work golf game vs golf game total fail moron impact report exampl of presid obam do or die day for gop health care bill a fate day is loom tuesday for republican effort to jam an obam do or die day for gop health care bill a fate day is loom tuesday for republican effort to jam an obam barac obam is beyond eveil he is a disgust sexual deviant who essenti in the process of genocid there are mani wit artic fabul photo of billi obam and leee fabul photo of billi obam and leee",
+    "Twits": [
+      {
+        "text": "@gaypassif20 Rase !",
+        "id": 859439326882652200,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@chaut15gay Ton trou ^^",
+        "id": 859430581863686100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@dcexaminer Well, let's see, 19 mostly WORKING golf games vs. Obam's 333 golf games, total fail moron Schiff 💩🤡😂 https://t.co/dFlmXfDvEy",
+        "id": 859427349745590300,
+        "location": "Michigan, USA",
+        "coordinates": null
+      },
+      {
+        "text": "Well, let's see, 19 mostly WORKING golf games vs. #Obam's 333 golf games, total fail moron @RepAdamSchiff 💩🤡😂… https://t.co/xMDa8hXQcR",
+        "id": 859426661535821800,
+        "location": "Michigan, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @mackenziejylu: IMPACT REPORT: 100 Examples of President Obam...",
+        "id": 859420339155161100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/6TPjEqGIdj",
+        "id": 859415313380761600,
+        "location": "Sunny South florida ",
+        "coordinates": null
+      },
+      {
+        "text": "Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/Zh25D8oM3m",
+        "id": 859411431393042400,
+        "location": "Houston US",
+        "coordinates": null
+      },
+      {
+        "text": "Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide.  There are many witnesses, artic…",
+        "id": 859404061849911300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @leeejohn: Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt",
+        "id": 859396218396520400,
+        "location": "London",
+        "coordinates": null
+      },
+      {
+        "text": "Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt",
+        "id": 859395539691085800,
+        "location": "London",
+        "coordinates": null
+      }
+    ]
+  },
+  "trumpet": {
+    "Score": {
+      "score": 5.65,
+      "score_perc": 62.78,
+      "words": 64
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him. Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget. .@NicoSegal is Saving Jazz (And Us) With His Trumpet https://t.co/2MBBGj02EI\n\n[Interview by @kareemchic] https://t.co/m9ZYpn5r2W RT @markknoller: Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget. UT Austin student killed in campus...: Harrison Brown played trumpet in the school band and ran cross country. He p… https://t.co/CZwkFO9pvq RT @angelicadisogno: https://t.co/x88XrgQog3\n🎼Franz Joseph Haydn(1732-1809)\n🎵Hob. XVIIe:1(Trumpet Concerto-on period instruments)\n🎨August F… @GlennThrush @jonfavs Never passes up an opportunity to trumpet himself, not his guests. RT @WHprayer: David Longoria White House We Are One Day of Prayer Trumpet https://t.co/megoO3a2Xq via @YouTube Spring Speaks through Piano, Flute and Trumpet https://t.co/7izCXWuO4C @astley_mil blowing your own trumpet there aren't you😉 ",
+    "Text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him. Pres uses event to trumpet billion increase in defense spending, ending years of painful cuts to the military budget. . is Saving Jazz And Us With His Trumpet Interview by Pres uses event to trumpet billion increase in defense spending, ending years of painful cuts to the military budget. UT Austin student killed in campus... Harrison Brown played trumpet in the school band and ran cross country. He p Franz Joseph Haydn-Hob. XVIIeTrumpet Concerto-on period instrumentsAugust F Never passes up an opportunity to trumpet himself, not his guests. David Longoria White House We Are One Day of Prayer Trumpet via Spring Speaks through Piano, Flute and Trumpet blowing your own trumpet there aren't you",
+    "Stemmed Text": "nobbi solano withhold his number ring up sir bobbi robson and play his trumpet down the phone to him pres use event to trumpet billion increas in defens spend end year of pain cut to the militari budget is save jazz and us with his trumpet interview by pres use event to trumpet billion increas in defens spend end year of pain cut to the militari budget ut austin student kill in campus harrison brown play trumpet in the school band and ran cross countri he p franz joseph haydn hob xviietrumpet concerto on period instrumentsaugust f never pass up an opportun to trumpet himself not his guest david longoria white hous we are one day of prayer trumpet via spring speak through piano flute and trumpet blow your own trumpet there aren t you",
+    "Twits": [
+      {
+        "text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him.",
+        "id": 858977999559032800,
+        "location": "Salford, England",
+        "coordinates": null
+      },
+      {
+        "text": "Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget.",
+        "id": 859437448211959800,
+        "location": "Washington, D.C.",
+        "coordinates": null
+      },
+      {
+        "text": ".@NicoSegal is Saving Jazz (And Us) With His Trumpet https://t.co/2MBBGj02EI\n\n[Interview by @kareemchic] https://t.co/m9ZYpn5r2W",
+        "id": 858003480367304700,
+        "location": "New York, NY",
+        "coordinates": null
+      },
+      {
+        "text": "RT @markknoller: Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget.",
+        "id": 859442437386883100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "UT Austin student killed in campus...: Harrison Brown played trumpet in the school band and ran cross country. He p… https://t.co/CZwkFO9pvq",
+        "id": 859442409276555300,
+        "location": "Boston, MA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @angelicadisogno: https://t.co/x88XrgQog3\n🎼Franz Joseph Haydn(1732-1809)\n🎵Hob. XVIIe:1(Trumpet Concerto-on period instruments)\n🎨August F…",
+        "id": 859442372609966100,
+        "location": "Italy",
+        "coordinates": null
+      },
+      {
+        "text": "@GlennThrush @jonfavs Never passes up an opportunity to trumpet himself, not his guests.",
+        "id": 859442124105887700,
+        "location": " NYC work, LA is home",
+        "coordinates": null
+      },
+      {
+        "text": "RT @WHprayer: David Longoria White House We Are One Day of Prayer Trumpet https://t.co/megoO3a2Xq via @YouTube",
+        "id": 859442086516408300,
+        "location": "Brooklyn, NY",
+        "coordinates": null
+      },
+      {
+        "text": "Spring Speaks through Piano, Flute and Trumpet https://t.co/7izCXWuO4C",
+        "id": 859442074998984700,
+        "location": "Bradford Ontario",
+        "coordinates": null
+      },
+      {
+        "text": "@astley_mil blowing your own trumpet there aren't you😉",
+        "id": 859441992924790800,
+        "location": "Warrington",
+        "coordinates": null
+      }
+    ]
+  },
+  "day9": {
+    "Score": {
+      "score": 5.99,
+      "score_perc": 66.54,
+      "words": 42
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e RT @MAHfromSiM: TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e Day9 in #30daymusicchallenge\nDon't worry be happy - bobby McFerrin When the DP asks the Key Grip for an eye line maker.\n#stellaslastweekend #day9 #flag #keygrip @… https://t.co/oCk1GEonxa In the shifting winds\nStorms build up to their zenith;\nHarbingers to come\n\n#haiku #haiku30DayChallenge #day9 #weather #butNotTheWeather RT @OhmToeyTogether: Day9 FrameBook will come back😉 \n\n#ohmtoey \n#makeitrighttheseries2 \n@ohmpawatt \n@ImerbSittiwat https://t.co/qZKRXxHNcE @LandsEndPR day9 my Mom, her daughter and my daughter #dearmom #mylandsend #sweepstakes https://t.co/zUsIzS1YJu Day9｜Simosan's Room https://t.co/ops9EwdetQ #amebaownd edison lighthouse - Love grows where my rosemary goes @Wr3kl00s #day9 https://t.co/pRqS5EvMui RT @BoraUpdates: [IG] Uniqlo with #Sistar #bora day9 I haven't ride a bicycle in a long time!I was a little straggling 😆\noutdoor exercise i… ",
+    "Text": "TRIPLE AXE TOUR ' day at OTO ICHIBA, Okinawa. Photo by TRIPLE AXE TOUR ' day at OTO ICHIBA, Okinawa. Photo by Day in Don't worry be happy - bobby McFerrin When the DP asks the Key Grip for an eye line maker. In the shifting windsStorms build up to their zenithHarbingers to come Day FrameBook will come back day my Mom, her daughter and my daughter DaySimosan's Room edison lighthouse - Love grows where my rosemary goes IG Uniqlo with day I haven't ride a bicycle in a long time!I was a little straggling outdoor exercise i",
+    "Stemmed Text": "tripl axe tour day at oto ichiba okinawa photo by tripl axe tour day at oto ichiba okinawa photo by day in don t worri be happi bobbi mcferrin when the dp ask the key grip for an eye line maker in the shift windsstorm build up to their zenithharbing to come day framebook will come back day my mom her daughter and my daughter daysimosan s room edison lighthous love grow where my rosemari goe ig uniqlo with day i haven t ride a bicycl in a long time i was a littl straggl outdoor exercis i",
+    "Twits": [
+      {
+        "text": "TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e",
+        "id": 858865787397849100,
+        "location": "Kanagawa, Japan",
+        "coordinates": null
+      },
+      {
+        "text": "RT @MAHfromSiM: TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e",
+        "id": 859442435042103300,
+        "location": "Prambanan,Yogyakarta",
+        "coordinates": null
+      },
+      {
+        "text": "Day9 in #30daymusicchallenge\nDon't worry be happy - bobby McFerrin",
+        "id": 859419139307429900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "When the DP asks the Key Grip for an eye line maker.\n#stellaslastweekend #day9 #flag #keygrip @… https://t.co/oCk1GEonxa",
+        "id": 859418734703681500,
+        "location": "New York, NY",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [
+            -73.99440152,
+            40.73429836
+          ]
+        }
+      },
+      {
+        "text": "In the shifting winds\nStorms build up to their zenith;\nHarbingers to come\n\n#haiku #haiku30DayChallenge #day9 #weather #butNotTheWeather",
+        "id": 859417673008123900,
+        "location": "Here, There, Everywhere...",
+        "coordinates": null
+      },
+      {
+        "text": "RT @OhmToeyTogether: Day9 FrameBook will come back😉 \n\n#ohmtoey \n#makeitrighttheseries2 \n@ohmpawatt \n@ImerbSittiwat https://t.co/qZKRXxHNcE",
+        "id": 859414730577920000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@LandsEndPR day9 my Mom, her daughter and my daughter #dearmom #mylandsend #sweepstakes https://t.co/zUsIzS1YJu",
+        "id": 859408840810483700,
+        "location": "Florida",
+        "coordinates": null
+      },
+      {
+        "text": "Day9｜Simosan's Room https://t.co/ops9EwdetQ #amebaownd",
+        "id": 859406302191079400,
+        "location": "じゃぱん",
+        "coordinates": null
+      },
+      {
+        "text": "edison lighthouse - Love grows where my rosemary goes @Wr3kl00s #day9 https://t.co/pRqS5EvMui",
+        "id": 859406210172411900,
+        "location": "the big pretzel",
+        "coordinates": null
+      },
+      {
+        "text": "RT @BoraUpdates: [IG] Uniqlo with #Sistar #bora day9 I haven't ride a bicycle in a long time!I was a little straggling 😆\noutdoor exercise i…",
+        "id": 859401441735082000,
+        "location": "Yolo YL01",
+        "coordinates": null
+      }
+    ]
+  },
+  "japan": {
+    "Score": {
+      "score": 5.9,
+      "score_perc": 65.6,
+      "words": 29
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "#SHINee Japan Tour 'SHINee WORLD 2017 ~FIVE~' https://t.co/gvsZ04t5xK SHINee wraps up their 5th Japan tour with 250,000 fans https://t.co/Y8NJGS3g8n https://t.co/hNAxCXcP3i Japan to send biggest warship to protect US supply vessel https://t.co/tjUokWOySR Why you acting like it's not tho its like saying Japan jsnt in the United States https://t.co/4aDuj1g4G6 RT @Amyperuana: @CGJgirona @simonjetz @BenExile @Papryka5 @MOCarballeira @amparofashion @cmont4560 @mariagr39912290 @PasqualeTotaro @Yoland… japanese sute gilr collection https://t.co/Hv8Zxr9slr #idol #world #girl #cute #girl USGS | M 4.6 - 84km SSW of Chichi-shima, Japan https://t.co/REzdoVAMkK &lt;-From japan with love26 scene1 #bispak #porn #bokep RT @dailyexhoe: \"EXO-CBX broke EXO's record as the fastest selling K-pop group in Japan\"\n\nEXO vs. EXO\nEXO breaking their own record\n\nKA-CHI… All Japanese wish the assassination of #Trump !Japan is #IslamFirst  #FuckTrump #FuckAmericaGreatAgain (Fuck #AmericaFirst ) ",
+    "Text": "Japan Tour 'SHINee WORLD FIVE' SHINee wraps up their th Japan tour with , fans Japan to send biggest warship to protect US supply vessel Why you acting like it's not tho its like saying Japan jsnt in the United States ese sute gilr collection USGS M . - km SSW of Chichi-shima, Japan lt-From japan with love scene EXO-CBX broke EXO's record as the fastest selling K-pop group in JapanEXO vs. EXOEXO breaking their own recordKA-CHI All Japanese wish the assassination of !Japan is Fuck",
+    "Stemmed Text": "japan tour shine world five shine wrap up their th japan tour with fan japan to send biggest warship to protect us suppli vessel whi you act like it s not tho it like say japan jsnt in the unit state ese sute gilr collect usg m km ssw of chichi shima japan lt from japan with love scene exo cbx broke exo s record as the fastest sell k pop group in japanexo vs exoexo break their own recordka chi all japanes wish the assassin of japan is fuck",
+    "Twits": [
+      {
+        "text": "#SHINee Japan Tour 'SHINee WORLD 2017 ~FIVE~' https://t.co/gvsZ04t5xK",
+        "id": 858963620230643700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "SHINee wraps up their 5th Japan tour with 250,000 fans https://t.co/Y8NJGS3g8n https://t.co/hNAxCXcP3i",
+        "id": 859281673061584900,
+        "location": "Worldwide",
+        "coordinates": null
+      },
+      {
+        "text": "Japan to send biggest warship to protect US supply vessel https://t.co/tjUokWOySR",
+        "id": 858899095301312500,
+        "location": "London, UK",
+        "coordinates": null
+      },
+      {
+        "text": "Why you acting like it's not tho its like saying Japan jsnt in the United States https://t.co/4aDuj1g4G6",
+        "id": 859442624972939300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Amyperuana: @CGJgirona @simonjetz @BenExile @Papryka5 @MOCarballeira @amparofashion @cmont4560 @mariagr39912290 @PasqualeTotaro @Yoland…",
+        "id": 859442621139345400,
+        "location": "ROUEN (76)FRANCE",
+        "coordinates": null
+      },
+      {
+        "text": "japanese sute gilr collection https://t.co/Hv8Zxr9slr #idol #world #girl #cute #girl",
+        "id": 859442620619120600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "USGS | M 4.6 - 84km SSW of Chichi-shima, Japan",
+        "id": 859442618710753300,
+        "location": "Barrington and Hawaii",
+        "coordinates": null
+      },
+      {
+        "text": "https://t.co/REzdoVAMkK &lt;-From japan with love26 scene1 #bispak #porn #bokep",
+        "id": 859442611819397100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @dailyexhoe: \"EXO-CBX broke EXO's record as the fastest selling K-pop group in Japan\"\n\nEXO vs. EXO\nEXO breaking their own record\n\nKA-CHI…",
+        "id": 859442611332857900,
+        "location": "multifandom",
+        "coordinates": null
+      },
+      {
+        "text": "All Japanese wish the assassination of #Trump !Japan is #IslamFirst  #FuckTrump #FuckAmericaGreatAgain (Fuck #AmericaFirst )",
+        "id": 859442610498293800,
+        "location": "天空の城ラピュタ ",
+        "coordinates": null
+      }
+    ]
+  },
+  "tokyo": {
+    "Score": {
+      "score": 6.2,
+      "score_perc": 68.92,
+      "words": 46
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq Final night at Tokyo Dome after an incredible week. Thank you Japan! #OneOnOne https://t.co/1QBiHgJyRU Tokyo, Japan presale for @ArianaGrande's #DangerousWomanTour is live! 🇯🇵🐰 Get your tickets here →… https://t.co/MAezDWSNZI RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy RT @dataisplural: YOU [a shameless dunderhead]: the capital of Japan is Tokyo \nME [serenely under my breath]: actually, it's J. RT @PDChina: Japan's ultra-luxurious train w 2-story $10,000 suites &amp; panoramic carriages sets off on its maiden journey from Tokyo to Hokk… ♪Shake It - Robin Aristo / DAISHI DANCE / W&amp;W JAPAN TOUR 2017 in TOKYO #ageHa_Tokyo\nhttps://t.co/CpHuQpunSV RT @dannyodwyer: Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq Remote Graphics (Citrix, VMware, Microsoft) and Visual Computing Japan East (Tokyo, Saitama) now GA with Azure…… https://t.co/ZtRgjfUCGq ",
+    "Text": "Tokyo Fact If you dance outside of Super Potato, you will cause local NPCs to start dancing too. Final night at Tokyo Dome after an incredible week. Thank you Japan! Tokyo, Japan presale for 's is live! Get your tickets here , ravers on a beach in Tokyo , ravers on a beach in Tokyo YOU a shameless dunderhead the capital of Japan is Tokyo ME serenely under my breath actually, it's J. Japan's ultra-luxurious train w -story , suites amp panoramic carriages sets off on its maiden journey from Tokyo to Hokk Shake It - Robin Aristo DAISHI DANCE WampW JAPAN TOUR in TOKYO Tokyo Fact If you dance outside of Super Potato, you will cause local NPCs to start dancing too. Remote Graphics Citrix, VMware, Microsoft and Visual Computing Japan East Tokyo, Saitama now GA with Azure",
+    "Stemmed Text": "tokyo fact if you danc outsid of super potato you will caus local npcs to start danc too final night at tokyo dome after an incred week thank you japan tokyo japan presal for s is live get your ticket here raver on a beach in tokyo raver on a beach in tokyo you a shameless dunderhead the capit of japan is tokyo me seren under my breath actual it s j japan s ultra luxuri train w stori suit amp panoram carriag set off on it maiden journey from tokyo to hokk shake it robin aristo daishi danc wampw japan tour in tokyo tokyo fact if you danc outsid of super potato you will caus local npcs to start danc too remot graphic citrix vmware microsoft and visual comput japan east tokyo saitama now ga with azur",
+    "Twits": [
+      {
+        "text": "Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq",
+        "id": 859205883758166000,
+        "location": "Oakland, CA",
+        "coordinates": null
+      },
+      {
+        "text": "Final night at Tokyo Dome after an incredible week. Thank you Japan! #OneOnOne https://t.co/1QBiHgJyRU",
+        "id": 858837603717722100,
+        "location": "England",
+        "coordinates": null
+      },
+      {
+        "text": "Tokyo, Japan presale for @ArianaGrande's #DangerousWomanTour is live! 🇯🇵🐰 Get your tickets here →… https://t.co/MAezDWSNZI",
+        "id": 858848502130106400,
+        "location": "On Android and iOS",
+        "coordinates": null
+      },
+      {
+        "text": "RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy",
+        "id": 859442645940260900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy",
+        "id": 859442612562014200,
+        "location": "Florida, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @dataisplural: YOU [a shameless dunderhead]: the capital of Japan is Tokyo \nME [serenely under my breath]: actually, it's J.",
+        "id": 859442608447381500,
+        "location": "Among the happy 'lil trees",
+        "coordinates": null
+      },
+      {
+        "text": "RT @PDChina: Japan's ultra-luxurious train w 2-story $10,000 suites &amp; panoramic carriages sets off on its maiden journey from Tokyo to Hokk…",
+        "id": 859442603896569900,
+        "location": "London, England",
+        "coordinates": null
+      },
+      {
+        "text": "♪Shake It - Robin Aristo / DAISHI DANCE / W&amp;W JAPAN TOUR 2017 in TOKYO #ageHa_Tokyo\nhttps://t.co/CpHuQpunSV",
+        "id": 859442600239022100,
+        "location": "東京都渋谷区富ヶ谷",
+        "coordinates": null
+      },
+      {
+        "text": "RT @dannyodwyer: Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq",
+        "id": 859442596472598500,
+        "location": "London, England",
+        "coordinates": null
+      },
+      {
+        "text": "Remote Graphics (Citrix, VMware, Microsoft) and Visual Computing Japan East (Tokyo, Saitama) now GA with Azure…… https://t.co/ZtRgjfUCGq",
+        "id": 859442594882900000,
+        "location": "United States",
+        "coordinates": null
+      }
+    ]
+  },
   "france": {
     "Score": {
-      "score": 0,
-      "score_perc": 0,
-      "words": 0
+      "score": 5.84,
+      "score_perc": 64.94,
+      "words": 43
     },
-    "numberOfTweets": 0,
-    "Raw Text": "",
-    "Text": "",
-    "Stemmed Text": "",
-    "Twits": []
+    "numberOfTweets": 10,
+    "Raw Text": "An Insult to France https://t.co/dFyZruqYxl A Porsche Cayenne has successfully towed a 285-tonne Air France Airbus A380 42-metres, setting a new GUINNESS WORLD… https://t.co/lhNXKoI5yZ Happening now in France! #MayDay2017 https://t.co/21uGZ93xYB https://t.co/jFs0GLEDEX RT @alexmorgan13: Congrats Jules on the huge accomplishment and the official release day of your book #ChooseToMatter! @JulieFoudy (Do they… RT @Oathkeepers: NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa! @KPikklefield @Nix_km @Lauren_Southern @Pro… france porno movies https://t.co/m7gBqtzd6C RT @LVNancy: One Courageous Woman #Marine2017\n⚜️End of Totalitatrtian Regime that wants Death of #France\n⚜️Mosques Closed\n⚜️Muslim Brotherh… RT @theparkjihoon: jerry really lives in france... rt if u cried. what a powerful story https://t.co/WXhrt9Vsor @AnshelPfeffer note that in the survey a vote for Le Pen was not among the options https://t.co/ZiIoNALcqQ @blackpinkslisaa Oh hi France! I'm Jackson 🌚🌝 ",
+    "Text": "An Insult to France A Porsche Cayenne has successfully towed a -tonne Air France Airbus A -metres, setting a new GUINNESS WORLD Happening now in France! Congrats Jules on the huge accomplishment and the official release day of your book Do they NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa!  porno movies One Courageous Woman End of Totalitatrtian Regime that wants Death of Mosques ClosedMuslim Brotherh jerry really lives in france... rt if u cried. what a powerful story note that in the survey a vote for Le Pen was not among the options Oh hi France! I'm Jackson",
+    "Stemmed Text": "an insult to franc a porsch cayenn has success tow a tonn air franc airbus a metr set a new guin world happen now in franc congrat jule on the huge accomplish and the offici releas day of your book do they not on our watch not in our countri franc must rise up and put down antifa porno movi one courag woman end of totalitatrtian regim that want death of mosqu closedmuslim brotherh jerri realli live in franc rt if u cri what a power stori note that in the survey a vote for le pen was not among the option oh hi franc i m jackson",
+    "Twits": [
+      {
+        "text": "An Insult to France https://t.co/dFyZruqYxl",
+        "id": 858766661733670900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "A Porsche Cayenne has successfully towed a 285-tonne Air France Airbus A380 42-metres, setting a new GUINNESS WORLD… https://t.co/lhNXKoI5yZ",
+        "id": 859117066145726500,
+        "location": "Atlanta, GA",
+        "coordinates": null
+      },
+      {
+        "text": "Happening now in France! #MayDay2017 https://t.co/21uGZ93xYB https://t.co/jFs0GLEDEX",
+        "id": 859058394585587700,
+        "location": "USAF Desert Storm/Shield Vet",
+        "coordinates": null
+      },
+      {
+        "text": "RT @alexmorgan13: Congrats Jules on the huge accomplishment and the official release day of your book #ChooseToMatter! @JulieFoudy (Do they…",
+        "id": 859442814815305700,
+        "location": "California, USA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Oathkeepers: NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa! @KPikklefield @Nix_km @Lauren_Southern @Pro…",
+        "id": 859442814693855200,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "france porno movies https://t.co/m7gBqtzd6C",
+        "id": 859442814291243000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @LVNancy: One Courageous Woman #Marine2017\n⚜️End of Totalitatrtian Regime that wants Death of #France\n⚜️Mosques Closed\n⚜️Muslim Brotherh…",
+        "id": 859442809992032300,
+        "location": "England, ",
+        "coordinates": null
+      },
+      {
+        "text": "RT @theparkjihoon: jerry really lives in france... rt if u cried. what a powerful story https://t.co/WXhrt9Vsor",
+        "id": 859442802148515800,
+        "location": "jihoon's closet",
+        "coordinates": null
+      },
+      {
+        "text": "@AnshelPfeffer note that in the survey a vote for Le Pen was not among the options https://t.co/ZiIoNALcqQ",
+        "id": 859442797551775700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@blackpinkslisaa Oh hi France! I'm Jackson 🌚🌝",
+        "id": 859442797106954200,
+        "location": "",
+        "coordinates": null
+      }
+    ]
+  },
+  "lepein": {
+    "Score": {
+      "score": 5.48,
+      "score_perc": 60.94,
+      "words": 7
+    },
+    "numberOfTweets": 3,
+    "Raw Text": "@AvivaBrueckner Isn't LePein the President now? @XO_BB_XO Macron and LePein seem to make it to the final round. GO VOTER LEPEIN BLC ",
+    "Text": "Isn't LePein the President now? Macron and LePein seem to make it to the final round. GO VOTER LEPEIN BLC",
+    "Stemmed Text": "isn t lepein the presid now macron and lepein seem to make it to the final round go voter lepein blc",
+    "Twits": [
+      {
+        "text": "@AvivaBrueckner Isn't LePein the President now?",
+        "id": 856219250926776300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "@XO_BB_XO Macron and LePein seem to make it to the final round.",
+        "id": 856218276715798500,
+        "location": "in my world",
+        "coordinates": null
+      },
+      {
+        "text": "GO VOTER LEPEIN BLC",
+        "id": 856206524343091200,
+        "location": "Long Beach, CA",
+        "coordinates": null
+      }
+    ]
+  },
+  "peine": {
+    "Score": {
+      "score": 5.66,
+      "score_perc": 62.85,
+      "words": 29
+    },
+    "numberOfTweets": 10,
+    "Raw Text": "LePen without \"peine:\nThat copycat autocrat\nReady for more pain?\n\n#haiku #France #MarineLePen\n https://t.co/ERtxdr04Vb Girouettisme.\nhttps://t.co/fc7qtnxkZs\n#ContreLesFachosJeVote  #SortonsLepen  #FNJamais  @ResisTeamFR @Joyce_Karam @cliodiaspora @tobiaschneider Melania, dat you writing that stuff for La Peine? Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... https://t.co/J67MnarDrT https://t.co/rfkWcyvQSn Now Playing Live: Eklips - Pas La Peine -#IamSoLougarou #BalKonpaLive24Sou24 WATCH: Large Group of Migrants Fight With Locals in #GermanTown #large #Peine https://t.co/LaVLNrfeTd https://t.co/Eaq6hk7oSA RT @LVNNlSTER: Game of Thrones - Red wedding \nJe ressens votre peine https://t.co/D5ILAxMfRr Spicy Slut Mature peine Pounded https://t.co/5SDOFRf9C8 Busty teen girl obtient a peine baisee https://t.co/ue6ZgBOTtZ \"BB MELIKI MOFU OFFICIEL VIDEO CLIP\" : https://t.co/ghF0rf1fT5 via @YouTube ",
+    "Text": "LePen without That copycat autocratReady for more pain? Girouettisme. Melania, dat you writing that stuff for La Peine? Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... Now Playing Live Eklips - Pas La Peine - WATCH Large Group of Migrants Fight With Locals in Game of Thrones - Red wedding Je ressens votre peine Spicy Slut Mature peine Pounded Busty teen girl obtient a peine baisee BB MELIKI MOFU OFFICIEL VIDEO CLIP via",
+    "Stemmed Text": "lepen without that copycat autocratreadi for more pain girouettism melania dat you write that stuff for la pein natur sandalwood comb cepillo de pelo larg wide tooth no static massag ha now play live eklip pas la pein watch larg group of migrant fight with local in game of throne red wed je ressen votr pein spici slut matur pein pound busti teen girl obtient a pein baise bb meliki mofu officiel video clip via",
+    "Twits": [
+      {
+        "text": "LePen without \"peine:\nThat copycat autocrat\nReady for more pain?\n\n#haiku #France #MarineLePen\n https://t.co/ERtxdr04Vb",
+        "id": 859405195201179600,
+        "location": "Sherbrooke, Québec, Canada",
+        "coordinates": null
+      },
+      {
+        "text": "Girouettisme.\nhttps://t.co/fc7qtnxkZs\n#ContreLesFachosJeVote  #SortonsLepen  #FNJamais  @ResisTeamFR",
+        "id": 859391082777411600,
+        "location": "Montrouge, France",
+        "coordinates": null
+      },
+      {
+        "text": "@Joyce_Karam @cliodiaspora @tobiaschneider Melania, dat you writing that stuff for La Peine?",
+        "id": 859387461411242000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... https://t.co/J67MnarDrT https://t.co/rfkWcyvQSn",
+        "id": 859376198467629000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Now Playing Live: Eklips - Pas La Peine -#IamSoLougarou #BalKonpaLive24Sou24",
+        "id": 859337179822260200,
+        "location": "In my own world",
+        "coordinates": null
+      },
+      {
+        "text": "WATCH: Large Group of Migrants Fight With Locals in #GermanTown #large #Peine https://t.co/LaVLNrfeTd https://t.co/Eaq6hk7oSA",
+        "id": 859332556478701600,
+        "location": "Dresden",
+        "coordinates": null
+      },
+      {
+        "text": "RT @LVNNlSTER: Game of Thrones - Red wedding \nJe ressens votre peine https://t.co/D5ILAxMfRr",
+        "id": 859319420476371000,
+        "location": "star wars",
+        "coordinates": null
+      },
+      {
+        "text": "Spicy Slut Mature peine Pounded https://t.co/5SDOFRf9C8",
+        "id": 859297447838920700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Busty teen girl obtient a peine baisee https://t.co/ue6ZgBOTtZ",
+        "id": 859287712444145700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "\"BB MELIKI MOFU OFFICIEL VIDEO CLIP\" : https://t.co/ghF0rf1fT5 via @YouTube",
+        "id": 859165310334754800,
+        "location": "Le Mans, France",
+        "coordinates": null
+      }
+    ]
   }
 }

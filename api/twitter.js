@@ -1,5 +1,5 @@
 var rate   = 15000;
-var _count  = 2;
+var _count  = 10;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
@@ -38,23 +38,25 @@ exports.getAllTwits = function(res, req) {
   sent.getAll(res, req);
 }
 
-exports.getTwitsSearch = function(res, search, lang, count, geocode) {
+exports.getTwitsSearch = function(res, search, lang, count) {
 
   T.get('search/tweets', {
     q: search,
     lang: lang ? lang : "en",
     count: count ? count : _count,
-    geocode: geocode,
-    include_entities: false,
+    // geocode: geocode,
+    // include_entities: false,
     // geocode: "0.0, 0.0, 10000km",
     result_type: "mixed" // mixed, recent, popular
   }, function (err, data, response) {
+
+    // console.log("data", JSON.stringify(data.statuses)); OK
 
     twits = [];
 
     for (var t in data.statuses) {
 
-      if (data.statuses[t].retweeted == "false") {
+      if (data.statuses[t].retweeted == false) {
         twits.push({
           "text" : data.statuses[t].text.trim(),
           "id" : data.statuses[t].id,
@@ -65,8 +67,8 @@ exports.getTwitsSearch = function(res, search, lang, count, geocode) {
       // twits.push(data.statuses[t].text.trim());
     }
 
-    // sent.getSentiment(res, search, twits);
-    res.send(data);
+    sent.getSentiment(res, search, twits);
+    // res.send(data);
 
   });
 }

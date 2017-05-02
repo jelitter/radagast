@@ -44,7 +44,6 @@ exports.removeTopicResults = function(res, text) {
   }
 }
 
-
 exports.getAll = function(res, req) {
   res.send (results);
 }
@@ -91,6 +90,7 @@ exports.getSentiment = function(res, search, twits) {
     .replace(/\bRT\b|\n|#\S+|https?\:\/\/\S+|\@\w+/g, "")
     .replace(/[^a-zA-Záéíóúàèìòùâêîôûäëïöü\!\?\,\.'\- ]/g, "")
     .replace(/\s{2,}/g, " ")
+    // .replace(search, "")
     .trim();
 
 

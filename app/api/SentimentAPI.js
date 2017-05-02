@@ -9,7 +9,7 @@ var axios = require('axios');
 axios.defaults.headers.common['X-Mashape-Key'] = mashapeKey;
 
 module.exports = {
-  getSentiment: function(text) {
+  getSentiment3: function(text) {
     var config = {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',

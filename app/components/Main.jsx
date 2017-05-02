@@ -22,7 +22,7 @@ var Main = React.createClass({
                 fulltext: response.Text,
                 score: response.Score,
                 isSearching: false
-            })
+            });
         }, function(errorMsg){
             alert(errorMsg);
             _this.setState({isSearching: false})
