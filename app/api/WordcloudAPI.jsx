@@ -147,7 +147,8 @@ export var wordcloud = function (text, top=20) {
                 index: k2,
                 style: {
                     "color": '#'+Math.floor(Math.random() * 0x1000000).toString(16),
-                    "fontSize": size + 'px', //PLACEHOLDER dividing by 90 so results are not out of madre
+                    "display" : 'block',
+                    "fontSize": size + 'px',
                     "textShadow": '0px 0px 4px Black',
                     "transform" : 'rotate(' + angle + 'deg)'
                 }, 

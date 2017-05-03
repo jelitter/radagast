@@ -10,7 +10,7 @@ var Wordcloud = React.createClass({
     componentDidUpdate: function(){
         var { text } = this.props;
 
-        console.log("text", JSON.stringify(text));
+        // console.log("text", JSON.stringify(text));
 
         if(text) {
             WordcloudAPI.wordcloud(text);
@@ -23,7 +23,7 @@ var Wordcloud = React.createClass({
 
             if (text) {
                 var processedText = WordcloudAPI.wordcloud(text);
-                console.log(processedText);
+                // console.log(processedText);
                 return processedText.map((elem) => {
                     return(
                             <li key={elem.index}
