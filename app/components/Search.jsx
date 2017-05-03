@@ -7,7 +7,7 @@ var Search = React.createClass({
         return(
             <div>
                 <SearchForm onSearch={this.props.onSearch}/>
-                <Favourites/>
+                <Favourites onClickFavourite={this.props.onClickFavourite} favs={this.props.favs} onRenderFavs={this.props.onRenderFavs}/>
             </div>
         )
     }
