@@ -1,899 +1,1195 @@
 {
-  "obama": {
-    "Score": {
-      "score": 5.59,
-      "score_perc": 62.08,
-      "words": 123
-    },
-    "numberOfTweets": 18,
-    "Raw Text": "The Trump administration is ending Michelle Obama's \"Let Girls Learn\" education program https://t.co/EeOS19CbyY https://t.co/5pjI948sQ1 #BREAKING: Trump ends Michelle Obama's girls education program https://t.co/K0mfkBu5sD https://t.co/g3sh7RNr10 Anniversary of bin Laden raid tomorrow. FOX graphics team:\n\nOBAMA FIRST 100 DAYS: BIN LADEN AT LARGE\nTRUMP FIRST 100 DAYS: BIN LADEN DEAD RT @TheComedyKitty: Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures https://t.co/KtY4bzTVjB @FirstTrampTrump I don't know probably loyalty to the USA the same thing then Obama declared last year Trump administration loosens Obama-era school lunch requirements https://t.co/yC62r9COQ5 via the @FoxNews Android app RT @MayProTrump: Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h… RT @JoeNBC: The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine… RT @AynRandPaulRyan: Here's the POTUS, literally running away from an interview when he can't answer the question about Obama \"wiretapping\"… @realDonaldTrump didn't realize being president is hard work. Imagine how tough Obama had it after Bush's\" great recession\". No golf 4 you! RT @danpfeiffer: Episode 700 in the long running series \"How would Fox News cover this if Obama did it\" (spoiler: like the end of the Repub… \"You don’t pay $400,000 a speech because you want to hire President Obama — you pay it because you want to be the... https://t.co/M0yr4x95By RT @YeeNAssociates: @nytimes @ChuckGrassley With #Obama u were a transparency hawk. W/ #Trump, you're like a cricket. No moral outrage at #… RT @theblaze: Liz Warren slams Obama and Democrats for ignoring the working class   https://t.co/ViVdKe93mE https://t.co/r0X8gs7qOt @CBSThisMorning @VP @mike_pence Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of… https://t.co/JKPvKiLTOA RT @KevinFarzad: The stats don't lie. Trump is crushing Obama https://t.co/C7Mxd86ItG RT @YoungDems4Trump: Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating!\nhttps://t.co/656cbWJ… Looks like overthrow of \"Obama's war on suburbs\" stalled as GOP attends to higher profile civil rights targets #AFFH https://t.co/1Z4Cp4Oueh ",
-    "Text": "The Trump administration is ending Michelle Obama's Let Girls Learn education program Trump ends Michelle Obama's girls education program Anniversary of bin Laden raid tomorrow. FOX graphics teamOBAMA FIRST DAYS BIN LADEN AT LARGETRUMP FIRST DAYS BIN LADEN DEAD Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures I don't know probably loyalty to the USA the same thing then Obama declared last year Trump administration loosens Obama-era school lunch requirements via the Android app Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine Here's the POTUS, literally running away from an interview when he can't answer the question about Obama wiretapping didn't realize being president is hard work. Imagine how tough Obama had it after Bush's great recession. No golf you! Episode in the long running series How would Fox News cover this if Obama did it spoiler like the end of the Repub You dont pay , a speech because you want to hire President Obama you pay it because you want to be the... With u were a transparency hawk. W you're like a cricket. No moral outrage at Liz Warren slams Obama and Democrats for ignoring the working class Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of The stats don't lie. Trump is crushing Obama Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating! Looks like overthrow of Obama's war on suburbs stalled as GOP attends to higher profile civil rights targets",
-    "Stemmed Text": "the trump administr is end michell obama s let girl learn educ program trump end michell obama s girl educ program anniversari of bin laden raid tomorrow fox graphic teamobama first day bin laden at largetrump first day bin laden dead malia obama is look insan hot in her most recent pictur i don t know probabl loyalti to the usa the same thing then obama declar last year trump administr loosen obama era school lunch requir via the android app paul ryan is the traitor to all american citizen becaus pryan is obama s follow run obama s deep state in d c h the man and his famili sacrif more than we will know how presid obama make his money in privat life now is his busin here s the potus liter run away from an interview when he can t answer the question about obama wiretap didn t realiz be presid is hard work imagin how tough obama had it after bush s great recess no golf you episod in the long run seri how would fox news cover this if obama did it spoiler like the end of the repub you dont pay a speech becaus you want to hire presid obama you pay it becaus you want to be the with u were a transpar hawk w you re like a cricket no moral outrag at liz warren slam obama and democrat for ignor the work class reliev there is no wall fund no cut to plan parenthood same practic of the stat don t lie trump is crush obama obama s fbi translat fell in love with the isi terrorist she was suppos to be investig look like overthrow of obama s war on suburb stall as gop attend to higher profil civil right target",
-    "Twits": [
-      {
-        "text": "The Trump administration is ending Michelle Obama's \"Let Girls Learn\" education program https://t.co/EeOS19CbyY https://t.co/5pjI948sQ1",
-        "id": 859095326623506400,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "#BREAKING: Trump ends Michelle Obama's girls education program https://t.co/K0mfkBu5sD https://t.co/g3sh7RNr10",
-        "id": 859095997972193300,
-        "location": "Washington, DC",
-        "coordinates": null
-      },
-      {
-        "text": "Anniversary of bin Laden raid tomorrow. FOX graphics team:\n\nOBAMA FIRST 100 DAYS: BIN LADEN AT LARGE\nTRUMP FIRST 100 DAYS: BIN LADEN DEAD",
-        "id": 858851380550881300,
-        "location": "Washington, DC",
-        "coordinates": null
-      },
-      {
-        "text": "RT @TheComedyKitty: Malia Obama Is Looking Insanely Hot In Her Most Recent Pictures https://t.co/KtY4bzTVjB",
-        "id": 859441940927979500,
-        "location": "USA",
-        "coordinates": null
-      },
-      {
-        "text": "@FirstTrampTrump I don't know probably loyalty to the USA the same thing then Obama declared last year",
-        "id": 859442048025456600,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "Trump administration loosens Obama-era school lunch requirements https://t.co/yC62r9COQ5 via the @FoxNews Android app",
-        "id": 859442043545952300,
-        "location": ".",
-        "coordinates": null
-      },
-      {
-        "text": "RT @MayProTrump: Paul Ryan is the Traitor to All American Citizens, because PRyan is Obama's follower, running Obama's Deep State in D.C. h…",
-        "id": 859442038474907600,
-        "location": "Irvine, California, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @JoeNBC: The man and his family sacrificed more than we will know. How President Obama makes his money in private life now is his busine…",
-        "id": 859442036402905100,
-        "location": "San Francisco Bay Area",
-        "coordinates": null
-      },
-      {
-        "text": "RT @AynRandPaulRyan: Here's the POTUS, literally running away from an interview when he can't answer the question about Obama \"wiretapping\"…",
-        "id": 859442035618721800,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@realDonaldTrump didn't realize being president is hard work. Imagine how tough Obama had it after Bush's\" great recession\". No golf 4 you!",
-        "id": 859442034754584600,
-        "location": "Houston, TX",
-        "coordinates": null
-      },
-      {
-        "text": "RT @danpfeiffer: Episode 700 in the long running series \"How would Fox News cover this if Obama did it\" (spoiler: like the end of the Repub…",
-        "id": 859442033018253300,
-        "location": "USA, USA",
-        "coordinates": null
-      },
-      {
-        "text": "\"You don’t pay $400,000 a speech because you want to hire President Obama — you pay it because you want to be the... https://t.co/M0yr4x95By",
-        "id": 859442406772658200,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @YeeNAssociates: @nytimes @ChuckGrassley With #Obama u were a transparency hawk. W/ #Trump, you're like a cricket. No moral outrage at #…",
-        "id": 859442406143414300,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @theblaze: Liz Warren slams Obama and Democrats for ignoring the working class   https://t.co/ViVdKe93mE https://t.co/r0X8gs7qOt",
-        "id": 859442405841420300,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@CBSThisMorning @VP @mike_pence Relieved there is no Wall funding. No cuts to Planned Parenthood. Same practice of… https://t.co/JKPvKiLTOA",
-        "id": 859442404709081100,
-        "location": "Snellville, GA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @KevinFarzad: The stats don't lie. Trump is crushing Obama https://t.co/C7Mxd86ItG",
-        "id": 859442404629336000,
-        "location": "ok",
-        "coordinates": null
-      },
-      {
-        "text": "RT @YoungDems4Trump: Obama's FBI translator fell in love with the ISIS terrorist she was supposed to be investigating!\nhttps://t.co/656cbWJ…",
-        "id": 859442404532858900,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "Looks like overthrow of \"Obama's war on suburbs\" stalled as GOP attends to higher profile civil rights targets #AFFH https://t.co/1Z4Cp4Oueh",
-        "id": 859442404096712700,
-        "location": "",
-        "coordinates": null
-      }
-    ]
-  },
-  "trump": {
-    "Score": {
-      "score": 5.05,
-      "score_perc": 56.12,
-      "words": 109
-    },
-    "numberOfTweets": 17,
-    "Raw Text": "Andrew Jackson was a slaveholding plantation owner. He also died 16 years before the Civil War began. This Trump an… https://t.co/o0FyOyHRJu Final Tally: Trump said 488 lies or misleading statements in 100 Days. This. Is. Not. Normal. https://t.co/h5WckV2Utk This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. https://t.co/SJRSwN1rcE @Reuters The Anti-Trump !!!! RT @WXII: Pressure mounts on GOP health care bill https://t.co/kLhZfcJBfd https://t.co/2Yb1oVERYd RT @nytimes: Opinion: Donald Trump embraces another despot https://t.co/LRxImpjEqf https://t.co/bhiD8DNZ7S RT @kathieallenmd: Look who get's Trump's tax cuts: https://t.co/tMl6SZNgwV Trump - \"change rules now to 51%. Country needs a good \"shutdown\" in Sept. to fix mess!\" Imagine what Obama could have done w/o filibuster RT @Ruptly: Duterte may be 'too tied up' to accept Trump's US invite https://t.co/oaE7agoCRD https://t.co/qR2hiPWdaX I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo… https://t.co/JbCE6Nf6iS The Madder Trump Gets, the More Seriously the World Takes Him https://t.co/fU4wytm1KC RT @kalebhorton: Wait, hold up, let's savor this: Donald Trump *didn't even begin to understand* a metaphor made by *George W. Bush.* https… PAUL RYAN UNLEASHED=&gt; New House Budget RESTRICTS No FUNDING of Trump Border Wall‼️Fire... https://t.co/DPPH1NXoAx by #RichardTBurnett RT @washingtonpost: Opinion: Trump’s 100th-day speech may have been the most hate-filled in modern history https://t.co/IjIUqqi47u RT @CNNPR: In response to the Donald J. Trump for President campaign’s accusations of ad censorship: https://t.co/0Rbanpf0dn RT @YoungDems4Trump: Trump just had ICE arrest nearly 200 CRIMINAL illegal immigrants in just 5 states!\nhttps://t.co/eEvhSQo21d Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name… https://t.co/KAC6BhR2lV ",
-    "Text": "Andrew Jackson was a slaveholding plantation owner. He also died years before the Civil War began. This Trump an Final Tally Trump said lies or misleading statements in Days. This. Is. Not. Normal. This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. The Anti-Trump !!!! Pressure mounts on GOP health care bill Opinion Donald Trump embraces another despot Look who get's Trump's tax cuts Trump - change rules now to . Country needs a good shutdown in Sept. to fix mess! Imagine what Obama could have done wo filibuster Duterte may be 'too tied up' to accept Trump's US invite I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo The Madder Trump Gets, the More Seriously the World Takes Him Wait, hold up, let's savor this Donald Trump didn't even begin to understand a metaphor made by George W. Bush. https PAUL RYAN UNLEASHEDgt New House Budget RESTRICTS No FUNDING of Trump Border WallFire... by Opinion Trumps th-day speech may have been the most hate-filled in modern history In response to the Donald J. Trump for President campaigns accusations of ad censorship Trump just had ICE arrest nearly CRIMINAL illegal immigrants in just states! Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name",
-    "Stemmed Text": "andrew jackson was a slavehold plantat owner he also die year befor the civil war began this trump an final talli trump said lie or mislead statement in day this is not normal this exchang between trump and dickerson on trump s fals wiretap claim is stun must watch the anti trump pressur mount on gop health care bill opinion donald trump embrac anoth despot look who get s trump s tax cut trump chang rule now to countri need a good shutdown in sept to fix mess imagin what obama could have done wo filibust dutert may be too tie up to accept trump s us invit i m wait for her to play her trump card of call everyon think of vote tori a racist she s bound to soo the madder trump get the more serious the world take him wait hold up let s savor this donald trump didn t even begin to understand a metaphor made by georg w bush https paul ryan unleashedgt new hous budget restrict no fund of trump border wallfir by opinion trump th day speech may have been the most hate fill in modern histori in respons to the donald j trump for presid campaign accus of ad censorship trump just had ice arrest near crimin illeg immigr in just state speak of littl bitch barri also refus to say trump s name on numer occas even say trump s name",
-    "Twits": [
-      {
-        "text": "Andrew Jackson was a slaveholding plantation owner. He also died 16 years before the Civil War began. This Trump an… https://t.co/o0FyOyHRJu",
-        "id": 859026543317835800,
-        "location": "New York",
-        "coordinates": null
-      },
-      {
-        "text": "Final Tally: Trump said 488 lies or misleading statements in 100 Days. This. Is. Not. Normal. https://t.co/h5WckV2Utk",
-        "id": 858805436191055900,
-        "location": "Coral Gables, Fl",
-        "coordinates": null
-      },
-      {
-        "text": "This exchange between Trump and Dickerson on Trump's false wiretapping claims is stunning. Must-watch. https://t.co/SJRSwN1rcE",
-        "id": 859070998418776000,
-        "location": "Manhattan, NY",
-        "coordinates": null
-      },
-      {
-        "text": "@Reuters The Anti-Trump !!!!",
-        "id": 859441965745700900,
-        "location": "New York, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @WXII: Pressure mounts on GOP health care bill https://t.co/kLhZfcJBfd https://t.co/2Yb1oVERYd",
-        "id": 859441964940501000,
-        "location": "North Carolina, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @nytimes: Opinion: Donald Trump embraces another despot https://t.co/LRxImpjEqf https://t.co/bhiD8DNZ7S",
-        "id": 859441964684644400,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @kathieallenmd: Look who get's Trump's tax cuts: https://t.co/tMl6SZNgwV",
-        "id": 859441964521066500,
-        "location": "Baton Rouge",
-        "coordinates": null
-      },
-      {
-        "text": "Trump - \"change rules now to 51%. Country needs a good \"shutdown\" in Sept. to fix mess!\" Imagine what Obama could have done w/o filibuster",
-        "id": 859441964298653700,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @Ruptly: Duterte may be 'too tied up' to accept Trump's US invite https://t.co/oaE7agoCRD https://t.co/qR2hiPWdaX",
-        "id": 859441963749314600,
-        "location": "France",
-        "coordinates": null
-      },
-      {
-        "text": "I'm waiting for her to play her trump card of calling everyone thinking of voting tory a racist, she's bound to soo… https://t.co/JbCE6Nf6iS",
-        "id": 859441963745124400,
-        "location": "The Tower Of Song",
-        "coordinates": null
-      },
-      {
-        "text": "The Madder Trump Gets, the More Seriously the World Takes Him https://t.co/fU4wytm1KC",
-        "id": 859442448975528000,
-        "location": "Bruxelles, Belgique",
-        "coordinates": null
-      },
-      {
-        "text": "RT @kalebhorton: Wait, hold up, let's savor this: Donald Trump *didn't even begin to understand* a metaphor made by *George W. Bush.* https…",
-        "id": 859442448774385700,
-        "location": "Mechanicsburg, PA",
-        "coordinates": null
-      },
-      {
-        "text": "PAUL RYAN UNLEASHED=&gt; New House Budget RESTRICTS No FUNDING of Trump Border Wall‼️Fire... https://t.co/DPPH1NXoAx by #RichardTBurnett",
-        "id": 859442448766042100,
-        "location": "Texas",
-        "coordinates": null
-      },
-      {
-        "text": "RT @washingtonpost: Opinion: Trump’s 100th-day speech may have been the most hate-filled in modern history https://t.co/IjIUqqi47u",
-        "id": 859442448547934200,
-        "location": "Michigan, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @CNNPR: In response to the Donald J. Trump for President campaign’s accusations of ad censorship: https://t.co/0Rbanpf0dn",
-        "id": 859442448195604500,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @YoungDems4Trump: Trump just had ICE arrest nearly 200 CRIMINAL illegal immigrants in just 5 states!\nhttps://t.co/eEvhSQo21d",
-        "id": 859442448153686000,
-        "location": "Cheyenne, Wyoming",
-        "coordinates": null
-      },
-      {
-        "text": "Speaking of little bitches, Barry also refused to say Trump's name on numerous occasions. Even saying Trump's name… https://t.co/KAC6BhR2lV",
-        "id": 859442448124215300,
-        "location": "Kekistan👌🍌 (can't find carrot)",
-        "coordinates": null
-      }
-    ]
-  },
-  "jordan": {
-    "Score": {
-      "score": 4.99,
-      "score_perc": 55.48,
-      "words": 114
-    },
-    "numberOfTweets": 17,
-    "Raw Text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https://t.co/r22eOzzhan Another snack. Michael B(ae) Jordan. #MetGala https://t.co/rRlLiVRn80 It has happened again. Jordan Edwards was 15 years old; sitting in a car with his 16-year-old brother and friends i… https://t.co/XH1P4haROi RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… RT @RealJheneAiko_: *spends whole week w.her* \nAlright babe I'm heading out \nHer: https://t.co/ZbVY7C79jy RT @WangCecillia: Heartbroken, furious over police  killing of Jordan Edwards. Also furious at impulse to say he wasn't a \"thug.\" https://t… RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… RT @Salon: Police retracted their claim that Jordan Edwards was backing up \"in an aggressive matter\" https://t.co/kLWCExLZQc All I know is Jordan better had texted me RT @HBCUBuzz: Meet Howard University DJ Jordan Jetson https://t.co/hs8nq1PK8q RT @ShaunKing: The police lied for 3 days, saying Jordan's brother backed up and tried to run over them. \n\nLast night they admitted that ne… RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15… NEW ON EBAY US! Nike Air Jordan 2 Retro Low Mens BASKETBALL Shoe (White/Red) NEW Mens Sz 9.5 https://t.co/aPjQYl3unf https://t.co/iQlq73eHWd RT @Phil_Lewis_: 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https:… RT @TrialDoc: Former Texas DA probably sent an innocent man to his death. Now he’s on trial for misconduct. https://t.co/LpZYPWFUzf by @chr… RT @InternetHippo: \"Blaming bankers for society's ills is no better than blaming immigrants,\" says man who forgot brain at home RT @GIRLposts: Auli'i Cravalho, Alessia Cara and Jordan Fisher performing \"How Far I'll Go\" on the #RDMAs is the best thing ever😍 https://t… ",
-    "Text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' Another snack. Michael Bae Jordan. It has happened again. Jordan Edwards was years old sitting in a car with his -year-old brother and friends i An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills spends whole week w.her Alright babe I'm heading out Her Heartbroken, furious over police killing of Jordan Edwards. Also furious at impulse to say he wasn't a thug. An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills Police retracted their claim that Jordan Edwards was backing up in an aggressive matter All I know is Jordan better had texted me Meet Howard University DJ Jordan Jetson The police lied for days, saying Jordan's brother backed up and tried to run over them. Last night they admitted that ne An officer fires into a car that was backing down the road in an aggressive manner, full of unarmed teens amp kills NEW ON EBAY US! Nike Air Jordan Retro Low Mens BASKETBALL Shoe WhiteRed NEW Mens Sz . 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https Former Texas DA probably sent an innocent man to his death. Now hes on trial for misconduct. by Blaming bankers for society's ills is no better than blaming immigrants, says man who forgot brain at home Auli'i Cravalho, Alessia Cara and Jordan Fisher performing How Far I'll Go on the is the best thing ever",
-    "Stemmed Text": "jordan edward a straight a high school freshman was shot and kill when a polic offic fire at a vehicl anoth snack michael bae jordan it has happen again jordan edward was year old sit in a car with his year old brother and friend i an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill spend whole week w her alright babe i m head out her heartbroken furious over polic kill of jordan edward also furious at impuls to say he wasn t a thug an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill polic retract their claim that jordan edward was back up in an aggress matter all i know is jordan better had text me meet howard univers dj jordan jetson the polic lie for day say jordan s brother back up and tri to run over them last night they admit that ne an offic fire into a car that was back down the road in an aggress manner full of unarm teen amp kill new on ebay us nike air jordan retro low men basketbal shoe whiter new men sz jordan edward a straight a high school freshman was shot and kill when a polic offic fire at a vehicl https former texa da probabl sent an innoc man to his death now hes on trial for misconduct by blame banker for societi s ill is no better than blame immigr say man who forgot brain at home auli i cravalho alessia cara and jordan fisher perform how far i ll go on the is the best thing ever",
-    "Twits": [
-      {
-        "text": "'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https://t.co/r22eOzzhan",
-        "id": 859028873765425200,
-        "location": "Washington, DC",
-        "coordinates": null
-      },
-      {
-        "text": "Another snack. Michael B(ae) Jordan. #MetGala https://t.co/rRlLiVRn80",
-        "id": 859194201535258600,
-        "location": "Los Angeles, CA",
-        "coordinates": null
-      },
-      {
-        "text": "It has happened again. Jordan Edwards was 15 years old; sitting in a car with his 16-year-old brother and friends i… https://t.co/XH1P4haROi",
-        "id": 859104569212772400,
-        "location": "NYC",
-        "coordinates": null
-      },
-      {
-        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
-        "id": 859442008229896200,
-        "location": "somewhere crying as usual",
-        "coordinates": null
-      },
-      {
-        "text": "RT @RealJheneAiko_: *spends whole week w.her* \nAlright babe I'm heading out \nHer: https://t.co/ZbVY7C79jy",
-        "id": 859442008041173000,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @WangCecillia: Heartbroken, furious over police  killing of Jordan Edwards. Also furious at impulse to say he wasn't a \"thug.\" https://t…",
-        "id": 859442005671379000,
-        "location": "Austin",
-        "coordinates": null
-      },
-      {
-        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
-        "id": 859442002513076200,
-        "location": "priv @awaytolose",
-        "coordinates": null
-      },
-      {
-        "text": "RT @Salon: Police retracted their claim that Jordan Edwards was backing up \"in an aggressive matter\" https://t.co/kLWCExLZQc",
-        "id": 859442000189378600,
-        "location": "GTO - CA - TX",
-        "coordinates": null
-      },
-      {
-        "text": "All I know is Jordan better had texted me",
-        "id": 859441998838845400,
-        "location": "Fort Washington, MD",
-        "coordinates": null
-      },
-      {
-        "text": "RT @HBCUBuzz: Meet Howard University DJ Jordan Jetson https://t.co/hs8nq1PK8q",
-        "id": 859441995529543700,
-        "location": "Philly ➡️ D.C",
-        "coordinates": null
-      },
-      {
-        "text": "RT @ShaunKing: The police lied for 3 days, saying Jordan's brother backed up and tried to run over them. \n\nLast night they admitted that ne…",
-        "id": 859442883572756500,
-        "location": "718 to your state",
-        "coordinates": null
-      },
-      {
-        "text": "RT @pettyblackgirI: An officer fires into a car that was \"backing down the road in an aggressive manner,\" full of unarmed teens &amp; kills 15…",
-        "id": 859442880372289500,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "NEW ON EBAY US! Nike Air Jordan 2 Retro Low Mens BASKETBALL Shoe (White/Red) NEW Mens Sz 9.5 https://t.co/aPjQYl3unf https://t.co/iQlq73eHWd",
-        "id": 859442880078852100,
-        "location": "United States",
-        "coordinates": null
-      },
-      {
-        "text": "RT @Phil_Lewis_: 'Jordan Edwards, a straight-A, high school freshman, was shot and killed when a police officer fired at a vehicle.' https:…",
-        "id": 859442876102692900,
-        "location": "Dallas Texas",
-        "coordinates": null
-      },
-      {
-        "text": "RT @TrialDoc: Former Texas DA probably sent an innocent man to his death. Now he’s on trial for misconduct. https://t.co/LpZYPWFUzf by @chr…",
-        "id": 859442876006232000,
-        "location": "Miami, FL",
-        "coordinates": null
-      },
-      {
-        "text": "RT @InternetHippo: \"Blaming bankers for society's ills is no better than blaming immigrants,\" says man who forgot brain at home",
-        "id": 859442875314167800,
-        "location": "512",
-        "coordinates": null
-      },
-      {
-        "text": "RT @GIRLposts: Auli'i Cravalho, Alessia Cara and Jordan Fisher performing \"How Far I'll Go\" on the #RDMAs is the best thing ever😍 https://t…",
-        "id": 859442875188125700,
-        "location": "Singapore.",
-        "coordinates": null
-      }
-    ]
-  },
-  "obam": {
-    "Score": {
-      "score": 5.6,
-      "score_perc": 62.18,
-      "words": 53
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "@gaypassif20 Rase ! @chaut15gay Ton trou ^^ @dcexaminer Well, let's see, 19 mostly WORKING golf games vs. Obam's 333 golf games, total fail moron Schiff 💩🤡😂 https://t.co/dFlmXfDvEy Well, let's see, 19 mostly WORKING golf games vs. #Obam's 333 golf games, total fail moron @RepAdamSchiff 💩🤡😂… https://t.co/xMDa8hXQcR RT @mackenziejylu: IMPACT REPORT: 100 Examples of President Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/6TPjEqGIdj Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/Zh25D8oM3m Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide.  There are many witnesses, artic… RT @leeejohn: Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt ",
-    "Text": "Rase ! Ton trou Well, let's see, mostly WORKING golf games vs. Obam's golf games, total fail moron Schiff Well, let's see, mostly WORKING golf games vs. golf games, total fail moron IMPACT REPORT Examples of President Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide. There are many witnesses, artic Fabulous photo of Billy Obam and Leee Fabulous photo of Billy Obam and Leee",
-    "Stemmed Text": "rase ton trou well let s see most work golf game vs obam s golf game total fail moron schiff well let s see most work golf game vs golf game total fail moron impact report exampl of presid obam do or die day for gop health care bill a fate day is loom tuesday for republican effort to jam an obam do or die day for gop health care bill a fate day is loom tuesday for republican effort to jam an obam barac obam is beyond eveil he is a disgust sexual deviant who essenti in the process of genocid there are mani wit artic fabul photo of billi obam and leee fabul photo of billi obam and leee",
-    "Twits": [
-      {
-        "text": "@gaypassif20 Rase !",
-        "id": 859439326882652200,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@chaut15gay Ton trou ^^",
-        "id": 859430581863686100,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@dcexaminer Well, let's see, 19 mostly WORKING golf games vs. Obam's 333 golf games, total fail moron Schiff 💩🤡😂 https://t.co/dFlmXfDvEy",
-        "id": 859427349745590300,
-        "location": "Michigan, USA",
-        "coordinates": null
-      },
-      {
-        "text": "Well, let's see, 19 mostly WORKING golf games vs. #Obam's 333 golf games, total fail moron @RepAdamSchiff 💩🤡😂… https://t.co/xMDa8hXQcR",
-        "id": 859426661535821800,
-        "location": "Michigan, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @mackenziejylu: IMPACT REPORT: 100 Examples of President Obam...",
-        "id": 859420339155161100,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/6TPjEqGIdj",
-        "id": 859415313380761600,
-        "location": "Sunny South florida ",
-        "coordinates": null
-      },
-      {
-        "text": "Do-or-die day for GOP health care bill - A fateful day is looming Tuesday for Republican efforts to jam an Obam... https://t.co/Zh25D8oM3m",
-        "id": 859411431393042400,
-        "location": "Houston US",
-        "coordinates": null
-      },
-      {
-        "text": "Barac Obam is beyond eveil - he is a disgusting sexual deviant who essentially in the process of genocide.  There are many witnesses, artic…",
-        "id": 859404061849911300,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @leeejohn: Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt",
-        "id": 859396218396520400,
-        "location": "London",
-        "coordinates": null
-      },
-      {
-        "text": "Fabulous photo of Billy Obam and Leee https://t.co/kOWOZpaQgt",
-        "id": 859395539691085800,
-        "location": "London",
-        "coordinates": null
-      }
-    ]
-  },
-  "trumpet": {
-    "Score": {
-      "score": 5.65,
-      "score_perc": 62.78,
-      "words": 64
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him. Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget. .@NicoSegal is Saving Jazz (And Us) With His Trumpet https://t.co/2MBBGj02EI\n\n[Interview by @kareemchic] https://t.co/m9ZYpn5r2W RT @markknoller: Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget. UT Austin student killed in campus...: Harrison Brown played trumpet in the school band and ran cross country. He p… https://t.co/CZwkFO9pvq RT @angelicadisogno: https://t.co/x88XrgQog3\n🎼Franz Joseph Haydn(1732-1809)\n🎵Hob. XVIIe:1(Trumpet Concerto-on period instruments)\n🎨August F… @GlennThrush @jonfavs Never passes up an opportunity to trumpet himself, not his guests. RT @WHprayer: David Longoria White House We Are One Day of Prayer Trumpet https://t.co/megoO3a2Xq via @YouTube Spring Speaks through Piano, Flute and Trumpet https://t.co/7izCXWuO4C @astley_mil blowing your own trumpet there aren't you😉 ",
-    "Text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him. Pres uses event to trumpet billion increase in defense spending, ending years of painful cuts to the military budget. . is Saving Jazz And Us With His Trumpet Interview by Pres uses event to trumpet billion increase in defense spending, ending years of painful cuts to the military budget. UT Austin student killed in campus... Harrison Brown played trumpet in the school band and ran cross country. He p Franz Joseph Haydn-Hob. XVIIeTrumpet Concerto-on period instrumentsAugust F Never passes up an opportunity to trumpet himself, not his guests. David Longoria White House We Are One Day of Prayer Trumpet via Spring Speaks through Piano, Flute and Trumpet blowing your own trumpet there aren't you",
-    "Stemmed Text": "nobbi solano withhold his number ring up sir bobbi robson and play his trumpet down the phone to him pres use event to trumpet billion increas in defens spend end year of pain cut to the militari budget is save jazz and us with his trumpet interview by pres use event to trumpet billion increas in defens spend end year of pain cut to the militari budget ut austin student kill in campus harrison brown play trumpet in the school band and ran cross countri he p franz joseph haydn hob xviietrumpet concerto on period instrumentsaugust f never pass up an opportun to trumpet himself not his guest david longoria white hous we are one day of prayer trumpet via spring speak through piano flute and trumpet blow your own trumpet there aren t you",
-    "Twits": [
-      {
-        "text": "Nobby Solano withholding his number, ringing up Sir Bobby Robson, and playing his trumpet down the phone to him.",
-        "id": 858977999559032800,
-        "location": "Salford, England",
-        "coordinates": null
-      },
-      {
-        "text": "Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget.",
-        "id": 859437448211959800,
-        "location": "Washington, D.C.",
-        "coordinates": null
-      },
-      {
-        "text": ".@NicoSegal is Saving Jazz (And Us) With His Trumpet https://t.co/2MBBGj02EI\n\n[Interview by @kareemchic] https://t.co/m9ZYpn5r2W",
-        "id": 858003480367304700,
-        "location": "New York, NY",
-        "coordinates": null
-      },
-      {
-        "text": "RT @markknoller: Pres uses event to trumpet $21billion increase in defense spending, \"ending years of painful cuts\" to the military budget.",
-        "id": 859442437386883100,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "UT Austin student killed in campus...: Harrison Brown played trumpet in the school band and ran cross country. He p… https://t.co/CZwkFO9pvq",
-        "id": 859442409276555300,
-        "location": "Boston, MA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @angelicadisogno: https://t.co/x88XrgQog3\n🎼Franz Joseph Haydn(1732-1809)\n🎵Hob. XVIIe:1(Trumpet Concerto-on period instruments)\n🎨August F…",
-        "id": 859442372609966100,
-        "location": "Italy",
-        "coordinates": null
-      },
-      {
-        "text": "@GlennThrush @jonfavs Never passes up an opportunity to trumpet himself, not his guests.",
-        "id": 859442124105887700,
-        "location": " NYC work, LA is home",
-        "coordinates": null
-      },
-      {
-        "text": "RT @WHprayer: David Longoria White House We Are One Day of Prayer Trumpet https://t.co/megoO3a2Xq via @YouTube",
-        "id": 859442086516408300,
-        "location": "Brooklyn, NY",
-        "coordinates": null
-      },
-      {
-        "text": "Spring Speaks through Piano, Flute and Trumpet https://t.co/7izCXWuO4C",
-        "id": 859442074998984700,
-        "location": "Bradford Ontario",
-        "coordinates": null
-      },
-      {
-        "text": "@astley_mil blowing your own trumpet there aren't you😉",
-        "id": 859441992924790800,
-        "location": "Warrington",
-        "coordinates": null
-      }
-    ]
-  },
-  "day9": {
-    "Score": {
-      "score": 5.99,
-      "score_perc": 66.54,
-      "words": 42
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e RT @MAHfromSiM: TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e Day9 in #30daymusicchallenge\nDon't worry be happy - bobby McFerrin When the DP asks the Key Grip for an eye line maker.\n#stellaslastweekend #day9 #flag #keygrip @… https://t.co/oCk1GEonxa In the shifting winds\nStorms build up to their zenith;\nHarbingers to come\n\n#haiku #haiku30DayChallenge #day9 #weather #butNotTheWeather RT @OhmToeyTogether: Day9 FrameBook will come back😉 \n\n#ohmtoey \n#makeitrighttheseries2 \n@ohmpawatt \n@ImerbSittiwat https://t.co/qZKRXxHNcE @LandsEndPR day9 my Mom, her daughter and my daughter #dearmom #mylandsend #sweepstakes https://t.co/zUsIzS1YJu Day9｜Simosan's Room https://t.co/ops9EwdetQ #amebaownd edison lighthouse - Love grows where my rosemary goes @Wr3kl00s #day9 https://t.co/pRqS5EvMui RT @BoraUpdates: [IG] Uniqlo with #Sistar #bora day9 I haven't ride a bicycle in a long time!I was a little straggling 😆\noutdoor exercise i… ",
-    "Text": "TRIPLE AXE TOUR ' day at OTO ICHIBA, Okinawa. Photo by TRIPLE AXE TOUR ' day at OTO ICHIBA, Okinawa. Photo by Day in Don't worry be happy - bobby McFerrin When the DP asks the Key Grip for an eye line maker. In the shifting windsStorms build up to their zenithHarbingers to come Day FrameBook will come back day my Mom, her daughter and my daughter DaySimosan's Room edison lighthouse - Love grows where my rosemary goes IG Uniqlo with day I haven't ride a bicycle in a long time!I was a little straggling outdoor exercise i",
-    "Stemmed Text": "tripl axe tour day at oto ichiba okinawa photo by tripl axe tour day at oto ichiba okinawa photo by day in don t worri be happi bobbi mcferrin when the dp ask the key grip for an eye line maker in the shift windsstorm build up to their zenithharbing to come day framebook will come back day my mom her daughter and my daughter daysimosan s room edison lighthous love grow where my rosemari goe ig uniqlo with day i haven t ride a bicycl in a long time i was a littl straggl outdoor exercis i",
-    "Twits": [
-      {
-        "text": "TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e",
-        "id": 858865787397849100,
-        "location": "Kanagawa, Japan",
-        "coordinates": null
-      },
-      {
-        "text": "RT @MAHfromSiM: TRIPLE AXE TOUR '17 day9 at OTO ICHIBA, Okinawa.\n\n#SiM #coldrain #HEYSMITH #TAT17\n\nPhoto by… https://t.co/BG6jUBT98e",
-        "id": 859442435042103300,
-        "location": "Prambanan,Yogyakarta",
-        "coordinates": null
-      },
-      {
-        "text": "Day9 in #30daymusicchallenge\nDon't worry be happy - bobby McFerrin",
-        "id": 859419139307429900,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "When the DP asks the Key Grip for an eye line maker.\n#stellaslastweekend #day9 #flag #keygrip @… https://t.co/oCk1GEonxa",
-        "id": 859418734703681500,
-        "location": "New York, NY",
-        "coordinates": {
-          "type": "Point",
-          "coordinates": [
-            -73.99440152,
-            40.73429836
-          ]
-        }
-      },
-      {
-        "text": "In the shifting winds\nStorms build up to their zenith;\nHarbingers to come\n\n#haiku #haiku30DayChallenge #day9 #weather #butNotTheWeather",
-        "id": 859417673008123900,
-        "location": "Here, There, Everywhere...",
-        "coordinates": null
-      },
-      {
-        "text": "RT @OhmToeyTogether: Day9 FrameBook will come back😉 \n\n#ohmtoey \n#makeitrighttheseries2 \n@ohmpawatt \n@ImerbSittiwat https://t.co/qZKRXxHNcE",
-        "id": 859414730577920000,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@LandsEndPR day9 my Mom, her daughter and my daughter #dearmom #mylandsend #sweepstakes https://t.co/zUsIzS1YJu",
-        "id": 859408840810483700,
-        "location": "Florida",
-        "coordinates": null
-      },
-      {
-        "text": "Day9｜Simosan's Room https://t.co/ops9EwdetQ #amebaownd",
-        "id": 859406302191079400,
-        "location": "じゃぱん",
-        "coordinates": null
-      },
-      {
-        "text": "edison lighthouse - Love grows where my rosemary goes @Wr3kl00s #day9 https://t.co/pRqS5EvMui",
-        "id": 859406210172411900,
-        "location": "the big pretzel",
-        "coordinates": null
-      },
-      {
-        "text": "RT @BoraUpdates: [IG] Uniqlo with #Sistar #bora day9 I haven't ride a bicycle in a long time!I was a little straggling 😆\noutdoor exercise i…",
-        "id": 859401441735082000,
-        "location": "Yolo YL01",
-        "coordinates": null
-      }
-    ]
-  },
-  "japan": {
-    "Score": {
-      "score": 5.9,
-      "score_perc": 65.6,
-      "words": 29
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "#SHINee Japan Tour 'SHINee WORLD 2017 ~FIVE~' https://t.co/gvsZ04t5xK SHINee wraps up their 5th Japan tour with 250,000 fans https://t.co/Y8NJGS3g8n https://t.co/hNAxCXcP3i Japan to send biggest warship to protect US supply vessel https://t.co/tjUokWOySR Why you acting like it's not tho its like saying Japan jsnt in the United States https://t.co/4aDuj1g4G6 RT @Amyperuana: @CGJgirona @simonjetz @BenExile @Papryka5 @MOCarballeira @amparofashion @cmont4560 @mariagr39912290 @PasqualeTotaro @Yoland… japanese sute gilr collection https://t.co/Hv8Zxr9slr #idol #world #girl #cute #girl USGS | M 4.6 - 84km SSW of Chichi-shima, Japan https://t.co/REzdoVAMkK &lt;-From japan with love26 scene1 #bispak #porn #bokep RT @dailyexhoe: \"EXO-CBX broke EXO's record as the fastest selling K-pop group in Japan\"\n\nEXO vs. EXO\nEXO breaking their own record\n\nKA-CHI… All Japanese wish the assassination of #Trump !Japan is #IslamFirst  #FuckTrump #FuckAmericaGreatAgain (Fuck #AmericaFirst ) ",
-    "Text": "Japan Tour 'SHINee WORLD FIVE' SHINee wraps up their th Japan tour with , fans Japan to send biggest warship to protect US supply vessel Why you acting like it's not tho its like saying Japan jsnt in the United States ese sute gilr collection USGS M . - km SSW of Chichi-shima, Japan lt-From japan with love scene EXO-CBX broke EXO's record as the fastest selling K-pop group in JapanEXO vs. EXOEXO breaking their own recordKA-CHI All Japanese wish the assassination of !Japan is Fuck",
-    "Stemmed Text": "japan tour shine world five shine wrap up their th japan tour with fan japan to send biggest warship to protect us suppli vessel whi you act like it s not tho it like say japan jsnt in the unit state ese sute gilr collect usg m km ssw of chichi shima japan lt from japan with love scene exo cbx broke exo s record as the fastest sell k pop group in japanexo vs exoexo break their own recordka chi all japanes wish the assassin of japan is fuck",
-    "Twits": [
-      {
-        "text": "#SHINee Japan Tour 'SHINee WORLD 2017 ~FIVE~' https://t.co/gvsZ04t5xK",
-        "id": 858963620230643700,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "SHINee wraps up their 5th Japan tour with 250,000 fans https://t.co/Y8NJGS3g8n https://t.co/hNAxCXcP3i",
-        "id": 859281673061584900,
-        "location": "Worldwide",
-        "coordinates": null
-      },
-      {
-        "text": "Japan to send biggest warship to protect US supply vessel https://t.co/tjUokWOySR",
-        "id": 858899095301312500,
-        "location": "London, UK",
-        "coordinates": null
-      },
-      {
-        "text": "Why you acting like it's not tho its like saying Japan jsnt in the United States https://t.co/4aDuj1g4G6",
-        "id": 859442624972939300,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @Amyperuana: @CGJgirona @simonjetz @BenExile @Papryka5 @MOCarballeira @amparofashion @cmont4560 @mariagr39912290 @PasqualeTotaro @Yoland…",
-        "id": 859442621139345400,
-        "location": "ROUEN (76)FRANCE",
-        "coordinates": null
-      },
-      {
-        "text": "japanese sute gilr collection https://t.co/Hv8Zxr9slr #idol #world #girl #cute #girl",
-        "id": 859442620619120600,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "USGS | M 4.6 - 84km SSW of Chichi-shima, Japan",
-        "id": 859442618710753300,
-        "location": "Barrington and Hawaii",
-        "coordinates": null
-      },
-      {
-        "text": "https://t.co/REzdoVAMkK &lt;-From japan with love26 scene1 #bispak #porn #bokep",
-        "id": 859442611819397100,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @dailyexhoe: \"EXO-CBX broke EXO's record as the fastest selling K-pop group in Japan\"\n\nEXO vs. EXO\nEXO breaking their own record\n\nKA-CHI…",
-        "id": 859442611332857900,
-        "location": "multifandom",
-        "coordinates": null
-      },
-      {
-        "text": "All Japanese wish the assassination of #Trump !Japan is #IslamFirst  #FuckTrump #FuckAmericaGreatAgain (Fuck #AmericaFirst )",
-        "id": 859442610498293800,
-        "location": "天空の城ラピュタ ",
-        "coordinates": null
-      }
-    ]
-  },
-  "tokyo": {
-    "Score": {
-      "score": 6.2,
-      "score_perc": 68.92,
-      "words": 46
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq Final night at Tokyo Dome after an incredible week. Thank you Japan! #OneOnOne https://t.co/1QBiHgJyRU Tokyo, Japan presale for @ArianaGrande's #DangerousWomanTour is live! 🇯🇵🐰 Get your tickets here →… https://t.co/MAezDWSNZI RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy RT @dataisplural: YOU [a shameless dunderhead]: the capital of Japan is Tokyo \nME [serenely under my breath]: actually, it's J. RT @PDChina: Japan's ultra-luxurious train w 2-story $10,000 suites &amp; panoramic carriages sets off on its maiden journey from Tokyo to Hokk… ♪Shake It - Robin Aristo / DAISHI DANCE / W&amp;W JAPAN TOUR 2017 in TOKYO #ageHa_Tokyo\nhttps://t.co/CpHuQpunSV RT @dannyodwyer: Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq Remote Graphics (Citrix, VMware, Microsoft) and Visual Computing Japan East (Tokyo, Saitama) now GA with Azure…… https://t.co/ZtRgjfUCGq ",
-    "Text": "Tokyo Fact If you dance outside of Super Potato, you will cause local NPCs to start dancing too. Final night at Tokyo Dome after an incredible week. Thank you Japan! Tokyo, Japan presale for 's is live! Get your tickets here , ravers on a beach in Tokyo , ravers on a beach in Tokyo YOU a shameless dunderhead the capital of Japan is Tokyo ME serenely under my breath actually, it's J. Japan's ultra-luxurious train w -story , suites amp panoramic carriages sets off on its maiden journey from Tokyo to Hokk Shake It - Robin Aristo DAISHI DANCE WampW JAPAN TOUR in TOKYO Tokyo Fact If you dance outside of Super Potato, you will cause local NPCs to start dancing too. Remote Graphics Citrix, VMware, Microsoft and Visual Computing Japan East Tokyo, Saitama now GA with Azure",
-    "Stemmed Text": "tokyo fact if you danc outsid of super potato you will caus local npcs to start danc too final night at tokyo dome after an incred week thank you japan tokyo japan presal for s is live get your ticket here raver on a beach in tokyo raver on a beach in tokyo you a shameless dunderhead the capit of japan is tokyo me seren under my breath actual it s j japan s ultra luxuri train w stori suit amp panoram carriag set off on it maiden journey from tokyo to hokk shake it robin aristo daishi danc wampw japan tour in tokyo tokyo fact if you danc outsid of super potato you will caus local npcs to start danc too remot graphic citrix vmware microsoft and visual comput japan east tokyo saitama now ga with azur",
-    "Twits": [
-      {
-        "text": "Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq",
-        "id": 859205883758166000,
-        "location": "Oakland, CA",
-        "coordinates": null
-      },
-      {
-        "text": "Final night at Tokyo Dome after an incredible week. Thank you Japan! #OneOnOne https://t.co/1QBiHgJyRU",
-        "id": 858837603717722100,
-        "location": "England",
-        "coordinates": null
-      },
-      {
-        "text": "Tokyo, Japan presale for @ArianaGrande's #DangerousWomanTour is live! 🇯🇵🐰 Get your tickets here →… https://t.co/MAezDWSNZI",
-        "id": 858848502130106400,
-        "location": "On Android and iOS",
-        "coordinates": null
-      },
-      {
-        "text": "RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy",
-        "id": 859442645940260900,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @djcarnage: 40,000 ravers on a beach in Tokyo https://t.co/KVbE4KhdHy",
-        "id": 859442612562014200,
-        "location": "Florida, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @dataisplural: YOU [a shameless dunderhead]: the capital of Japan is Tokyo \nME [serenely under my breath]: actually, it's J.",
-        "id": 859442608447381500,
-        "location": "Among the happy 'lil trees",
-        "coordinates": null
-      },
-      {
-        "text": "RT @PDChina: Japan's ultra-luxurious train w 2-story $10,000 suites &amp; panoramic carriages sets off on its maiden journey from Tokyo to Hokk…",
-        "id": 859442603896569900,
-        "location": "London, England",
-        "coordinates": null
-      },
-      {
-        "text": "♪Shake It - Robin Aristo / DAISHI DANCE / W&amp;W JAPAN TOUR 2017 in TOKYO #ageHa_Tokyo\nhttps://t.co/CpHuQpunSV",
-        "id": 859442600239022100,
-        "location": "東京都渋谷区富ヶ谷",
-        "coordinates": null
-      },
-      {
-        "text": "RT @dannyodwyer: Tokyo Fact: If you /dance outside of Super Potato, you will cause local NPCs to start dancing too. https://t.co/ELEShQCkyq",
-        "id": 859442596472598500,
-        "location": "London, England",
-        "coordinates": null
-      },
-      {
-        "text": "Remote Graphics (Citrix, VMware, Microsoft) and Visual Computing Japan East (Tokyo, Saitama) now GA with Azure…… https://t.co/ZtRgjfUCGq",
-        "id": 859442594882900000,
-        "location": "United States",
-        "coordinates": null
-      }
-    ]
-  },
-  "france": {
-    "Score": {
-      "score": 5.84,
-      "score_perc": 64.94,
-      "words": 43
-    },
-    "numberOfTweets": 10,
-    "Raw Text": "An Insult to France https://t.co/dFyZruqYxl A Porsche Cayenne has successfully towed a 285-tonne Air France Airbus A380 42-metres, setting a new GUINNESS WORLD… https://t.co/lhNXKoI5yZ Happening now in France! #MayDay2017 https://t.co/21uGZ93xYB https://t.co/jFs0GLEDEX RT @alexmorgan13: Congrats Jules on the huge accomplishment and the official release day of your book #ChooseToMatter! @JulieFoudy (Do they… RT @Oathkeepers: NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa! @KPikklefield @Nix_km @Lauren_Southern @Pro… france porno movies https://t.co/m7gBqtzd6C RT @LVNancy: One Courageous Woman #Marine2017\n⚜️End of Totalitatrtian Regime that wants Death of #France\n⚜️Mosques Closed\n⚜️Muslim Brotherh… RT @theparkjihoon: jerry really lives in france... rt if u cried. what a powerful story https://t.co/WXhrt9Vsor @AnshelPfeffer note that in the survey a vote for Le Pen was not among the options https://t.co/ZiIoNALcqQ @blackpinkslisaa Oh hi France! I'm Jackson 🌚🌝 ",
-    "Text": "An Insult to France A Porsche Cayenne has successfully towed a -tonne Air France Airbus A -metres, setting a new GUINNESS WORLD Happening now in France! Congrats Jules on the huge accomplishment and the official release day of your book Do they NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa!  porno movies One Courageous Woman End of Totalitatrtian Regime that wants Death of Mosques ClosedMuslim Brotherh jerry really lives in france... rt if u cried. what a powerful story note that in the survey a vote for Le Pen was not among the options Oh hi France! I'm Jackson",
-    "Stemmed Text": "an insult to franc a porsch cayenn has success tow a tonn air franc airbus a metr set a new guin world happen now in franc congrat jule on the huge accomplish and the offici releas day of your book do they not on our watch not in our countri franc must rise up and put down antifa porno movi one courag woman end of totalitatrtian regim that want death of mosqu closedmuslim brotherh jerri realli live in franc rt if u cri what a power stori note that in the survey a vote for le pen was not among the option oh hi franc i m jackson",
-    "Twits": [
-      {
-        "text": "An Insult to France https://t.co/dFyZruqYxl",
-        "id": 858766661733670900,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "A Porsche Cayenne has successfully towed a 285-tonne Air France Airbus A380 42-metres, setting a new GUINNESS WORLD… https://t.co/lhNXKoI5yZ",
-        "id": 859117066145726500,
-        "location": "Atlanta, GA",
-        "coordinates": null
-      },
-      {
-        "text": "Happening now in France! #MayDay2017 https://t.co/21uGZ93xYB https://t.co/jFs0GLEDEX",
-        "id": 859058394585587700,
-        "location": "USAF Desert Storm/Shield Vet",
-        "coordinates": null
-      },
-      {
-        "text": "RT @alexmorgan13: Congrats Jules on the huge accomplishment and the official release day of your book #ChooseToMatter! @JulieFoudy (Do they…",
-        "id": 859442814815305700,
-        "location": "California, USA",
-        "coordinates": null
-      },
-      {
-        "text": "RT @Oathkeepers: NOT ON OUR WATCH! Not in our country. France must rise up and put down Antifa! @KPikklefield @Nix_km @Lauren_Southern @Pro…",
-        "id": 859442814693855200,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "france porno movies https://t.co/m7gBqtzd6C",
-        "id": 859442814291243000,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "RT @LVNancy: One Courageous Woman #Marine2017\n⚜️End of Totalitatrtian Regime that wants Death of #France\n⚜️Mosques Closed\n⚜️Muslim Brotherh…",
-        "id": 859442809992032300,
-        "location": "England, ",
-        "coordinates": null
-      },
-      {
-        "text": "RT @theparkjihoon: jerry really lives in france... rt if u cried. what a powerful story https://t.co/WXhrt9Vsor",
-        "id": 859442802148515800,
-        "location": "jihoon's closet",
-        "coordinates": null
-      },
-      {
-        "text": "@AnshelPfeffer note that in the survey a vote for Le Pen was not among the options https://t.co/ZiIoNALcqQ",
-        "id": 859442797551775700,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@blackpinkslisaa Oh hi France! I'm Jackson 🌚🌝",
-        "id": 859442797106954200,
-        "location": "",
-        "coordinates": null
-      }
-    ]
-  },
-  "lepein": {
-    "Score": {
-      "score": 5.48,
-      "score_perc": 60.94,
-      "words": 7
-    },
-    "numberOfTweets": 3,
-    "Raw Text": "@AvivaBrueckner Isn't LePein the President now? @XO_BB_XO Macron and LePein seem to make it to the final round. GO VOTER LEPEIN BLC ",
-    "Text": "Isn't LePein the President now? Macron and LePein seem to make it to the final round. GO VOTER LEPEIN BLC",
-    "Stemmed Text": "isn t lepein the presid now macron and lepein seem to make it to the final round go voter lepein blc",
-    "Twits": [
-      {
-        "text": "@AvivaBrueckner Isn't LePein the President now?",
-        "id": 856219250926776300,
-        "location": "",
-        "coordinates": null
-      },
-      {
-        "text": "@XO_BB_XO Macron and LePein seem to make it to the final round.",
-        "id": 856218276715798500,
-        "location": "in my world",
-        "coordinates": null
-      },
-      {
-        "text": "GO VOTER LEPEIN BLC",
-        "id": 856206524343091200,
-        "location": "Long Beach, CA",
-        "coordinates": null
-      }
-    ]
-  },
-  "peine": {
+  "spain": {
     "Score": {
       "score": 5.66,
-      "score_perc": 62.85,
-      "words": 29
+      "score_perc": 62.93,
+      "words": 756
     },
-    "numberOfTweets": 10,
-    "Raw Text": "LePen without \"peine:\nThat copycat autocrat\nReady for more pain?\n\n#haiku #France #MarineLePen\n https://t.co/ERtxdr04Vb Girouettisme.\nhttps://t.co/fc7qtnxkZs\n#ContreLesFachosJeVote  #SortonsLepen  #FNJamais  @ResisTeamFR @Joyce_Karam @cliodiaspora @tobiaschneider Melania, dat you writing that stuff for La Peine? Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... https://t.co/J67MnarDrT https://t.co/rfkWcyvQSn Now Playing Live: Eklips - Pas La Peine -#IamSoLougarou #BalKonpaLive24Sou24 WATCH: Large Group of Migrants Fight With Locals in #GermanTown #large #Peine https://t.co/LaVLNrfeTd https://t.co/Eaq6hk7oSA RT @LVNNlSTER: Game of Thrones - Red wedding \nJe ressens votre peine https://t.co/D5ILAxMfRr Spicy Slut Mature peine Pounded https://t.co/5SDOFRf9C8 Busty teen girl obtient a peine baisee https://t.co/ue6ZgBOTtZ \"BB MELIKI MOFU OFFICIEL VIDEO CLIP\" : https://t.co/ghF0rf1fT5 via @YouTube ",
-    "Text": "LePen without That copycat autocratReady for more pain? Girouettisme. Melania, dat you writing that stuff for La Peine? Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... Now Playing Live Eklips - Pas La Peine - WATCH Large Group of Migrants Fight With Locals in Game of Thrones - Red wedding Je ressens votre peine Spicy Slut Mature peine Pounded Busty teen girl obtient a peine baisee BB MELIKI MOFU OFFICIEL VIDEO CLIP via",
-    "Stemmed Text": "lepen without that copycat autocratreadi for more pain girouettism melania dat you write that stuff for la pein natur sandalwood comb cepillo de pelo larg wide tooth no static massag ha now play live eklip pas la pein watch larg group of migrant fight with local in game of throne red wed je ressen votr pein spici slut matur pein pound busti teen girl obtient a pein baise bb meliki mofu officiel video clip via",
+    "numberOfTweets": 197,
+    "Raw Text": "I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to p… https://t.co/B1TwjT8EMO Victory margins of #F1's last two first-time winners:\n\n0.617s - Bottas (Russia 2017)\n0.616s - Verstappen (Spain 201… https://t.co/1wS37smQFG 2 MAY, 1992: SPAIN 🇪🇸\n\nMichael Schumacher secures a spot on the front row of the grid for the first time after qual… https://t.co/tEy4KoZLnd Low Cost Transfers.Mainland. Benidorm Shuttle Direct. #benidorm #shuttle #benidormshuttle #direct\n\n Spain - UK\nhttps://t.co/lzmvWidY5v RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… Spain Shuttle Direct\n@BenidormShuttle\nBenidorm Shuttle Direct,Spain Airport Transfers, RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… @BillaVGC @PromanVGC @13Yoshi37 @TobySxE @PokeAlex_ @SanvyVGC @Mean_vgc @StarKO90 @YureeVGC @DesuVGC Europe = Germa… https://t.co/bbER1jCK3k @KARD_Official what about Spain😭?? https://t.co/rfP1RU59s5 Taxis Coach Train Shuttle Bus #shuttle #bus #benidorm #groups\n\n Benidorm, Spain\nhttps://t.co/lzmvWidY5v RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @Dwalingen: I hate #EU\n\nI love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.\n\nVote #Ma… RT @Alex_66: Off to Spain 🇪🇸 countdown is on for the @garage_motocafe in Sevilla. Time for some final touches before opening 👌🏻 @Kinifumi #… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… Taxis Coach Train Shuttle Bus #shuttle #bus #benidorm #groups\n\n Benidorm, Spain\nhttps://t.co/iIPRCmwotL RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… @psycho4ensics1 @jerrod_chase @ViditKu99432086 @RealXiiJinping @ImmortalShar Im in Europe guys, In SPAIN. Europe is… https://t.co/ez9N8Hqskf http//:https://t.co/eGwczLzQgZ Spain, Portugal and Morocco - 16 Days / 15 Nights https://t.co/scpmCaK6Il | #tweet #Sightseeing, #tour #wo… @SamsungHelpUK please could you help? Do you manufacture a TV that can be purchased in Spain that will work on return to the UK? Look at ADMINISTRACIO D&amp;#x27;ESTABLIMENTS TURISTICS SA from Spain - https://t.co/daHLKZpwrh! That's amazing! Isn't it? #TURISTICS Just Announced: Vitoria, Spain - May 13 at Mitika https://t.co/U7TfLxuVVr RT @McLisseWWSpain: Yes this is it!\nIt's official mga BeS we're ready to spread McLisse fever here in Spain.Thank you @McLisseWorldPH for t… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… 7 day Yoga Retreat in IBIZA, SPAIN 28 Apr - 4 May 2017 #yoga #retreats https://t.co/pblAaUBX8j https://t.co/2t2iK0RWEj Apartments Hotels Bus Taxis Shuttle Private #bus #groups #stagandhens Benidorm Bus\n\n Benidorm, Spain\nhttps://t.co/akCS7z7T6m RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @crosonts: @fileziacsipado @withour7wings @mcalistaa @taebiebs @bts_my__kings @jmnchimx @Charlagbutler @zoe_fabel @taeKook2seok @btsarmy… RT @DearWanderlust: #travel stories from you guys💞🌵 Day 3 UGH https://t.co/XtDEvJJ8vE #backpacking #blog #holiday RT @taebiebs: @bts_my__kings @jmnchimx @Charlagbutler @zoe_fabel @taeKook2seok @btsarmy_tunisia @Malikonixx @BTSBBMAs @BTS_twt spain toooo~… RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh Apartments Hotels Bus Taxis Shuttle Private #bus #groups #stagandhens Benidorm Bus\n\n Benidorm, Spain\nhttps://t.co/f5whRnmbOs RT @spain: Why #Andalusia is the Best Place for Studying Spanish...\nhttps://t.co/Bqmf68mhmH \nvía @travelsofadam\n#StudyinSpain https://t.co/… RT @LouiseMensch: I dunno, is this like an incomplete in college? Not sure. Because the IP history leads to weird spain then (gasp) Marinov… Squad is flying out to Spain later today and will have updates from Jose Mourinho's #UEL https://t.co/SqZiPPzVUp RT @AnimalsAus: Huge international live export investigation making waves globally! Headlines in Belgium, Portugal, Slovakia, Croatia, Spai… @BasedStickMan_ May is the Month of Mary. She spared Spain &amp; Portugal from Communism.\n\nJews &amp; Commies need to pick another month. RT @spain: Why #Andalusia is the Best Place for Studying Spanish...\nhttps://t.co/Bqmf68mhmH \nvía @travelsofadam\n#StudyinSpain https://t.co/… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… Do you like #spooky hauntings? Try THE GHOULS OF CALLE GOYA set in #London, #Norway, #Spain and #Thailand - v good… https://t.co/W4TFxydDlQ #18flirt #speeddating webcam #caucasian #tightcunt smile #spain #porncam young https://t.co/hbY30L4Omp RT ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference … https://t.co/zI532apgTW RT @srtarmy_: \"Spain has no bts fans. They don't deserve wings tour.\"\n\nFuck u haterss, top 1 in europe. https://t.co/027HesobA0 RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… #cherries from #spain https://t.co/SrzVb7EXaZ @ChelseaKelv Spain but too far to go to watch the Blues!\nI am in Ireland so cannot see the blues and am freezing! @DONOMAR thank you for everything you do. You put joy in my life with your songs. I love you, I hope to see you one day in France or Spain❤️ Spain Shemale Barcelona Anal playing by EduGrana https://t.co/Kf70EFNmji RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… More Than 30,000 Motorists Caught Speeding After Easter in Guardia Campaign https://t.co/1jrrlYA1j3 https://t.co/rZSgnkU49d You actually have all forgotten what Angela Merkel &amp; her globalist buddies did to Greece &amp; Spain haven't you? The EU are the real fascists. RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… #barcelona #Catalunya #Spain He would know the whereabouts of my bag.　https://t.co/DyGaBx9uK2 Seedsman ... Red #Leicester Tease #Fem #cannabis #Seeds #thc #uk #spain https://t.co/OLMOtlj1gB https://t.co/Os8ydm07KK\n\n— Cannabis strai… RT @UKIPPOOLE: Spain suffers Brexit blow as Britons spend less &amp; buying fewer homes since EU referendum.Threaten us over Gibraltar! https:/… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… I have 8 new followers from USA, Spain last week. See https://t.co/IG07RX8kXa https://t.co/TjT3yFBDW9 RT @WIPO: Closing tomorrow! Applications for WIPO Summer Schools on IP in U.S., Mexico, Spain, Tunisia. Apply now: https://t.co/Yipe7t5kpk… #netgeodna results 🌎 #españa #italia #spain #italy #oviedo #asturias #genova #italiano #español… https://t.co/mBJK5hXDLI #spain #aalborg adult fetish #holiday #unload fleshlight https://t.co/1LrnJ8ZIF6 RT @B_Ubiquitous: Purple Zen\n#photography by Ana Tramont\n#Spain #sunset #nature #lavender #photo #weather #wanderlust #travel 🇪🇸\nhttps://t.… RT @SaveRome: Q: Why is the Pantheon so well preserved?\nA: Conversion to a church helped, but no one really knows why fully! More: https://… RT @Suga_spain: I'm voting for @BTS_twt for the Top Social Artist #BTSBBMAs \n\nGood morning from Spain , ARMY !! :) RT @DeadlineDayLive: Antoine Griezmann is attracted by the prospect of signing for Manchester United - but has reservations about leaving S… RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… The not so new New Course San Roque golf club Spain https://t.co/SOZRjuv9i0 RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… #MUFC : We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at … https://t.co/8oRSBNNmTw RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… #spain girl sex model squirting sex movie https://t.co/4F4zGdpcK8 #spain girl sex model fuck woman iran https://t.co/j6r8fYyoxj RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… @CulpritEnter /But he played in Portugal for a years &amp; moved to Celta Vigo in Spain, I don't think he lied to us/ Spain: LGBT Asylum Seekers Abused in North African Enclave https://t.co/bbGV3qJl6I #LGBTQ #FreeSpeechBus RT @heandshe1983: Another from Spain last year! Cannot wait to feel that sun on my skin again #highlights 😘 https://t.co/4xwRv8scYF RT @OliWhiteTV: Come to Spain in the hope of sunshine. It's been raining the whole time 😫 @barrycarter @ceruiti I expect the same in any country whether it's france, spain, germany, sweden, russia etc. Real Benidorm Transfers,Low Cost Benidorm Groups. #alicante #murcia #valencia #benitransfers\n\n Benidorm, Spain\nhttps://t.co/tZObwf0OUJ Romano! Don't drink too much wine, ok? Tito @CasaReal Although truth said I wouldn't be surprised if professor Michael A. Politely refuse working with Spain. God Bless America. We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18… … RT @Benidirect: Real Benidorm Transfers,Low Cost Benidorm Groups #alicante #murcia #valencia #benitransfers  Benidorm, Spain\nhttps://t.co/s… Madrid fans are shit. Don't you miss the love you got back in OT? PUT HIM ON A PLANE, BRING HIM BACK FROM SPAIN… https://t.co/coYwFqbdPC RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @Dwalingen: I hate #EU\n\nI love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.\n\nVote #Ma… My dad just called me from Spain convinced that I was a taxi service lmao I'm RT @SAPIENS_org: How anthropologists and forensic scientists are challenging Spain's \"pact of forgetting\": https://t.co/zI2GQAvj9b https://… @stylememaria Yum! Those photos have me salivating. Spain and particularly Barcelona are definitely on the travel list 🇪🇸 Real Benidorm Transfers,Low Cost Benidorm Groups #alicante #murcia #valencia #benitransfers  Benidorm, Spain\nhttps://t.co/sagSRS2Lvp RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @GuilleOrtsGil: On #VC in #Barcelona #Madrid #BascCountry #Spain #BioMed #Pharma #startup @biocat_en @CDTIoficial  https://t.co/Zc0cp2LT… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… #travel stories from you guys💞🌵 Day 3 UGH https://t.co/XtDEvJJ8vE #backpacking #blog #holiday RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… SELLBYTEL &amp; Sports Fashion: Teamplay at its Best! https://t.co/U0A8gHFOdI https://t.co/FIbCoIcgRL RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… #BOOK #BEACHHOLIDAY IN #MARBELLA FROM €30/#NIGHT. #europe #visitmarbella https://t.co/EvrLXUn2PY https://t.co/YAXwPOh2Uw RT @RobGMacfarlane: \"At sunset the day's light came amber &amp; slantwise through the pines...\" Nights spent in the Guadarrama forests of Spain… 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/juarW2vjBf 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/n3aFvCVs6W 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/RmAxPPuw7A 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/KFIZTJZyhk 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/jCRc3yqNEt 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/zI2DzsJQQI 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/O9Jwh53Qqq 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/MlD9YgyuJR 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/uWrNwoYQq5 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/y8j22AlaU5 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ahqERrqoGT 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/909YTriVTE 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/CsaBZjrdS4 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Xr1Es5eWat 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AeEnRBsdsW 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/KUNmHTFlK5 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/4BSReInf3m 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/9m4nllgwnP 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Q5NzILRwxi 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Shxs67tUbk 80 years on from the Guernica bombing and Spain is still struggling to honour historical memory https://t.co/lRS89FOF6a 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/QJzlUNd9YU 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/q0xC6zld9O 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/l5InxMO4L6 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/kJEv2jasfO 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/UPzZRPg5lp 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/542rIObYab 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/owGk02R643 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/hcP9AtQH6B 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ZfmhRuP742 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/K3bw2b1jzk 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/1LYlxArSPO 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/lWy2lcjYCN 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/47UZmpkqXs 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/kRXDtEA99k RT @NewsBenidorm: #benidormshuttledirect #stagandhens #groups Hotels Apartments Transfers #gay #pride\n\n Benidorm, Spain\nhttps://t.co/I3MJ7e… 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AV7q2R2Uxo 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/dJUWsDyqXg 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/b1FdEC4H6P 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/pLKvIj5L7y 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/8lE0w75Nng 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/tL2uELwfF8 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/aNMWizNxvl 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/fymLQ6iiNM 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/sBukgX5Owe 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/jaSn28dHtX 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/RPNHpWuhF9 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/vNwPlISav3 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ZVDzWykthR 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/BDqpbhU3q9 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/JbEOKqLp0a 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AaP8GEe6qi 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/OqXuGdpIXC 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/yBsEBpNYQa 🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/n0VZ4CmC4A 🌲☀Paradise☀🏖 #blogger #gutenmorgen #spring #sunnyday #windy #aporello #spain #2017 https://t.co/XhQIV3nNsX RT @heandshe1983: A #highlight from last year's holiday to Spain! We go again in 3 weeks so imagine the delights I'll be posting this year!… Oh yeah! G&amp;T at Once Upon A Time in Spain at RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh @Alyssa_Milano one of the reasons I like to live in USA instead of Spain is that I can find this in the supermarket… https://t.co/V6mEmKhQ3o RT @rioferdy5: I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to pack them!… HTLV-1 infection and disease in Spain. https://t.co/YXIQDIkBzb #spain #jewish #legalicenlasde18 euro #followme #instacute couple #booty #couch student https://t.co/ExEC1fawMy RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @emartineeez: Leaving rn!! Let's go to SPAIN https://t.co/NcrI1WABLl RT @stanwalka: I am not lucky to have a player who hides in Spain &amp; does absolutely nothing in the knockout  stages of major competitions.… RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @DDistorted: @IGGYAZALEA why u don't follow this crazy Azalean: @Pure_Madness7? he supports u from the begginig(unconditionally) all the… RT @ConnorBoyd1872: @_ItsMatrix_ @Ciaran4121 Remember this Tweet, Belgium vs Spain 2018 World Cup Final. Lukaku with an ET goal to win the… RT @marcus_tinie: Ronaldo got to spain 4years after Messi now he has 400goals for Madrid ..how many will he score if he got to Spain 4years… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… Bitcoin Surges- NewsBTC Cryptocurrency Round-Up, May 2nd: https://t.co/Q9uU7yC3EO #bitcoin #btc Have a look:  A View To The Mediterranean Sea From The Mountains At Benalmadena. https://t.co/0yoSi77969 #travel #spain #andalusia RT @kpopchartsdata: [ITUNES] TRIPLE H #199X — Peaks\n\n#3 Taiwan\n#5 THA\n#10 Spain\n#15 IRE\n#25 IND\n#30 HKO\n#75 CAN\n#77 France\n#86 UK\n#101 US\n#… Spain's property market has hit rock bottom, so there are some fantastic deals to be had. We have 15 units... https://t.co/CVsYk4n0tA RT @PIPOLINO007: @psycho4ensics1 @jerrod_chase @ViditKu99432086 @RealXiiJinping @ImmortalShar Im in Europe guys, In SPAIN. Europe is gone..… RT @DDistorted: @IGGYAZALEA why u don't follow this crazy Azalean: @Pure_Madness7? he supports u from the begginig(unconditionally) all the… RT @Happine74837357: Madrid. Spain. https://t.co/sEB6xy1YTM RT @seanykilleen: Why do I look like a vampire 😭😂 https://t.co/ynYJFtzHTY RT @Solanauryn2: #MOTTEINSPAIN @IBGDRGN\nPLS GD COME TO SPAIN RT @HazardVersion: All this talk about Real Madrid and Barcelona can be thrown out the window. Bilbao are the best team in Spain https://t.… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma… RT @Root_Sanchez: Statue of Cristiano Ronaldo spotted this morning in Madrid, Spain. https://t.co/5Zzm7M6ddC How to pronounce Julio Alberto Moreno (Spain/Spanish) - https://t.co/UA96QgR1FC: https://t.co/TbUreHCVwy via @YouTube How to pronounce David Juncà (Spain/Spanish) - https://t.co/UA96QgR1FC: https://t.co/nhoLAyC0vN via @YouTube RT @aidaramirezgal6: @Il4y03 @LGrakel @BiaCypher @Suga_spain @BTS_twt Make the dreams work\n\ni vote @BTS_twt for at #BTSBBMAs Top Social Art… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do… ",
+    "Text": "I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to p Victory margins of last two first-time winners.s - Bottas Russia .s - Verstappen Spain MAY, SPAIN Michael Schumacher secures a spot on the front row of the grid for the first time after qual Low Cost Transfers.Mainland. Benidorm Shuttle Direct. Spain - UK We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Spain Shuttle DirectBenidorm Shuttle Direct,Spain Airport Transfers, We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa Europe Germa what about Spain?? Taxis Coach Train Shuttle Bus Benidorm, Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do I hate I love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.Vote Off to Spain countdown is on for the in Sevilla. Time for some final touches before opening We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Taxis Coach Train Shuttle Bus Benidorm, Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Im in Europe guys, In SPAIN. Europe is http Spain, Portugal and Morocco - Days Nights please could you help? Do you manufacture a TV that can be purchased in Spain that will work on return to the UK? Look at ADMINISTRACIO Damp TURISTICS SA from Spain - That's amazing! Isn't it? Just Announced Vitoria, Spain - May at Mitika Yes this is it!It's official mga BeS we're ready to spread McLisse fever here in Spain.Thank you for t We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do day Yoga Retreat in IBIZA, SPAIN Apr - May Apartments Hotels Bus Taxis Shuttle Private Benidorm Bus Benidorm, Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do stories from you guys Day UGH spain toooo Madrid, Spain is banning cars from its crowded city center Apartments Hotels Bus Taxis Shuttle Private Benidorm Bus Benidorm, Spain Why is the Best Place for Studying Spanish... vía I dunno, is this like an incomplete in college? Not sure. Because the IP history leads to weird spain then gasp Marinov Squad is flying out to Spain later today and will have updates from Jose Mourinho's Huge international live export investigation making waves globally! Headlines in Belgium, Portugal, Slovakia, Croatia, Spai May is the Month of Mary. She spared Spain amp Portugal from Communism.Jews amp Commies need to pick another month. Why is the Best Place for Studying Spanish... vía We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa Do you like hauntings? Try THE GHOULS OF CALLE GOYA set in and - v good webcam smile young ManUtd We're flying out to Spain later today and will have updates from Jose Mourinho's press conference Spain has no bts fans. They don't deserve wings tour.Fuck u haterss, top in europe. Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa from Spain but too far to go to watch the Blues!I am in Ireland so cannot see the blues and am freezing! thank you for everything you do. You put joy in my life with your songs. I love you, I hope to see you one day in France or Spain Spain Shemale Barcelona Anal playing by EduGrana We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do More Than , Motorists Caught Speeding After Easter in GuardiaCampaign You actually have all forgotten what Angela Merkel amp her globalist buddies did to Greece amp Spain haven't you? The EU are the real fascists. We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do He would know the whereabouts of my bag. Seedsman ... Red Tease Cannabis strai Spain suffers Brexit blow as Britons spend less amp buying fewer homes since EU referendum.Threaten us over Gibraltar! https We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do I have new followers from USA, Spain last week. See Closing tomorrow! Applications for WIPO Summer Schools on IP in U.S., Mexico, Spain, Tunisia. Apply now results adult fetish fleshlight Purple Zen by Ana Tramont Q Why is the Pantheon so well preserved?A Conversion to a church helped, but no one really knows why fully! More I'm voting for for the Top Social Artist Good morning from Spain , ARMY !! Antoine Griezmann is attracted by the prospect of signing for Manchester United - but has reservations about leaving S Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do The not so new New Course San Roque golf club Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Madrid, Spain is banning cars from its crowded city center We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do girl sex model squirting sex movie girl sex model fuck woman iran We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do But he played in Portugal for a years amp moved to Celta Vigo in Spain, I don't think he lied to us Spain LGBT Asylum Seekers Abused in North African Enclave Another from Spain last year! Cannot wait to feel that sun on my skin again Come to Spain in the hope of sunshine. It's been raining the whole time I expect the same in any country whether it's france, spain, germany, sweden, russia etc. Real Benidorm Transfers,Low Cost Benidorm Groups. Benidorm, Spain Romano! Don't drink too much wine, ok? Tito Although truth said I wouldn't be surprised if professor Michael A. Politely refuse working with Spain. God Bless America. We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around Real Benidorm Transfers,Low Cost Benidorm Groups Benidorm, Spain Madrid fans are shit. Don't you miss the love you got back in OT? PUT HIM ON A PLANE, BRING HIM BACK FROM SPAIN We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do I hate I love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.Vote My dad just called me from Spain convinced that I was a taxi service lmao I'm How anthropologists and forensic scientists are challenging Spain's pact of forgetting Yum! Those photos have me salivating. Spain and particularly Barcelona are definitely on the travel list Real Benidorm Transfers,Low Cost Benidorm Groups Benidorm, Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do On in We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do stories from you guys Day UGH We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do SELLBYTEL amp Sports Fashion Teamplay at its Best! We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do IN FROM At sunset the day's light came amber amp slantwise through the pines... Nights spent in the Guadarrama forests of Spain th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN years on from the Guernica bombing and Spain is still struggling to honour historical memory th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN Hotels Apartments Transfers Benidorm, Spain th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN th Greater Europe Resin Trade, Applications amp Recycling,- Apr, - Barcelona, SPAIN Paradise A from last year's holiday to Spain! We go again in weeks so imagine the delights I'll be posting this year! Oh yeah! GampT at Once Upon A Time in Spain at Madrid, Spain is banning cars from its crowded city center one of the reasons I like to live in USA instead of Spain is that I can find this in the supermarket I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to pack them! HTLV- infection and disease in Spain. euro couple student We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Leaving rn!! Let's go to SPAIN I am not lucky to have a player who hides in Spain amp does absolutely nothing in the knockout stages of major competitions. Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do why u don't follow this crazy Azalean ? he supports u from the begginigunconditionally all the Remember this Tweet, Belgium vs Spain World Cup Final. Lukaku with an ET goal to win the Ronaldo got to spain years after Messi now he has goals for Madrid ..how many will he score if he got to Spain years We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Bitcoin Surges- NewsBTC Cryptocurrency Round-Up, May nd Have a look A View To The Mediterranean Sea From The Mountains At Benalmadena. ITUNES TRIPLE H Peaks Taiwan THA Spain IRE IND HKO CAN France UK US Spain's property market has hit rock bottom, so there are some fantastic deals to be had. We have units... Im in Europe guys, In SPAIN. Europe is gone.. why u don't follow this crazy Azalean ? he supports u from the begginigunconditionally all the Madrid. Spain. Why do I look like a vampire PLS GD COME TO SPAIN All this talk about Real Madrid and Barcelona can be thrown out the window. Bilbao are the best team in Spain We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do Youth UnemploymentSth Africa Greece Spain Italy France Australia UK US .Germa Statue of Cristiano Ronaldo spotted this morning in Madrid, Spain. How to pronounce Julio Alberto Moreno SpainSpanish - via How to pronounce David Juncà SpainSpanish - via Make the dreams worki vote for at Top Social Art We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do We're flying out to Spain later today and will have updates from Jose Mourinho's press conference at around BST - do",
+    "Stemmed Text": "i will be travel to spain thursday but unfortun not with my boot not too late if jose want me to p victori margin of last two first time winner s botta russia s verstappen spain may spain michael schumach secur a spot on the front row of the grid for the first time after qual low cost transfer mainland benidorm shuttl direct spain uk we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do spain shuttl directbenidorm shuttl direct spain airport transfer we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do youth unemploymentsth africa greec spain itali franc australia uk us germa europ germa what about spain taxi coach train shuttl bus benidorm spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do i hate i love europ the netherland franc great britain itali greec spain belgium denmark sweden vote off to spain countdown is on for the in sevilla time for some final touch befor open we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do taxi coach train shuttl bus benidorm spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do im in europ guy in spain europ is http spain portug and morocco day night pleas could you help do you manufactur a tv that can be purchas in spain that will work on return to the uk look at administracio damp turist sa from spain that s amaz isn t it just announc vitoria spain may at mitika yes this is it it s offici mga bes we re readi to spread mcliss fever here in spain thank you for t we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do day yoga retreat in ibiza spain apr may apart hotel bus taxi shuttl privat benidorm bus benidorm spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do stori from you guy day ugh spain toooo madrid spain is ban car from it crowd citi center apart hotel bus taxi shuttl privat benidorm bus benidorm spain whi is the best place for studi spanish v a i dunno is this like an incomplet in colleg not sure becaus the ip histori lead to weird spain then gasp marinov squad is fli out to spain later today and will have updat from jose mourinho s huge intern live export investig make wave global headlin in belgium portug slovakia croatia spai may is the month of mari she spare spain amp portug from communism jew amp commi need to pick anoth month whi is the best place for studi spanish v a we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do youth unemploymentsth africa greec spain itali franc australia uk us germa do you like haunt tri the ghoul of call goya set in and v good webcam smile young manutd we re fli out to spain later today and will have updat from jose mourinho s press confer spain has no bts fan they don t deserv wing tour fuck u haterss top in europ youth unemploymentsth africa greec spain itali franc australia uk us germa from spain but too far to go to watch the blue i am in ireland so cannot see the blue and am freez thank you for everyth you do you put joy in my life with your song i love you i hope to see you one day in franc or spain spain shemal barcelona anal play by edugrana we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do more than motorist caught speed after easter in guardiacampaign you actual have all forgotten what angela merkel amp her globalist buddi did to greec amp spain haven t you the eu are the real fascist we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do he would know the whereabout of my bag seedsman red teas cannabi strai spain suffer brexit blow as briton spend less amp buy fewer home sinc eu referendum threaten us over gibraltar https we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do i have new follow from usa spain last week see close tomorrow applic for wipo summer school on ip in u s mexico spain tunisia appli now result adult fetish fleshlight purpl zen by ana tramont q whi is the pantheon so well preserv a convers to a church help but no one realli know whi fulli more i m vote for for the top social artist good morn from spain armi antoin griezmann is attract by the prospect of sign for manchest unit but has reserv about leav s youth unemploymentsth africa greec spain itali franc australia uk us germa we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do the not so new new cours san roqu golf club spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do madrid spain is ban car from it crowd citi center we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do girl sex model squirt sex movi girl sex model fuck woman iran we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do but he play in portug for a year amp move to celta vigo in spain i don t think he lie to us spain lgbt asylum seeker abus in north african enclav anoth from spain last year cannot wait to feel that sun on my skin again come to spain in the hope of sunshin it s been rain the whole time i expect the same in ani countri whether it s franc spain germani sweden russia etc real benidorm transfer low cost benidorm group benidorm spain romano don t drink too much wine ok tito although truth said i wouldn t be surpris if professor michael a polit refus work with spain god bless america we re fli out to spain later today and will have updat from jose mourinho s press confer at around real benidorm transfer low cost benidorm group benidorm spain madrid fan are shit don t you miss the love you got back in ot put him on a plane bring him back from spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do i hate i love europ the netherland franc great britain itali greec spain belgium denmark sweden vote my dad just call me from spain convinc that i was a taxi servic lmao i m how anthropologist and forens scientist are challeng spain s pact of forget yum those photo have me saliv spain and particular barcelona are definit on the travel list real benidorm transfer low cost benidorm group benidorm spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do on in we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do stori from you guy day ugh we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do sellbytel amp sport fashion teamplay at it best we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do in from at sunset the day s light came amber amp slantwis through the pine night spent in the guadarrama forest of spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain year on from the guernica bomb and spain is still struggl to honour histor memori th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain hotel apart transfer benidorm spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain th greater europ resin trade applic amp recycl apr barcelona spain paradis a from last year s holiday to spain we go again in week so imagin the delight i ll be post this year oh yeah gampt at onc upon a time in spain at madrid spain is ban car from it crowd citi center one of the reason i like to live in usa instead of spain is that i can find this in the supermarket i will be travel to spain thursday but unfortun not with my boot not too late if jose want me to pack them htlv infect and diseas in spain euro coupl student we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do leav rn let s go to spain i am not lucki to have a player who hide in spain amp doe absolut noth in the knockout stage of major competit youth unemploymentsth africa greec spain itali franc australia uk us germa we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do whi u don t follow this crazi azalean he support u from the begginiguncondit all the rememb this tweet belgium vs spain world cup final lukaku with an et goal to win the ronaldo got to spain year after messi now he has goal for madrid how mani will he score if he got to spain year we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do bitcoin surg newsbtc cryptocurr round up may nd have a look a view to the mediterranean sea from the mountain at benalmadena itun tripl h peak taiwan tha spain ire ind hko can franc uk us spain s properti market has hit rock bottom so there are some fantast deal to be had we have unit im in europ guy in spain europ is gone whi u don t follow this crazi azalean he support u from the begginiguncondit all the madrid spain whi do i look like a vampir pls gd come to spain all this talk about real madrid and barcelona can be thrown out the window bilbao are the best team in spain we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do youth unemploymentsth africa greec spain itali franc australia uk us germa statu of cristiano ronaldo spot this morn in madrid spain how to pronounc julio alberto moreno spainspanish via how to pronounc david junc spainspanish via make the dream worki vote for at top social art we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do we re fli out to spain later today and will have updat from jose mourinho s press confer at around bst do",
     "Twits": [
       {
-        "text": "LePen without \"peine:\nThat copycat autocrat\nReady for more pain?\n\n#haiku #France #MarineLePen\n https://t.co/ERtxdr04Vb",
-        "id": 859405195201179600,
-        "location": "Sherbrooke, Québec, Canada",
+        "text": "I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to p… https://t.co/B1TwjT8EMO",
+        "id": 859383518127935500,
+        "location": "London, England",
         "coordinates": null
       },
       {
-        "text": "Girouettisme.\nhttps://t.co/fc7qtnxkZs\n#ContreLesFachosJeVote  #SortonsLepen  #FNJamais  @ResisTeamFR",
-        "id": 859391082777411600,
-        "location": "Montrouge, France",
+        "text": "Victory margins of #F1's last two first-time winners:\n\n0.617s - Bottas (Russia 2017)\n0.616s - Verstappen (Spain 201… https://t.co/1wS37smQFG",
+        "id": 859097083621408800,
+        "location": "Great Britain",
         "coordinates": null
       },
       {
-        "text": "@Joyce_Karam @cliodiaspora @tobiaschneider Melania, dat you writing that stuff for La Peine?",
-        "id": 859387461411242000,
+        "text": "2 MAY, 1992: SPAIN 🇪🇸\n\nMichael Schumacher secures a spot on the front row of the grid for the first time after qual… https://t.co/tEy4KoZLnd",
+        "id": 859355610030235600,
+        "location": "Great Britain",
+        "coordinates": null
+      },
+      {
+        "text": "Low Cost Transfers.Mainland. Benidorm Shuttle Direct. #benidorm #shuttle #benidormshuttle #direct\n\n Spain - UK\nhttps://t.co/lzmvWidY5v",
+        "id": 859655298474225700,
+        "location": "Spain - UK",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655284486135800,
+        "location": "cikarang",
+        "coordinates": null
+      },
+      {
+        "text": "Spain Shuttle Direct\n@BenidormShuttle\nBenidorm Shuttle Direct,Spain Airport Transfers,",
+        "id": 859655280929493000,
+        "location": "Spain - UK",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655269877518300,
+        "location": "Benin",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859655205096493000,
+        "location": "Durban, South Africa",
+        "coordinates": null
+      },
+      {
+        "text": "@BillaVGC @PromanVGC @13Yoshi37 @TobySxE @PokeAlex_ @SanvyVGC @Mean_vgc @StarKO90 @YureeVGC @DesuVGC Europe = Germa… https://t.co/bbER1jCK3k",
+        "id": 859655202349207600,
+        "location": "Madrid  Spain",
+        "coordinates": null
+      },
+      {
+        "text": "@KARD_Official what about Spain😭?? https://t.co/rfP1RU59s5",
+        "id": 859655200403050500,
+        "location": "Do you like messi?✨",
+        "coordinates": null
+      },
+      {
+        "text": "Taxis Coach Train Shuttle Bus #shuttle #bus #benidorm #groups\n\n Benidorm, Spain\nhttps://t.co/lzmvWidY5v",
+        "id": 859655189548200000,
+        "location": "Spain - UK",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655181776044000,
+        "location": "Tali 5/67 Street, Jakarta-Indonesia.",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Dwalingen: I hate #EU\n\nI love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.\n\nVote #Ma…",
+        "id": 859655176441008100,
+        "location": "ergens,maaskantje",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Alex_66: Off to Spain 🇪🇸 countdown is on for the @garage_motocafe in Sevilla. Time for some final touches before opening 👌🏻 @Kinifumi #…",
+        "id": 859655157814112300,
+        "location": "Betis 52-41010,Sevilla, España",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655148142030800,
+        "location": "Kampala, Uganda ",
+        "coordinates": null
+      },
+      {
+        "text": "Taxis Coach Train Shuttle Bus #shuttle #bus #benidorm #groups\n\n Benidorm, Spain\nhttps://t.co/iIPRCmwotL",
+        "id": 859655134929924100,
+        "location": "Benidorm, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655131163488300,
+        "location": "Khartoum",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655121092956200,
+        "location": "ayia napa cyprus ",
+        "coordinates": null
+      },
+      {
+        "text": "@psycho4ensics1 @jerrod_chase @ViditKu99432086 @RealXiiJinping @ImmortalShar Im in Europe guys, In SPAIN. Europe is… https://t.co/ez9N8Hqskf",
+        "id": 859655116298870800,
+        "location": "España",
+        "coordinates": null
+      },
+      {
+        "text": "http//:https://t.co/eGwczLzQgZ Spain, Portugal and Morocco - 16 Days / 15 Nights https://t.co/scpmCaK6Il | #tweet #Sightseeing, #tour #wo…",
+        "id": 859655107927052300,
         "location": "",
         "coordinates": null
       },
       {
-        "text": "Natural Sandalwood Comb cepillo de pelo Large Wide Tooth No-static Massage Ha ... https://t.co/J67MnarDrT https://t.co/rfkWcyvQSn",
-        "id": 859376198467629000,
+        "text": "@SamsungHelpUK please could you help? Do you manufacture a TV that can be purchased in Spain that will work on return to the UK?",
+        "id": 859655089304330200,
+        "location": "Witham St Hugh's, Lincolnshire",
+        "coordinates": null
+      },
+      {
+        "text": "Look at ADMINISTRACIO D&amp;#x27;ESTABLIMENTS TURISTICS SA from Spain - https://t.co/daHLKZpwrh! That's amazing! Isn't it? #TURISTICS",
+        "id": 859655084367634400,
         "location": "",
         "coordinates": null
       },
       {
-        "text": "Now Playing Live: Eklips - Pas La Peine -#IamSoLougarou #BalKonpaLive24Sou24",
-        "id": 859337179822260200,
-        "location": "In my own world",
+        "text": "Just Announced: Vitoria, Spain - May 13 at Mitika https://t.co/U7TfLxuVVr",
+        "id": 859655070270591000,
+        "location": "Vitoria - Gasteiz",
         "coordinates": null
       },
       {
-        "text": "WATCH: Large Group of Migrants Fight With Locals in #GermanTown #large #Peine https://t.co/LaVLNrfeTd https://t.co/Eaq6hk7oSA",
-        "id": 859332556478701600,
-        "location": "Dresden",
+        "text": "RT @McLisseWWSpain: Yes this is it!\nIt's official mga BeS we're ready to spread McLisse fever here in Spain.Thank you @McLisseWorldPH for t…",
+        "id": 859655057565859800,
+        "location": "Hong Kong",
         "coordinates": null
       },
       {
-        "text": "RT @LVNNlSTER: Game of Thrones - Red wedding \nJe ressens votre peine https://t.co/D5ILAxMfRr",
-        "id": 859319420476371000,
-        "location": "star wars",
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655044190412800,
+        "location": "Davey Jones' Locker",
         "coordinates": null
       },
       {
-        "text": "Spicy Slut Mature peine Pounded https://t.co/5SDOFRf9C8",
-        "id": 859297447838920700,
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655043439624200,
         "location": "",
         "coordinates": null
       },
       {
-        "text": "Busty teen girl obtient a peine baisee https://t.co/ue6ZgBOTtZ",
-        "id": 859287712444145700,
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655040138653700,
+        "location": "Manchester",
+        "coordinates": null
+      },
+      {
+        "text": "7 day Yoga Retreat in IBIZA, SPAIN 28 Apr - 4 May 2017 #yoga #retreats https://t.co/pblAaUBX8j https://t.co/2t2iK0RWEj",
+        "id": 859655030445666300,
         "location": "",
         "coordinates": null
       },
       {
-        "text": "\"BB MELIKI MOFU OFFICIEL VIDEO CLIP\" : https://t.co/ghF0rf1fT5 via @YouTube",
-        "id": 859165310334754800,
-        "location": "Le Mans, France",
+        "text": "Apartments Hotels Bus Taxis Shuttle Private #bus #groups #stagandhens Benidorm Bus\n\n Benidorm, Spain\nhttps://t.co/akCS7z7T6m",
+        "id": 859655024816861200,
+        "location": "Benidorm, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655016658763800,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @crosonts: @fileziacsipado @withour7wings @mcalistaa @taebiebs @bts_my__kings @jmnchimx @Charlagbutler @zoe_fabel @taeKook2seok @btsarmy…",
+        "id": 859655005053239300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @DearWanderlust: #travel stories from you guys💞🌵 Day 3 UGH https://t.co/XtDEvJJ8vE #backpacking #blog #holiday",
+        "id": 859654994810740700,
+        "location": "everywhere,somewhere,a place.",
+        "coordinates": null
+      },
+      {
+        "text": "RT @taebiebs: @bts_my__kings @jmnchimx @Charlagbutler @zoe_fabel @taeKook2seok @btsarmy_tunisia @Malikonixx @BTSBBMAs @BTS_twt spain toooo~…",
+        "id": 859654972132081700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh",
+        "id": 859654948874833900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Apartments Hotels Bus Taxis Shuttle Private #bus #groups #stagandhens Benidorm Bus\n\n Benidorm, Spain\nhttps://t.co/f5whRnmbOs",
+        "id": 859654948753215500,
+        "location": "Benidorm, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spain: Why #Andalusia is the Best Place for Studying Spanish...\nhttps://t.co/Bqmf68mhmH \nvía @travelsofadam\n#StudyinSpain https://t.co/…",
+        "id": 859654946702188500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @LouiseMensch: I dunno, is this like an incomplete in college? Not sure. Because the IP history leads to weird spain then (gasp) Marinov…",
+        "id": 859654932168941600,
+        "location": "Jupiter, Realm. ",
+        "coordinates": null
+      },
+      {
+        "text": "Squad is flying out to Spain later today and will have updates from Jose Mourinho's #UEL https://t.co/SqZiPPzVUp",
+        "id": 859654915236298800,
+        "location": "Manchester, England",
+        "coordinates": null
+      },
+      {
+        "text": "RT @AnimalsAus: Huge international live export investigation making waves globally! Headlines in Belgium, Portugal, Slovakia, Croatia, Spai…",
+        "id": 859654898459258900,
+        "location": "GERMANY",
+        "coordinates": null
+      },
+      {
+        "text": "@BasedStickMan_ May is the Month of Mary. She spared Spain &amp; Portugal from Communism.\n\nJews &amp; Commies need to pick another month.",
+        "id": 859654894785056800,
+        "location": "United States",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spain: Why #Andalusia is the Best Place for Studying Spanish...\nhttps://t.co/Bqmf68mhmH \nvía @travelsofadam\n#StudyinSpain https://t.co/…",
+        "id": 859654880872603600,
+        "location": "Andalucía",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654878662193200,
+        "location": "Campinas, Brasil",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859654853206966300,
+        "location": "Alberton, South Africa",
+        "coordinates": null
+      },
+      {
+        "text": "Do you like #spooky hauntings? Try THE GHOULS OF CALLE GOYA set in #London, #Norway, #Spain and #Thailand - v good… https://t.co/W4TFxydDlQ",
+        "id": 859654825478434800,
+        "location": "All Over",
+        "coordinates": null
+      },
+      {
+        "text": "#18flirt #speeddating webcam #caucasian #tightcunt smile #spain #porncam young https://t.co/hbY30L4Omp",
+        "id": 859654818771722200,
+        "location": "Adler",
+        "coordinates": null
+      },
+      {
+        "text": "RT ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference … https://t.co/zI532apgTW",
+        "id": 859654813100986400,
+        "location": "South Africa",
+        "coordinates": null
+      },
+      {
+        "text": "RT @srtarmy_: \"Spain has no bts fans. They don't deserve wings tour.\"\n\nFuck u haterss, top 1 in europe. https://t.co/027HesobA0",
+        "id": 859654812308262900,
+        "location": "Gijón, España",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859654803231846400,
+        "location": "Paris-Brest",
+        "coordinates": null
+      },
+      {
+        "text": "#cherries from #spain https://t.co/SrzVb7EXaZ",
+        "id": 859654802447499300,
+        "location": "Bristol",
+        "coordinates": null
+      },
+      {
+        "text": "@ChelseaKelv Spain but too far to go to watch the Blues!\nI am in Ireland so cannot see the blues and am freezing!",
+        "id": 859654763264081900,
+        "location": "Cork",
+        "coordinates": null
+      },
+      {
+        "text": "@DONOMAR thank you for everything you do. You put joy in my life with your songs. I love you, I hope to see you one day in France or Spain❤️",
+        "id": 859654737305665500,
+        "location": "mazarine",
+        "coordinates": null
+      },
+      {
+        "text": "Spain Shemale Barcelona Anal playing by EduGrana https://t.co/Kf70EFNmji",
+        "id": 859654731907596300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654715650560000,
+        "location": "Anambra State Nigeria",
+        "coordinates": null
+      },
+      {
+        "text": "More Than 30,000 Motorists Caught Speeding After Easter in Guardia Campaign https://t.co/1jrrlYA1j3 https://t.co/rZSgnkU49d",
+        "id": 859654701658370000,
+        "location": "Torrevieja, Alicante, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "You actually have all forgotten what Angela Merkel &amp; her globalist buddies did to Greece &amp; Spain haven't you? The EU are the real fascists.",
+        "id": 859654688039288800,
+        "location": "Bouches-du-Rhône",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654657316192300,
+        "location": "Nigeria",
+        "coordinates": null
+      },
+      {
+        "text": "#barcelona #Catalunya #Spain He would know the whereabouts of my bag.　https://t.co/DyGaBx9uK2",
+        "id": 859654639544750100,
+        "location": "日本",
+        "coordinates": null
+      },
+      {
+        "text": "Seedsman ... Red #Leicester Tease #Fem #cannabis #Seeds #thc #uk #spain https://t.co/OLMOtlj1gB https://t.co/Os8ydm07KK\n\n— Cannabis strai…",
+        "id": 859654625414320100,
+        "location": "United States",
+        "coordinates": null
+      },
+      {
+        "text": "RT @UKIPPOOLE: Spain suffers Brexit blow as Britons spend less &amp; buying fewer homes since EU referendum.Threaten us over Gibraltar! https:/…",
+        "id": 859654609580810200,
+        "location": "Swansea",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654591545303000,
+        "location": "Accra, Ghana",
+        "coordinates": null
+      },
+      {
+        "text": "I have 8 new followers from USA, Spain last week. See https://t.co/IG07RX8kXa https://t.co/TjT3yFBDW9",
+        "id": 859654589817258000,
+        "location": "right behind you",
+        "coordinates": null
+      },
+      {
+        "text": "RT @WIPO: Closing tomorrow! Applications for WIPO Summer Schools on IP in U.S., Mexico, Spain, Tunisia. Apply now: https://t.co/Yipe7t5kpk…",
+        "id": 859654576500346900,
+        "location": "India",
+        "coordinates": null
+      },
+      {
+        "text": "#netgeodna results 🌎 #españa #italia #spain #italy #oviedo #asturias #genova #italiano #español… https://t.co/mBJK5hXDLI",
+        "id": 859654567931387900,
+        "location": "ORANGE COUNTY☉LOS ANGELES ",
+        "coordinates": null
+      },
+      {
+        "text": "#spain #aalborg adult fetish #holiday #unload fleshlight https://t.co/1LrnJ8ZIF6",
+        "id": 859654562243915800,
+        "location": "Armstrong",
+        "coordinates": null
+      },
+      {
+        "text": "RT @B_Ubiquitous: Purple Zen\n#photography by Ana Tramont\n#Spain #sunset #nature #lavender #photo #weather #wanderlust #travel 🇪🇸\nhttps://t.…",
+        "id": 859654511853523000,
+        "location": "worcester",
+        "coordinates": null
+      },
+      {
+        "text": "RT @SaveRome: Q: Why is the Pantheon so well preserved?\nA: Conversion to a church helped, but no one really knows why fully! More: https://…",
+        "id": 859654506329632800,
+        "location": "Salisbury",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Suga_spain: I'm voting for @BTS_twt for the Top Social Artist #BTSBBMAs \n\nGood morning from Spain , ARMY !! :)",
+        "id": 859654505507541000,
+        "location": "Madrid, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @DeadlineDayLive: Antoine Griezmann is attracted by the prospect of signing for Manchester United - but has reservations about leaving S…",
+        "id": 859654504689434600,
+        "location": "Erisa Nila Wardani❤",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859654493276917800,
+        "location": "South africa",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654456698437600,
+        "location": "Republic of Croatia",
+        "coordinates": null
+      },
+      {
+        "text": "The not so new New Course San Roque golf club Spain https://t.co/SOZRjuv9i0",
+        "id": 859654429821349900,
+        "location": "Sotogrande Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654418911854600,
+        "location": "Ploče,Croatia",
+        "coordinates": null
+      },
+      {
+        "text": "RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh",
+        "id": 859654364046217200,
+        "location": "London baby!",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654356874014700,
+        "location": "Port Harcourt, Nigeria.",
+        "coordinates": null
+      },
+      {
+        "text": "#MUFC : We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at … https://t.co/8oRSBNNmTw",
+        "id": 859654328319127600,
+        "location": "Jekardah, Buitenzorg, Bandung",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654315073560600,
+        "location": "Earth....",
+        "coordinates": null
+      },
+      {
+        "text": "#spain girl sex model squirting sex movie https://t.co/4F4zGdpcK8",
+        "id": 859654310690476000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "#spain girl sex model fuck woman iran https://t.co/j6r8fYyoxj",
+        "id": 859654306504597500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654293531578400,
+        "location": "Manchester",
+        "coordinates": null
+      },
+      {
+        "text": "@CulpritEnter /But he played in Portugal for a years &amp; moved to Celta Vigo in Spain, I don't think he lied to us/",
+        "id": 859654284501233700,
+        "location": "Thugz mansion",
+        "coordinates": null
+      },
+      {
+        "text": "Spain: LGBT Asylum Seekers Abused in North African Enclave https://t.co/bbGV3qJl6I #LGBTQ #FreeSpeechBus",
+        "id": 859654270077083600,
+        "location": "London/Dublin",
+        "coordinates": null
+      },
+      {
+        "text": "RT @heandshe1983: Another from Spain last year! Cannot wait to feel that sun on my skin again #highlights 😘 https://t.co/4xwRv8scYF",
+        "id": 859654266025365500,
+        "location": "United Kingdom",
+        "coordinates": null
+      },
+      {
+        "text": "RT @OliWhiteTV: Come to Spain in the hope of sunshine. It's been raining the whole time 😫",
+        "id": 859654257997426700,
+        "location": "England, United Kingdom",
+        "coordinates": null
+      },
+      {
+        "text": "@barrycarter @ceruiti I expect the same in any country whether it's france, spain, germany, sweden, russia etc.",
+        "id": 859654250070200300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Real Benidorm Transfers,Low Cost Benidorm Groups. #alicante #murcia #valencia #benitransfers\n\n Benidorm, Spain\nhttps://t.co/tZObwf0OUJ",
+        "id": 859654213974020100,
+        "location": "Benidorm, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "Romano! Don't drink too much wine, ok?",
+        "id": 859654213047009300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Tito @CasaReal Although truth said I wouldn't be surprised if professor Michael A. Politely refuse working with Spain. God Bless America.",
+        "id": 859654199470157800,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18… …",
+        "id": 859654185134026800,
+        "location": "Belgium based",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Benidirect: Real Benidorm Transfers,Low Cost Benidorm Groups #alicante #murcia #valencia #benitransfers  Benidorm, Spain\nhttps://t.co/s…",
+        "id": 859654181526921200,
+        "location": "Benidorm, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "Madrid fans are shit. Don't you miss the love you got back in OT? PUT HIM ON A PLANE, BRING HIM BACK FROM SPAIN… https://t.co/coYwFqbdPC",
+        "id": 859654180989947900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654156394651600,
+        "location": "Lasgidi",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Dwalingen: I hate #EU\n\nI love Europe, The Netherlands, France, Great Britain, Italy, Greece, Spain, Belgium, Denmark, Sweden.\n\nVote #Ma…",
+        "id": 859654151432810500,
+        "location": "australie",
+        "coordinates": null
+      },
+      {
+        "text": "My dad just called me from Spain convinced that I was a taxi service lmao I'm",
+        "id": 859654148630904800,
+        "location": "Ireland",
+        "coordinates": null
+      },
+      {
+        "text": "RT @SAPIENS_org: How anthropologists and forensic scientists are challenging Spain's \"pact of forgetting\": https://t.co/zI2GQAvj9b https://…",
+        "id": 859654147099902000,
+        "location": "Anchorage, AK",
+        "coordinates": null
+      },
+      {
+        "text": "@stylememaria Yum! Those photos have me salivating. Spain and particularly Barcelona are definitely on the travel list 🇪🇸",
+        "id": 859654133468581900,
+        "location": "Beirut",
+        "coordinates": null
+      },
+      {
+        "text": "Real Benidorm Transfers,Low Cost Benidorm Groups #alicante #murcia #valencia #benitransfers  Benidorm, Spain\nhttps://t.co/sagSRS2Lvp",
+        "id": 859654122529845200,
+        "location": "Benidorm, España",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654114199969800,
+        "location": "Knowhere",
+        "coordinates": null
+      },
+      {
+        "text": "RT @GuilleOrtsGil: On #VC in #Barcelona #Madrid #BascCountry #Spain #BioMed #Pharma #startup @biocat_en @CDTIoficial  https://t.co/Zc0cp2LT…",
+        "id": 859654088623104000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859654074517663700,
+        "location": "Takoradi,Ghana.",
+        "coordinates": null
+      },
+      {
+        "text": "#travel stories from you guys💞🌵 Day 3 UGH https://t.co/XtDEvJJ8vE #backpacking #blog #holiday",
+        "id": 859654072101728300,
+        "location": "In Wanderlust",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859656303500820500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "SELLBYTEL &amp; Sports Fashion: Teamplay at its Best! https://t.co/U0A8gHFOdI https://t.co/FIbCoIcgRL",
+        "id": 859656297490391000,
+        "location": "Barcelona, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859656293065400300,
+        "location": "On the Beach.",
+        "coordinates": null
+      },
+      {
+        "text": "#BOOK #BEACHHOLIDAY IN #MARBELLA FROM €30/#NIGHT. #europe #visitmarbella https://t.co/EvrLXUn2PY https://t.co/YAXwPOh2Uw",
+        "id": 859656288996905000,
+        "location": "City of London, London",
+        "coordinates": null
+      },
+      {
+        "text": "RT @RobGMacfarlane: \"At sunset the day's light came amber &amp; slantwise through the pines...\" Nights spent in the Guadarrama forests of Spain…",
+        "id": 859656286115426300,
+        "location": "Tennessee",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/juarW2vjBf",
+        "id": 859656274606256100,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/n3aFvCVs6W",
+        "id": 859656273813545000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/RmAxPPuw7A",
+        "id": 859656273113043000,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/KFIZTJZyhk",
+        "id": 859656272681066500,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/jCRc3yqNEt",
+        "id": 859656272504860700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/zI2DzsJQQI",
+        "id": 859656272001605600,
+        "location": "Ahmadabad City, Gujarat",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/O9Jwh53Qqq",
+        "id": 859656271506669600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/MlD9YgyuJR",
+        "id": 859656270990774300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/uWrNwoYQq5",
+        "id": 859656270986584000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/y8j22AlaU5",
+        "id": 859656270827147300,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ahqERrqoGT",
+        "id": 859656270734778400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/909YTriVTE",
+        "id": 859656270332088300,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/CsaBZjrdS4",
+        "id": 859656270030061600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Xr1Es5eWat",
+        "id": 859656270009204700,
+        "location": "Ahmadabad City, Gujarat",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AeEnRBsdsW",
+        "id": 859656269887615000,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/KUNmHTFlK5",
+        "id": 859656269665140700,
+        "location": "Ahmadabad City, Gujarat",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/4BSReInf3m",
+        "id": 859656269661167600,
+        "location": "India.Visit us at ArabPlast-15",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/9m4nllgwnP",
+        "id": 859656269623251000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Q5NzILRwxi",
+        "id": 859656269577293800,
+        "location": "Mail :pp@polymerbazaar.com",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/Shxs67tUbk",
+        "id": 859656269535342600,
+        "location": "Mail :info@polymerbazaar.com",
+        "coordinates": null
+      },
+      {
+        "text": "80 years on from the Guernica bombing and Spain is still struggling to honour historical memory https://t.co/lRS89FOF6a",
+        "id": 859656269535301600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/QJzlUNd9YU",
+        "id": 859656269434572800,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/q0xC6zld9O",
+        "id": 859656269413597200,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/l5InxMO4L6",
+        "id": 859656269405147100,
+        "location": "Ahmedabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/kJEv2jasfO",
+        "id": 859656269371715600,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/UPzZRPg5lp",
+        "id": 859656269346492400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/542rIObYab",
+        "id": 859656269279506400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/owGk02R643",
+        "id": 859656269170229200,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/hcP9AtQH6B",
+        "id": 859656269145059300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ZfmhRuP742",
+        "id": 859656269103341600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/K3bw2b1jzk",
+        "id": 859656269086433300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/1LYlxArSPO",
+        "id": 859656269082366000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/lWy2lcjYCN",
+        "id": 859656268998365200,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/47UZmpkqXs",
+        "id": 859656268989972500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/kRXDtEA99k",
+        "id": 859656268931153900,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "RT @NewsBenidorm: #benidormshuttledirect #stagandhens #groups Hotels Apartments Transfers #gay #pride\n\n Benidorm, Spain\nhttps://t.co/I3MJ7e…",
+        "id": 859656268881043500,
+        "location": "Miami",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AV7q2R2Uxo",
+        "id": 859656268881035300,
+        "location": "Ahmedabad,INDIA",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/dJUWsDyqXg",
+        "id": 859656268771971100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/b1FdEC4H6P",
+        "id": 859656268683673600,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/pLKvIj5L7y",
+        "id": 859656268645933000,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/8lE0w75Nng",
+        "id": 859656268478160900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/tL2uELwfF8",
+        "id": 859656268469870600,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/aNMWizNxvl",
+        "id": 859656268448923600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/fymLQ6iiNM",
+        "id": 859656268188983300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/sBukgX5Owe",
+        "id": 859656268041953300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/jaSn28dHtX",
+        "id": 859656267953864700,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/RPNHpWuhF9",
+        "id": 859656267899355100,
+        "location": "ahmedabad,india",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/vNwPlISav3",
+        "id": 859656267899338800,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/ZVDzWykthR",
+        "id": 859656267656081400,
+        "location": "PP@POLYMERBAZAAR.COM",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/BDqpbhU3q9",
+        "id": 859656267555524600,
+        "location": "AHEMEDABAD INDIA",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/JbEOKqLp0a",
+        "id": 859656267505090600,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/AaP8GEe6qi",
+        "id": 859656267366678500,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/OqXuGdpIXC",
+        "id": 859656267286986800,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/yBsEBpNYQa",
+        "id": 859656267253506000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "🅿🅱\n18th #GEPET Greater Europe #PET Resin Trade, Applications &amp; Recycling,27-28 Apr, 2017 - Barcelona, SPAIN https://t.co/n0VZ4CmC4A",
+        "id": 859656266980905000,
+        "location": "Ahmadabad,Gujarat,India.",
+        "coordinates": null
+      },
+      {
+        "text": "🌲☀Paradise☀🏖 #blogger #gutenmorgen #spring #sunnyday #windy #aporello #spain #2017 https://t.co/XhQIV3nNsX",
+        "id": 859656262547640300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @heandshe1983: A #highlight from last year's holiday to Spain! We go again in 3 weeks so imagine the delights I'll be posting this year!…",
+        "id": 859656226824704000,
+        "location": "Bahrain",
+        "coordinates": null
+      },
+      {
+        "text": "Oh yeah! G&amp;T at Once Upon A Time in Spain at",
+        "id": 859656212941463600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @CarolineBuffa: Madrid, Spain is banning cars from its crowded city center\n\nhttps://t.co/9s3noy2jLh",
+        "id": 859656194700570600,
+        "location": "भारत ( India ) ",
+        "coordinates": null
+      },
+      {
+        "text": "@Alyssa_Milano one of the reasons I like to live in USA instead of Spain is that I can find this in the supermarket… https://t.co/V6mEmKhQ3o",
+        "id": 859656190673821700,
+        "location": "Spain - San Francisco, CA",
+        "coordinates": null
+      },
+      {
+        "text": "RT @rioferdy5: I will be travelling to Spain Thursday but unfortunately not with my boots...... not too late if Jose wants me to pack them!…",
+        "id": 859656167211118600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "HTLV-1 infection and disease in Spain. https://t.co/YXIQDIkBzb",
+        "id": 859656159308927000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "#spain #jewish #legalicenlasde18 euro #followme #instacute couple #booty #couch student https://t.co/ExEC1fawMy",
+        "id": 859656150651981800,
+        "location": "Des Moines",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859656150635208700,
+        "location": "Manchester",
+        "coordinates": null
+      },
+      {
+        "text": "RT @emartineeez: Leaving rn!! Let's go to SPAIN https://t.co/NcrI1WABLl",
+        "id": 859656105538015200,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @stanwalka: I am not lucky to have a player who hides in Spain &amp; does absolutely nothing in the knockout  stages of major competitions.…",
+        "id": 859656090765717500,
+        "location": "Nigeria",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859656090430189600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859656065130082300,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859656035631607800,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @DDistorted: @IGGYAZALEA why u don't follow this crazy Azalean: @Pure_Madness7? he supports u from the begginig(unconditionally) all the…",
+        "id": 859656005290004500,
+        "location": "GIRONA - Salamanca, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ConnorBoyd1872: @_ItsMatrix_ @Ciaran4121 Remember this Tweet, Belgium vs Spain 2018 World Cup Final. Lukaku with an ET goal to win the…",
+        "id": 859655995152314400,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @marcus_tinie: Ronaldo got to spain 4years after Messi now he has 400goals for Madrid ..how many will he score if he got to Spain 4years…",
+        "id": 859655980535205900,
+        "location": "Nigeria delta state",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655979922636800,
+        "location": "Jakal 12,5 sleman, yogyakarta",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655947412701200,
+        "location": "Nairobi, Kenya",
+        "coordinates": null
+      },
+      {
+        "text": "Bitcoin Surges- NewsBTC Cryptocurrency Round-Up, May 2nd: https://t.co/Q9uU7yC3EO #bitcoin #btc",
+        "id": 859655911232729100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "Have a look:  A View To The Mediterranean Sea From The Mountains At Benalmadena. https://t.co/0yoSi77969 #travel #spain #andalusia",
+        "id": 859655906488762400,
+        "location": "Matkaniva",
+        "coordinates": null
+      },
+      {
+        "text": "RT @kpopchartsdata: [ITUNES] TRIPLE H #199X — Peaks\n\n#3 Taiwan\n#5 THA\n#10 Spain\n#15 IRE\n#25 IND\n#30 HKO\n#75 CAN\n#77 France\n#86 UK\n#101 US\n#…",
+        "id": 859655906333777900,
+        "location": "exams",
+        "coordinates": null
+      },
+      {
+        "text": "Spain's property market has hit rock bottom, so there are some fantastic deals to be had. We have 15 units... https://t.co/CVsYk4n0tA",
+        "id": 859655897118908400,
+        "location": "Southport",
+        "coordinates": null
+      },
+      {
+        "text": "RT @PIPOLINO007: @psycho4ensics1 @jerrod_chase @ViditKu99432086 @RealXiiJinping @ImmortalShar Im in Europe guys, In SPAIN. Europe is gone..…",
+        "id": 859655863015026700,
+        "location": "United States",
+        "coordinates": null
+      },
+      {
+        "text": "RT @DDistorted: @IGGYAZALEA why u don't follow this crazy Azalean: @Pure_Madness7? he supports u from the begginig(unconditionally) all the…",
+        "id": 859655854387232800,
+        "location": "Canary Islands, Spain",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Happine74837357: Madrid. Spain. https://t.co/sEB6xy1YTM",
+        "id": 859655840458039300,
+        "location": "...مواطن مصرى",
+        "coordinates": null
+      },
+      {
+        "text": "RT @seanykilleen: Why do I look like a vampire 😭😂 https://t.co/ynYJFtzHTY",
+        "id": 859655789245550600,
+        "location": "España",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Solanauryn2: #MOTTEINSPAIN @IBGDRGN\nPLS GD COME TO SPAIN",
+        "id": 859655785567092700,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @HazardVersion: All this talk about Real Madrid and Barcelona can be thrown out the window. Bilbao are the best team in Spain https://t.…",
+        "id": 859655780609470500,
+        "location": "Stamford Bridge, England",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655780374466600,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @spectatorindex: Youth Unemployment\n\nSth Africa: 54%\nGreece: 45%\nSpain: 42%\nItaly: 38%\nFrance: 24%\nAustralia: 13%\nUK: 12%\nUS: 9.9%\nGerma…",
+        "id": 859655771818209300,
+        "location": "Johannesburg/Mdantsane",
+        "coordinates": null
+      },
+      {
+        "text": "RT @Root_Sanchez: Statue of Cristiano Ronaldo spotted this morning in Madrid, Spain. https://t.co/5Zzm7M6ddC",
+        "id": 859655760363626500,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "How to pronounce Julio Alberto Moreno (Spain/Spanish) - https://t.co/UA96QgR1FC: https://t.co/TbUreHCVwy via @YouTube",
+        "id": 859655748200026100,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "How to pronounce David Juncà (Spain/Spanish) - https://t.co/UA96QgR1FC: https://t.co/nhoLAyC0vN via @YouTube",
+        "id": 859655747252011000,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @aidaramirezgal6: @Il4y03 @LGrakel @BiaCypher @Suga_spain @BTS_twt Make the dreams work\n\ni vote @BTS_twt for at #BTSBBMAs Top Social Art…",
+        "id": 859655642600046600,
+        "location": "Evita las mentes cuadradas; SP",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655631535525900,
+        "location": "",
+        "coordinates": null
+      },
+      {
+        "text": "RT @ManUtd: We're flying out to Spain later today and will have updates from Jose Mourinho's #UEL press conference at around 18:00 BST - do…",
+        "id": 859655629195096000,
+        "location": "Accra / Enugu ",
         "coordinates": null
       }
     ]

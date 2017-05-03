@@ -10,12 +10,8 @@ var Sentiment = React.createClass({
         var renderdefault = function() {
             if (score.words > 0){
                 return <div>
-                    <h3>
-                        Total sentiment score {totalScore}
-                    </h3>
-                    <h3>
-                        Average {percentScore}
-                    </h3>
+                    <h3>Sentiment score {totalScore}</h3>
+                    <p>{percentScore}% possitive</p>
                     <p>Total words counted: {words}</p>
                 </div>
             } else {

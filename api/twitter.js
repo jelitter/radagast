@@ -1,5 +1,5 @@
 var rate   = 15000;
-var _count  = 10;
+var _count  = 100;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
@@ -62,9 +62,11 @@ exports.getTwitsSearch = function(res, search, lang, count) {
           "id" : data.statuses[t].id,
           "location" : data.statuses[t].user.location,
           "coordinates" : data.statuses[t].coordinates
+          //
+          // https://nominatim.openstreetmap.org/search/?city=sevilla&format=json
+          //
         });
       }
-      // twits.push(data.statuses[t].text.trim());
     }
 
     sent.getSentiment(res, search, twits);
