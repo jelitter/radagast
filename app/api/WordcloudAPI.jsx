@@ -99,14 +99,14 @@ export var wordcloud = function (text, top=20) {
 	const font_multiplier = 10;
     const max_font_size   = 150;
     const min_font_size   = 16;
-    const angles          = [0];
+    const angles          = [0, 2, -2, 5, -5];
 
     text = text.replace(new RegExp("'s", 'g'), "").split(/[\s\.\,\?\!]/);
     var wordfreqs = {};
 
     for (var i = 0; i < text.length; i++) {
         var thisword = text[i].toLowerCase();
-        if ((thisword.length < 3) || IGNORED_WORDS.hasOwnProperty(thisword))
+        if ((thisword.length < 3) || IGNORED_WORDS.hasOwnProperty(thisword) || thisword == text)
             continue;
         if (wordfreqs.hasOwnProperty(thisword)) {
             wordfreqs[thisword]++;
@@ -128,7 +128,7 @@ export var wordcloud = function (text, top=20) {
     var mincount = topValues[topValues.length - 1][0];
     topValues.forEach((item) => { 
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
-        console.log("log:", item[2]);
+        console.log(JSON.stringify(item));
     });
 
     var result = [];
