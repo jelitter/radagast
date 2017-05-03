@@ -64,34 +64,34 @@ const IGNORED_WORDS = {
 }
 
 
-function search() {
-    var text = $('#textfield').val();
-    $('#searchresults').empty();
-    $('#sentimentresults').empty();
-    $('#mapresults').empty();
-    $('#wordcloudresults').empty();
-    // $.getJSON(PROXY + API_URL + text, dataReceived);
-    $.getJSON(API_URL + text, dataReceived);
-}
+// function search() {
+//     var text = $('#textfield').val();
+//     $('#searchresults').empty();
+//     $('#sentimentresults').empty();
+//     $('#mapresults').empty();
+//     $('#wordcloudresults').empty();
+//     // $.getJSON(PROXY + API_URL + text, dataReceived);
+//     $.getJSON(API_URL + text, dataReceived);
+// }
 
-function dataReceived(data) {
+// function dataReceived(data) {
 
-    console.log(data);
+//     console.log(data);
 
-    $('#searchresults').append('<p>Score: ' + data.Score.score_perc + '% possitive</p>');
-    for (let i = 0; i < data.Twits.length; i++) {
-        $('#searchresults').append('<p>' + data.Twits[i].text + '</p>');
-    }
+//     $('#searchresults').append('<p>Score: ' + data.Score.score_perc + '% possitive</p>');
+//     for (let i = 0; i < data.Twits.length; i++) {
+//         $('#searchresults').append('<p>' + data.Twits[i].text + '</p>');
+//     }
 
-    $('#sentimentresults').append('<p>' + data.Score.score_perc + '% possitive</p>');
-    $('#sentimentresults').append('<p>' + data.Score.score + ' score [1 (Negative) to 9 (Possitive)]</p>');
-    $('#sentimentresults').append('<p>' + data.Score.words + ' scored words</p>');
+//     $('#sentimentresults').append('<p>' + data.Score.score_perc + '% possitive</p>');
+//     $('#sentimentresults').append('<p>' + data.Score.score + ' score [1 (Negative) to 9 (Possitive)]</p>');
+//     $('#sentimentresults').append('<p>' + data.Score.words + ' scored words</p>');
 
 
-    $('#mapresults').append('<p>Results for WORLDMAP</p>');
+//     $('#mapresults').append('<p>Results for WORLDMAP</p>');
 
-    wordcloud(data.Text, 40);
-}
+//     wordcloud(data.Text, 40);
+// }
 
 
 export var wordcloud = function (text, top=20) {
