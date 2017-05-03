@@ -1,5 +1,4 @@
 var React = require('react');
-var SentimentAPI = require('SentimentAPI');
 
 var Sentiment = React.createClass({
     render: function(){

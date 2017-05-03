@@ -10,7 +10,11 @@ var Main = React.createClass({
         return {
             fulltext: "",
             score: {},
-            user: "default"
+            user: "default",
+            coords: [{
+                lon: 0,
+                lat: 0
+            }]
         }
     },
     handleSearch: function(busqueda) {
@@ -31,7 +35,7 @@ var Main = React.createClass({
     },
 
     render: function(){
-        var {score, fulltext} = this.state;
+        var {score, fulltext, coords} = this.state;
 
         return(
             <div className="container">
@@ -52,7 +56,7 @@ var Main = React.createClass({
                 <div className="container-right">
                     <div className="article">
                         <h3>World Map</h3>
-                        <Map/>
+                        <Map coords={coords}/>
                     </div>
                     <div className="article">
                         <h3>Word Cloud</h3>

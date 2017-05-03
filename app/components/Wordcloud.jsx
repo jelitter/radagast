@@ -4,26 +4,12 @@ var WordcloudAPI = require('WordcloudAPI');
 
 
 var Wordcloud = React.createClass({
-
-
-
-    componentDidUpdate: function(){
-        var { text } = this.props;
-
-        console.log("text", JSON.stringify(text));
-
-        if(text) {
-            WordcloudAPI.wordcloud(text);
-        }
-    },
-    
     render: function(){
         var { text } = this.props;
         var renderWordcloud = function(text) {
 
             if (text) {
                 var processedText = WordcloudAPI.wordcloud(text);
-                console.log(processedText);
                 return processedText.map((elem) => {
                     return(
                             <li key={elem.index}

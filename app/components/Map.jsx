@@ -14,13 +14,15 @@ class Map extends Component {
         super(props)
     }
 
+
     createLayers(data) {
+        var id = 0;
         return data.map((element) => {
             return (
                 <Layer
-                key={element.id} 
+                key={id++} 
                 type="symbol"
-                id={"marker" + element.id }
+                id={"marker" + id }
                 layout={{ 
                     "icon-image" : "marker-15", 
                     "icon-size" : 2,
@@ -36,23 +38,8 @@ class Map extends Component {
     }
   
   render() {
-      var tempcoord = [
-          {
-              lat: 51.5074,
-              lon: -0.1278,
-              id: 1
-          },
-        {
-              lat: 40.7128,
-              lon: -74.0059,
-              id: 2
-          },
-          {
-              lat: -33.8688,
-              lon: 151.2093,
-              id: 3
-          }
-      ]
+      var {coords} = this.props;
+
     return (
         <div>
             <ReactMap
@@ -61,7 +48,7 @@ class Map extends Component {
             containerStyle={mapStyle}
             center={[0,0]}
             zoom={[0]}>
-                {this.createLayers(tempcoord)}
+                {this.createLayers(coords)}
             </ReactMap>
         </div>
     );
