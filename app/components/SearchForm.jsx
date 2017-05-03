@@ -4,10 +4,10 @@ var SearchForm = React.createClass({
     onFormSubmit: function(e) {
         e.preventDefault();
 
-        var busca = this.refs.busqueda.value;
+        var search = this.refs.searchText.value;
 
-        if(busca.length >0) {
-            this.props.onSearch(busca); //handleSearch on Main
+        if(search.length >0) {
+            this.props.onSearch(search); //handleSearch on Main
         }
     },
     render: function(){
@@ -15,7 +15,7 @@ var SearchForm = React.createClass({
             <div>
                 <form onSubmit={this.onFormSubmit} className="row">
                     <div>
-                        <input type="text" ref="busqueda" placeholder="Search tweets"/>
+                        <input type="text" ref="searchText" placeholder="Search tweets"/>
                         <button className="button">Go!</button>
                     </div>
                 </form>

@@ -128,7 +128,7 @@ export var wordcloud = function (text, top=20) {
     var mincount = topValues[topValues.length - 1][0];
     topValues.forEach((item) => { 
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
-        console.log(JSON.stringify(item));
+        //console.log(JSON.stringify(item));
     });
 
     var result = [];
