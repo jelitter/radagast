@@ -3,8 +3,8 @@ var FavouritesElement = require('FavouritesElement');
 var FavCall = require('FavCall')
 
 var Favourites = React.createClass({
-    componentDidMount: function(){
-        this.props.onRenderFavs();
+    componentWillMount: function(){
+         this.props.onRenderFavs();
     },
     render: function(){
         var {favs} = this.props;

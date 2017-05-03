@@ -22,6 +22,10 @@ var Main = React.createClass({
             favs: []
         }
     },
+    componentWillMount: function(){
+        var favs = FavCall.getFavs();
+        this.setState({favs});
+    },
     handleSearch: function(searchText) {
         this.setState({ isSearching : true});
         var _this = this;
@@ -40,47 +44,22 @@ var Main = React.createClass({
         });
     },
     handleFavourite: function(fav) {
-        var _this = this;
         if(fav) {
             //remove favourite fav
             console.log("Removed favourite ", fav)
-            FavCall.removeFav(fav, this.state.user).then(function(response){
-                FavCall.getFavs(this.state.user).then(function(res){
-                    _this.setState({
-                        favs: res
-                    })
-                }, function(err) {
-                    console.log(err);
-                })
-            }, function(err) {
-                console.log(err);
-            })
-
+            FavCall.removeFav(fav, this.state.user).then(()=>{this.renderFavs()});
         } else {
-            //add new favourite
             var {searchedText} = this.state;
+            console.log("Added favourite", searchedText)
             if (searchedText) {
-                console.log("Added new favourite", searchedText)
-                FavCall.addFav(fav, this.state.user).then(function(response) {
-                    _this.setState({
-                        favs: response
-                    })
-                }, function(err){
-                    console.log(err);
-                });
-            } else {
-                console.log("Searched empty, adding nothing")
+                FavCall.addFav(searchedText, this.state.user).then(()=>{this.renderFavs()})
             }
         }
     },
     renderFavs: function(user) {
-        var _this = this;
-        FavCall.getFavs(this.state.user).then(function(response){
-            _this.setState({
-                favs: res
-            })
-        }, function(err){
-            console.log(err)
+        var favs = FavCall.getFavs(this.state.user).then(()=>{
+            console.log("favs in render", favs)
+            this.setState({favs})
         })
     },
 
