@@ -78,24 +78,3 @@ exports.getTwitsSearch = function(res, search, lang, count) {
 exports.removeTwitsSearch = function(res, search) {
   sent.removeTopicResults(res, search);
 }
-
-// exports.getTwitsTrending = function() {
-
-//   T.get('trends/closest', {
-//     lat: 51.8969,
-//     long: 8.4863
-//   }, function (err, data, response) {
-
-//     console.log("Trending:\n" + JSON.stringify(data, null));
-
-//     for (var t in data.statuses) {
-//       // twits.push({
-//       //   "text" : data.statuses[t].text,
-//       //   "location" : data.statuses[t].user.location
-//       // });
-//       twits.push(data.statuses[t].text.trim());
-//     }
-
-//     sent.getSentiment(res, search, twits);
-//   });
-// }
