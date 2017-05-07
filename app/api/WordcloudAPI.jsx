@@ -63,37 +63,6 @@ const IGNORED_WORDS = {
     "you": true
 }
 
-
-// function search() {
-//     var text = $('#textfield').val();
-//     $('#searchresults').empty();
-//     $('#sentimentresults').empty();
-//     $('#mapresults').empty();
-//     $('#wordcloudresults').empty();
-//     // $.getJSON(PROXY + API_URL + text, dataReceived);
-//     $.getJSON(API_URL + text, dataReceived);
-// }
-
-// function dataReceived(data) {
-
-//     console.log(data);
-
-//     $('#searchresults').append('<p>Score: ' + data.Score.score_perc + '% possitive</p>');
-//     for (let i = 0; i < data.Twits.length; i++) {
-//         $('#searchresults').append('<p>' + data.Twits[i].text + '</p>');
-//     }
-
-//     $('#sentimentresults').append('<p>' + data.Score.score_perc + '% possitive</p>');
-//     $('#sentimentresults').append('<p>' + data.Score.score + ' score [1 (Negative) to 9 (Possitive)]</p>');
-//     $('#sentimentresults').append('<p>' + data.Score.words + ' scored words</p>');
-
-
-//     $('#mapresults').append('<p>Results for WORLDMAP</p>');
-
-//     wordcloud(data.Text, 40);
-// }
-
-
 export var wordcloud = function (text, top=20) {
 
 	const font_multiplier = 10;
@@ -115,6 +84,8 @@ export var wordcloud = function (text, top=20) {
         }
     }
 
+    if(Object.keys(wordfreqs).length === 0) return [];
+
     // Extracting top values
     var topValues = [];
     for (var w in wordfreqs) { topValues.push( [wordfreqs[w], w] ); }
@@ -128,7 +99,6 @@ export var wordcloud = function (text, top=20) {
     var mincount = topValues[topValues.length - 1][0];
     topValues.forEach((item) => { 
         item[2] = (Math.log(item[0]) - Math.log(mincount)) / (Math.log(maxcount) - Math.log(mincount)); 
-        //console.log(JSON.stringify(item));
     });
 
     var result = [];
@@ -137,9 +107,6 @@ export var wordcloud = function (text, top=20) {
         let k = item[1];
         let k2 = k.replace(new RegExp("'t", 'g'), "t").replace(new RegExp("'", 'g'), "");
         let size = (item[2] * max_font_size) | 0;
-        // size = (size.map2(mincount, maxcount, min_font_size, max_font_size)) | 0;
-
-        
 
         if (size >= min_font_size) {
             let angle = angles[Math.floor(Math.random()*angles.length)];

@@ -1,8 +1,5 @@
 {
-  "default": [
-    "equinox",
-    "solstice",
-    "jarre",
-    "saint"
+  "test": [
+    "test"
   ]
 }
