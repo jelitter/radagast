@@ -11,6 +11,8 @@ export var Favourites = React.createClass({
             var id=0;
             if (favourites.length >= 0 && favourites.length < 5 && favourites.indexOf("") <0 ) {
                 favourites.push("");
+            } else if(favourites.length > 5) {
+                favourites.splice(5);
             }
             return favourites.map((element)=> {
                 return <FavouritesElement key={id++} text={element} />

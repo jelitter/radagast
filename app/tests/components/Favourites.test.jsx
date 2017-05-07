@@ -42,4 +42,18 @@ describe('Favourites', ()=>{
         expect(favouriteElement.length).toBe(1);
     })
 
+    it('should render a maximum of five FavouriteElement', ()=> {
+        var favourites = {favourites: ["Dog", "Cat", "Frog", "Sky", "Elephant", "Extra"]};
+        var store = configure(favourites);
+        var provider = TestUtils.renderIntoDocument(
+            <Provider store={store}>
+                <ConnectedFavourites />
+            </Provider>);
+        
+        var favouriteList = TestUtils.scryRenderedComponentsWithType(provider, ConnectedFavourites)[0];
+        var favouriteElement = TestUtils.scryRenderedComponentsWithType(favouriteList, ConnectedFavouritesElement);
+
+        expect(favouriteElement.length).toBe(5);
+    })
+
 })
