@@ -1,33 +1,36 @@
 import React, { Component } from 'react';
+var {connect} = require('react-redux');
 import ReactMap, {Layer, Feature} from 'react-mapbox-gl';
 
 const accessToken = "pk.eyJ1IjoibmFyc2hlIiwiYSI6ImNqMjNwamRvYjAwMWozM25zM2g5cG5lMGIifQ.VxTQRjbCRN0RdMLJPRg_Ww";
 const style = "mapbox://styles/mapbox/basic-v9";
 
 const mapStyle = {
-  height: '40vh',
-  width: '70vw'
+  height: '30vh',
+  width: '30vw'
 }
 
-class Map extends Component {
+export class Map extends Component {
     constructor(props) {
         super(props)
     }
 
+
     createLayers(data) {
+        var id = 0;
         return data.map((element) => {
             return (
                 <Layer
-                key={element.id} 
+                key={id++} 
                 type="symbol"
-                id={"marker" + element.id }
+                id={"marker" + id }
                 layout={{ 
                     "icon-image" : "marker-15", 
-                    "icon-size" : 2,
-                    "text-field": "test",
-                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                    "text-offset": [0, 0.6],
-                    "text-anchor": "top"
+                    "icon-size" : 2
+                    //"text-field": "test",
+                    //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                    //"text-offset": [0, 0.6],
+                    //"text-anchor": "top"
                     }}>
                 <Feature coordinates={[element.lon,element.lat]}/>
             </Layer>
@@ -36,40 +39,33 @@ class Map extends Component {
     }
   
   render() {
-      var tempcoord = [
-          {
-              lat: 51.5074,
-              lon: -0.1278,
-              id: 1
-          },
-        {
-              lat: 40.7128,
-              lon: -74.0059,
-              id: 2
-          },
-          {
-              lat: -33.8688,
-              lon: 151.2093,
-              id: 3
+      var twitsArray = this.props.twitter.tweets.Twits;
+      var coords = [];
+      if (twitsArray.length > 0) {
+          for(var i = 0; i<twitsArray.length; i++) {
+              if (twitsArray[i].coordinates) {
+                  var longitude = twitsArray[i].coordinates.coordinates[0];
+                  var latitude = twitsArray[i].coordinates.coordinates[1];
+                  coords.push({lon: longitude, lat: latitude});
+              }
           }
-      ]
+      } else {
+          coords.push({lon:0, lat:0})
+      }
+
     return (
         <div>
-            <h3>Trends Map</h3>
             <ReactMap
             style={style}
             accessToken={accessToken}
             containerStyle={mapStyle}
             center={[0,0]}
-            zoom={[0]}
-  
-            >
-            {this.createLayers(tempcoord)}
-    
+            zoom={[0]}>
+                {this.createLayers(coords)}
             </ReactMap>
         </div>
     );
   }
 }
 
-module.exports = Map;
+export default connect(state => state)(Map);

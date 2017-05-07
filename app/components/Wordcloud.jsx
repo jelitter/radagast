@@ -1,26 +1,37 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var {connect} = require('react-redux');
 var WordcloudAPI = require('WordcloudAPI');
 
 
-var Wordcloud = React.createClass({
-
-    componentDidUpdate: function(){
-        var {text} = this.props;
-        if(text.length > 0) {
-            var wordlist = text.split(" ");
-            WordcloudAPI.drawcloud(wordlist);
-        }
-    },
-    
+export var Wordcloud = React.createClass({
     render: function(){
+        var text = this.props.twitter.tweets.Text;
+        var renderWordcloud = function(text) {
+
+            if (text) {
+                var processedText = WordcloudAPI.wordcloud(text);
+                return processedText.map((elem) => {
+                    return(
+                            <li key={elem.index}
+                            style={elem.style}>
+                            {elem.word}
+                            </li>
+                    )
+                })
+            } else {
+                return (<div></div>)
+            }
+        }
         return(
             <div>
-                <h1 className="dashboard-title">Wordcloud</h1>
-                <div id="wordcloud-graph"></div>
+                <ul id="wordcloudresults" className="word-cloud">
+                    {renderWordcloud(text)}
+                </ul>
             </div>
+            
         )
     }
 })
 
-module.exports=Wordcloud;
+export default connect(state => state)(Wordcloud)

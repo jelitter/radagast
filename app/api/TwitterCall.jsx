@@ -5,13 +5,12 @@ module.exports= {
         var encodedQuery = encodeURIComponent(queryString);
         var requestUrl = `/api/v1/twitter/search/?q=${encodedQuery}`;
 
-        return axios.get(requestUrl).then( function(res){ //API success, but city is not guaranteed
+        return axios.get(requestUrl).then( function(res){ //API success, but data is not guaranteed
             if (res.data.cod && res.data.message) {
-                throw new Error(res.data.message); //no city was returned
+                throw new Error(res.data.message); //no data was returned
             } else {
-                return res.data; //city returned, temparature return
+                return res.data; //data returned
             }
-
         }, function(res){
             throw new Error(res.data.message); //API fails
         });

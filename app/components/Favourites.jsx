@@ -1,16 +1,28 @@
 var React = require('react');
-var FavouritesElement = require('FavouritesElement');
+var {connect} = require('react-redux');
+import FavouritesElement from 'FavouritesElement';
 
-var Favourites = React.createClass({
+var FavCall = require('FavCall')
+
+export var Favourites = React.createClass({
     render: function(){
+        var {favourites} = this.props;
+
+        var renderFavs = () => {
+            var id=0;
+            if (favourites.length > 0 && favourites.length < 5 && favourites.indexOf("") <0 ) {
+                favourites.push("");
+            }
+            return favourites.map((element)=> {
+                return <FavouritesElement key={id++} text={element} />
+            })
+        }
+
         return(
-            <div className="row">
-                <table className="small-10">
+            <div className="">
+                <table className="">
                     <tbody>
-                        <tr>
-                            <td>Placeholder</td>
-                        </tr>
-                        <FavouritesElement />
+                        {renderFavs()}
                     </tbody>
                 </table>
             </div>
@@ -18,4 +30,4 @@ var Favourites = React.createClass({
     }
 })
 
-module.exports=Favourites;
+export default connect(state => state)(Favourites);

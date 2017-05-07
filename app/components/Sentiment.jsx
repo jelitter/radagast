@@ -1,9 +1,9 @@
 var React = require('react');
-var SentimentAPI = require('SentimentAPI');
+var {connect} = require('react-redux');
 
-var Sentiment = React.createClass({
+export var Sentiment = React.createClass({
     render: function(){
-        var {score} = this.props;
+        var score = this.props.twitter.tweets.Score;
         var totalScore = score.score;
         var percentScore = score.score_perc;
         var words = score.words;
@@ -11,12 +11,8 @@ var Sentiment = React.createClass({
         var renderdefault = function() {
             if (score.words > 0){
                 return <div>
-                    <h3>
-                        Total sentiment score {totalScore}
-                    </h3>
-                    <h3>
-                        Average {percentScore}
-                    </h3>
+                    <h3>Sentiment score {totalScore}</h3>
+                    <p>{percentScore}% possitive</p>
                     <p>Total words counted: {words}</p>
                 </div>
             } else {
@@ -29,10 +25,10 @@ var Sentiment = React.createClass({
                 <h1>
                    Sentiment Analysis
                 </h1>
-                {renderdefault()}
+                    {renderdefault()}
             </div>
         )
     }
 })
 
-module.exports= Sentiment;
+export default connect(state => state)(Sentiment);
