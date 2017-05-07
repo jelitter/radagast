@@ -5,7 +5,7 @@ var actions = require('actions');
 
 export var FavouritesElement = React.createClass({
     render: function(){
-        var {dispatch, text, id} = this.props;
+        var {dispatch, text, id, user} = this.props;
         var {searchText} = this.props.twitter;
         if (text !== "") {
              return (
@@ -25,7 +25,10 @@ export var FavouritesElement = React.createClass({
                     <td>Add {searchText} as Favourite</td>
                     <td><div ref={id} onClick={() =>{
                         FavCall.addFav(user, searchText).then(() => {
-                            dispatch(actions.setFavourites(searchText));
+                            //dispatch(actions.setFavourites(searchText));
+                                FavCall.getFavs(user).then((res) => {
+                                     dispatch(actions.setFavourites(res));
+                                });
                             })
                         }}>ADD</div>
                     </td>

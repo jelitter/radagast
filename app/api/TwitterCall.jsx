@@ -12,7 +12,7 @@ module.exports= {
                 return res.data; //data returned
             }
         }, function(res){
-            throw new Error(res.data.message); //API fails
+            throw new Error(res.data); //API fails
         });
     }
 }

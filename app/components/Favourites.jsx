@@ -6,11 +6,12 @@ var FavCall = require('FavCall')
 
 export var Favourites = React.createClass({
     render: function(){
-        var {favourites} = this.props;
+
 
         var renderFavs = () => {
+            var {favourites} = this.props;
             var id=0;
-            if (favourites.length > 0 && favourites.length < 5 && favourites.indexOf("") <0 ) {
+            if (favourites.length >= 0 && favourites.length < 5 && favourites.indexOf("") <0 ) {
                 favourites.push("");
             }
             return favourites.map((element)=> {

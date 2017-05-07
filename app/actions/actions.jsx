@@ -43,7 +43,6 @@ export var setUser = (user) => {
 }
 
 export var getTweets = (searchText) => {
-            console.log("inside gettweets action:", searchText)
     return {
         type: 'START_SEARCH_TWEETS',
         searchText
@@ -51,7 +50,6 @@ export var getTweets = (searchText) => {
 };
 
 export var completeGetTweets = (tweets, searchText) => {
-    console.log("inside completetweets action:", searchText)
     return {
         type: 'COMPLETE_SEARCH_TWEETS',
         tweets,
@@ -61,12 +59,12 @@ export var completeGetTweets = (tweets, searchText) => {
 
 export var fetchTweets = (searchText) =>{
     return (dispatch, getState) => {
-        console.log("inside fetch:", searchText)
-       dispatch(getTweets(searchText));
+        dispatch(getTweets(searchText));
 
-        TwitterCall.getTweetData(searchText).then(function(res) {
-            var tweets = res;
-            dispatch(completeGetTweets(tweets, searchText));
+        return TwitterCall.getTweetData(searchText).then(function(res) {
+            dispatch(completeGetTweets(res, searchText));
+        }, function (err) {
+            dispatch(completeGetTweets({}, searchText));
         });
     };
 };

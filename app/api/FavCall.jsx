@@ -19,7 +19,7 @@ module.exports= {
         var encodedUser = encodeURIComponent(username);
         var encodedFav = encodeURIComponent(fav);
         var requestUrl = `/api/v1/favourites/add/?user=${encodedUser}&text=${encodedFav}`;
-
+        
         return axios.get(requestUrl).then(function(res){
             if(res.data.cod && res.data.message){
                 throw new Error(res.data.message)

@@ -1,5 +1,7 @@
 var expect = require('expect');
 var actions = require('actions');
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
 
 describe('Actions', ()=>{
 
@@ -56,4 +58,41 @@ describe('Actions', ()=>{
         var res = actions.setUser(action.user);
         expect(res).toEqual(action);
     })
+
+
+    it('should generate initial state for fetch tweets action', ()=>{
+        var action = {
+            type: 'START_SEARCH_TWEETS',
+            searchText: 'Pizza'
+        }
+        var res = actions.getTweets(action.searchText);
+        expect(res).toEqual(action);
+    })
+
+    
+    it('should generate completion for fetch tweets action', ()=>{
+        var action = {
+            type: 'COMPLETE_SEARCH_TWEETS',
+            searchText: 'Dog',
+            tweets: [{id:1, text: "I love dogs"}]
+        }
+        var res = actions.completeGetTweets(action.tweets, action.searchText);
+        expect(res).toEqual(action);
+    })
+
+     it('expected actions should be fired on successful fetchTweets request', ()=> {
+        var middlewares = [thunk];
+        var mockstore = configureMockStore(middlewares);
+        var store = mockstore({searchText: 'Dog', tweets: []})
+        
+        var expectedActions = [
+            'START_SEARCH_TWEETS',
+            'COMPLETE_SEARCH_TWEETS'
+        ]
+
+        return store.dispatch(actions.fetchTweets()).then(()=> {
+            var actualActions = store.getActions().map(action => action.type)
+            expect(actualActions).toEqual(expectedActions);
+        })
+     })   
 })

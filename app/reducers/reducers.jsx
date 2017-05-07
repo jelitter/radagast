@@ -50,7 +50,6 @@ export var favouritesReducer = (state = [], action) => {
             });
         case 'SET_FAVOURITES':
             return [
-                ...state,
                 ...action.favourites
             ];
         default:
