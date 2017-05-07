@@ -6,8 +6,6 @@ var FavCall = require('FavCall')
 
 export var Favourites = React.createClass({
     render: function(){
-
-
         var renderFavs = () => {
             var {favourites} = this.props;
             var id=0;
@@ -17,6 +15,7 @@ export var Favourites = React.createClass({
             return favourites.map((element)=> {
                 return <FavouritesElement key={id++} text={element} />
             })
+
         }
 
         return(

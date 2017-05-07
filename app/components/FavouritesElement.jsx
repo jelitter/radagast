@@ -37,7 +37,7 @@ export var FavouritesElement = React.createClass({
         } else {
             return (
                 <tr key={id}>
-                    <td>Search something to add as favourite</td>
+                    <td className="notfound">Search something to add as favourite</td>
                 </tr>
             )
         }

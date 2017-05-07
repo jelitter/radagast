@@ -11,7 +11,7 @@ var FavCall = require('FavCall');
 
 store.subscribe(() => {
     var state = store.getState();
-     //console.log("State change. New state = ", state);
+     console.log("State change. New state = ", state);
     if(state.twitter.isfetching) {
         console.log("loading...") // nice loading icon?
     } else if (state.twitter.tweets) {
