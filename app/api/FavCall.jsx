@@ -44,5 +44,11 @@ module.exports= {
         }, function(res) {
             throw new Error(res.data.message)
         })
+    },
+    getUser: function() {
+        return localStorage.getItem("RadagastUser");
+    },
+    setUser: function(user) {
+        localStorage.setItem("RadagastUser", user);
     }
 }

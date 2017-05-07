@@ -1,11 +1,12 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var {connect} = require('react-redux');
 var WordcloudAPI = require('WordcloudAPI');
 
 
-var Wordcloud = React.createClass({
+export var Wordcloud = React.createClass({
     render: function(){
-        var { text } = this.props;
+        var text = this.props.twitter.tweets.Text;
         var renderWordcloud = function(text) {
 
             if (text) {
@@ -33,4 +34,4 @@ var Wordcloud = React.createClass({
     }
 })
 
-module.exports=Wordcloud;
+export default connect(state => state)(Wordcloud)

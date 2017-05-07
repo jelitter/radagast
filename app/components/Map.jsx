@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+var {connect} = require('react-redux');
 import ReactMap, {Layer, Feature} from 'react-mapbox-gl';
 
 const accessToken = "pk.eyJ1IjoibmFyc2hlIiwiYSI6ImNqMjNwamRvYjAwMWozM25zM2g5cG5lMGIifQ.VxTQRjbCRN0RdMLJPRg_Ww";
@@ -9,7 +10,7 @@ const mapStyle = {
   width: '30vw'
 }
 
-class Map extends Component {
+export class Map extends Component {
     constructor(props) {
         super(props)
     }
@@ -25,11 +26,11 @@ class Map extends Component {
                 id={"marker" + id }
                 layout={{ 
                     "icon-image" : "marker-15", 
-                    "icon-size" : 2,
-                    "text-field": "test",
-                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                    "text-offset": [0, 0.6],
-                    "text-anchor": "top"
+                    "icon-size" : 2
+                    //"text-field": "test",
+                    //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                    //"text-offset": [0, 0.6],
+                    //"text-anchor": "top"
                     }}>
                 <Feature coordinates={[element.lon,element.lat]}/>
             </Layer>
@@ -38,7 +39,19 @@ class Map extends Component {
     }
   
   render() {
-      var {coords} = this.props;
+      var twitsArray = this.props.twitter.tweets.Twits;
+      var coords = [];
+      if (twitsArray.length > 0) {
+          for(var i = 0; i<twitsArray.length; i++) {
+              if (twitsArray[i].coordinates) {
+                  var longitude = twitsArray[i].coordinates.coordinates[0];
+                  var latitude = twitsArray[i].coordinates.coordinates[1];
+                  coords.push({lon: longitude, lat: latitude});
+              }
+          }
+      } else {
+          coords.push({lon:0, lat:0})
+      }
 
     return (
         <div>
@@ -55,4 +68,4 @@ class Map extends Component {
   }
 }
 
-module.exports = Map;
+export default connect(state => state)(Map);

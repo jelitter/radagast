@@ -1,33 +1,44 @@
 var React = require('react');
+var {connect} = require('react-redux');
+var FavCall = require('FavCall');
+var actions = require('actions');
 
-var FavouritesElement = React.createClass({
-    handleAdd: function() {
-        this.props.onClickFavourite();
-    },
-    handleRemove: function(){
-        var element = this.refs.favourite.children[0].innerText;
-        console.log("element ", element)
-        this.props.onClickFavourite(element);
-    },
+export var FavouritesElement = React.createClass({
     render: function(){
-        var {text, id} = this.props;
-
-        if (text == "") {
+        var {dispatch, text, id} = this.props;
+        var {searchText} = this.props.twitter;
+        if (text !== "") {
+             return (
+                <tr key={id} ref="favourite">
+                    <td>{text}</td>
+                    <td><div onClick={() => {
+                        FavCall.removeFav(user, text).then(()=>{
+                            dispatch(actions.removeFavourite(text));
+                            })
+                        }}>DEL</div>
+                    </td>
+                </tr>
+            )    
+        } else if (searchText && searchText.length > 0 ){
             return (
                 <tr key={id}>
-                    <td>add new...</td>
-                    <td><div ref={id} onClick={this.handleAdd}>Add new</div></td>
+                    <td>Add {searchText} as Favourite</td>
+                    <td><div ref={id} onClick={() =>{
+                        FavCall.addFav(user, searchText).then(() => {
+                            dispatch(actions.setFavourites(searchText));
+                            })
+                        }}>ADD</div>
+                    </td>
                 </tr>
             )
         } else {
             return (
-                <tr key={id} ref="favourite">
-                    <td>{text}</td>
-                    <td><div onClick={this.handleRemove}>Remove</div></td>
+                <tr key={id}>
+                    <td>Search something to add as favourite</td>
                 </tr>
             )
         }
     }
 })
 
-module.exports = FavouritesElement;
+export default connect(state => state)(FavouritesElement);

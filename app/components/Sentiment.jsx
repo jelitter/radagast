@@ -1,8 +1,9 @@
 var React = require('react');
+var {connect} = require('react-redux');
 
-var Sentiment = React.createClass({
+export var Sentiment = React.createClass({
     render: function(){
-        var {score} = this.props;
+        var score = this.props.twitter.tweets.Score;
         var totalScore = score.score;
         var percentScore = score.score_perc;
         var words = score.words;
@@ -24,10 +25,10 @@ var Sentiment = React.createClass({
                 <h1>
                    Sentiment Analysis
                 </h1>
-                {renderdefault()}
+                    {renderdefault()}
             </div>
         )
     }
 })
 
-module.exports= Sentiment;
+export default connect(state => state)(Sentiment);

@@ -1,14 +1,7 @@
 {
-  "CIT": [
-    "default"
-  ],
-  "pizza": [
-    "default"
-  ],
-  "mondeo": [
-    "default"
-  ],
-  "react": [
-    "default"
+  "default": [
+    "test",
+    "coding",
+    "jander"
   ]
 }

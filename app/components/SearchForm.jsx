@@ -1,13 +1,15 @@
 var React = require('react');
+var {connect} = require('react-redux');
+var actions = require('actions');
 
-var SearchForm = React.createClass({
+export var SearchForm = React.createClass({
     onFormSubmit: function(e) {
+        var {dispatch, searchText} = this.props;
         e.preventDefault();
 
         var search = this.refs.searchText.value;
-
         if(search.length >0) {
-            this.props.onSearch(search); //handleSearch on Main
+            dispatch(actions.fetchTweets(search));
         }
     },
     render: function(){
@@ -24,4 +26,4 @@ var SearchForm = React.createClass({
     }
 })
 
-module.exports = SearchForm;
+export default connect(state => state)(SearchForm);
