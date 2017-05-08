@@ -2,10 +2,8 @@ var React = require('react')
 var ReactDOM = require('react-dom')
 var TestUtils = require('react-addons-test-utils')
 var expect = require('expect')
-var {Provider} = require('react-redux')
 var $ = require('jQuery')
 
-import {configure} from 'configureStore'
 import ConnectedFavElements, {FavouritesElement} from 'FavouritesElement'
 
 describe('FavouritesElement', ()=>{

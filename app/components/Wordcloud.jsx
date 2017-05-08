@@ -7,13 +7,14 @@ var WordcloudAPI = require('WordcloudAPI');
 export var Wordcloud = React.createClass({
     render: function(){
         var text = this.props.twitter.tweets.Text;
+        console.log(text)
         var renderWordcloud = function(text) {
 
             if (text) {
                 var processedText = WordcloudAPI.wordcloud(text);
                 return processedText.map((elem) => {
                     return(
-                            <li key={elem.index}
+                            <li className="wcelement" key={elem.index}
                             style={elem.style}>
                             {elem.word}
                             </li>
