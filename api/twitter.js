@@ -1,5 +1,5 @@
 var rate   = 15000;
-var _count  = 100;
+var _count  = 10;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
@@ -7,7 +7,7 @@ var twits  = [];
 var jsonfile = require('jsonfile')
 var cities = jsonfile.readFileSync('./api/data/cities.json');
 
-//console.log("Cached locations for " + cities.length + " cities.");
+// console.log("Location for New York is " + cities["New York"].lon, cities["New York"].lat);
 
 var config = {
   consumer_key:         process.env.consumer_key,
@@ -60,21 +60,28 @@ exports.getTwitsSearch = function(res, search, lang, count) {
     twits = [];
 
     for (var t in data.statuses) {
-
       if (data.statuses[t].retweeted == false) {
-
         let thisTwit = {
           "text" : data.statuses[t].text.trim(),
           "id" : data.statuses[t].id,
           "location" : data.statuses[t].user.location,
-          "coordinates" : data.statuses[t].coordinates
+          "coordinates" : data.statuses[t].coordinates,
+          "lon" : "",
+          "lat" : ""
         }
-
-        if ((thisTwit.coordinates == "") && (thisTwit.location != "")) {
-          thisTwit.coordinates = "40.4086,-3.6922"; // Madrid, testing.
+        if (thisTwit.coordinates) {
+          var coord = thisTwit.coordinates.coordinates;
+          thisTwit.lon = coord[0];
+          thisTwit.lat = coord[1];
+        } else {
+          var loc = thisTwit.location.split(",")[0];
+          if ((loc) && cities.hasOwnProperty(loc)) {
+              thisTwit.lon = cities[loc].lon;
+              thisTwit.lat = cities[loc].lat;
+          }
         }
-
-        twits.push();
+        delete thisTwit.coordinates;
+        twits.push(thisTwit);
       }
     }
 
