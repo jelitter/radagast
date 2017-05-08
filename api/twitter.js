@@ -4,9 +4,10 @@ var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
 // https://nominatim.openstreetmap.org/search/?city=sevilla&format=json
+var jsonfile = require('jsonfile')
 var cities = jsonfile.readFileSync('./api/data/cities.json');
 
-console.log(cities);
+//console.log("Cached locations for " + cities.length + " cities.");
 
 var config = {
   consumer_key:         process.env.consumer_key,
