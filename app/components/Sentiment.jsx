@@ -10,7 +10,7 @@ export var Sentiment = React.createClass({
 
         var renderdefault = function() {
             if (score.words > 0){
-                return <div>
+                return <div className="sentelement">
                     <h3>Sentiment score {totalScore}</h3>
                     <p>{percentScore}% possitive</p>
                     <p>Total words counted: {words}</p>

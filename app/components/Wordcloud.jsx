@@ -7,7 +7,6 @@ var WordcloudAPI = require('WordcloudAPI');
 export var Wordcloud = React.createClass({
     render: function(){
         var text = this.props.twitter.tweets.Text;
-        console.log(text)
         var renderWordcloud = function(text) {
 
             if (text) {
