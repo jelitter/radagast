@@ -4,7 +4,8 @@
   "description": "Twitter analysis app",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js | karma start",
+    "test": "start node server.js && karma start",
+    "test-unix": "node server.js | karma start",
     "start": "node server.js"
   },
   "keywords": [
