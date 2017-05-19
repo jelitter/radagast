@@ -19,6 +19,9 @@ module.exports = function(config){
         webpackServer: {
             noInfo: true,
             stats: 'errors-only'
+        },
+        proxies:{
+            '/api/v1/': 'http://localhost:3000/api/v1'
         }
     });
 };
