@@ -2,9 +2,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {connect} = require('react-redux');
 var WordcloudAPI = require('WordcloudAPI');
+var createReactClass = require('create-react-class');
 
 
-export var Wordcloud = React.createClass({
+export var Wordcloud = createReactClass({
     render: function(){
         var text = this.props.twitter.tweets.Text;
         var renderWordcloud = function(text) {

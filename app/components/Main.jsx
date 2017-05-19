@@ -1,10 +1,11 @@
 var React = require('react');
 var Search = require('Search');
+var createReactClass = require('create-react-class');
 import Sentiment from 'Sentiment';
 import Map from 'Map';
 import Wordcloud from 'Wordcloud';
 
-var Main = React.createClass({
+var Main = createReactClass({
     render: function(){
         return(
             <div className="container">

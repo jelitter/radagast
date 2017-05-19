@@ -1,7 +1,8 @@
 var React = require('react');
 var {connect} = require('react-redux');
+var createReactClass = require('create-react-class');
 
-export var Sentiment = React.createClass({
+export var Sentiment = createReactClass({
     render: function(){
         var score = this.props.twitter.tweets.Score;
         var totalScore = score.score;

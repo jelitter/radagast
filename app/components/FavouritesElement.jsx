@@ -1,9 +1,10 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var {connect} = require('react-redux');
 var FavCall = require('FavCall');
 var actions = require('actions');
 
-export var FavouritesElement = React.createClass({
+export var FavouritesElement = createReactClass({
     render: function(){
         var {dispatch, text, id, user} = this.props;
         var {searchText} = this.props.twitter;

@@ -20,6 +20,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "compression": "^1.6.2",
+    "create-react-class": "^15.5.3",
     "d3": "^4.7.3",
     "d3-cloud": "^1.2.4",
     "express": "^4.14.1",

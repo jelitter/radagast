@@ -1,8 +1,9 @@
 var React = require('react');
 var {connect} = require('react-redux');
 var actions = require('actions');
+var createReactClass = require('create-react-class');
 
-export var SearchForm = React.createClass({
+export var SearchForm = createReactClass({
     onFormSubmit: function(e) {
         var {dispatch, searchText} = this.props;
         e.preventDefault();

@@ -1,10 +1,11 @@
 var React = require('react');
 var {connect} = require('react-redux');
 import FavouritesElement from 'FavouritesElement';
+var createReactClass = require('create-react-class');
 
 var FavCall = require('FavCall')
 
-export var Favourites = React.createClass({
+export var Favourites = createReactClass({
     render: function(){
         var renderFavs = () => {
             var {favourites} = this.props;
