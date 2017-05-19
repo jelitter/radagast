@@ -18,24 +18,28 @@ export class Map extends Component {
 
     createLayers(data) {
         var id = 0;
-        return data.map((element) => {
-            return (
-                <Layer
-                key={id++} 
-                type="symbol"
-                id={"marker" + id }
-                layout={{ 
-                    "icon-image" : "marker-15", 
-                    "icon-size" : 2
-                    //"text-field": "test",
-                    //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                    //"text-offset": [0, 0.6],
-                    //"text-anchor": "top"
-                    }}>
-                <Feature coordinates={[element.lon,element.lat]}/>
-            </Layer>
-            )
-        })
+        if(data.length > 0) {
+            return data.map((element) => {
+                return (
+                    <Layer
+                    key={id++} 
+                    type="symbol"
+                    id={"marker" + id }
+                    layout={{ 
+                        "icon-image" : "marker-15", 
+                        "icon-size" : 2
+                        //"text-field": "test",
+                        //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                        //"text-offset": [0, 0.6],
+                        //"text-anchor": "top"
+                        }}>
+                    <Feature coordinates={[element.lon,element.lat]}/>
+                </Layer>
+                )
+            })
+        } else {
+            return <Layer />
+        }
     }
   
   render() {
@@ -43,16 +47,11 @@ export class Map extends Component {
       var coords = [];
       if (twitsArray.length > 0) {
           for(var i = 0; i<twitsArray.length; i++) {
-              if (twitsArray[i].coordinates) {
-                  var longitude = twitsArray[i].coordinates.coordinates[0];
-                  var latitude = twitsArray[i].coordinates.coordinates[1];
-                  coords.push({lon: longitude, lat: latitude});
+              if (twitsArray[i].lon && twitsArray[i].lat) {
+                  coords.push({lon: twitsArray[i].lon, lat: twitsArray[i].lat});
               }
           }
-      } else {
-          coords.push({lon:0, lat:0})
-      }
-
+      } 
     return (
         <div>
             <ReactMap
