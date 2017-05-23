@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 
 describe('Actions', ()=>{
 
-    it('should generate add favourite action', ()=>{
+    it('[T.1.2.1] should generate add favourite action', ()=>{
         var action = {
             type: 'ADD_FAVOURITE',
             favourite: 'kittens'
@@ -14,7 +14,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-    it('should generate remove favourite action', ()=>{
+    it('[T.1.2.2] should generate remove favourite action', ()=>{
         var action = {
             type: 'REMOVE_FAVOURITE',
             favourite: 'dogs'
@@ -23,7 +23,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-    it('should generate update favourites action', ()=>{
+    it('[T.1.2] should generate update favourites action', ()=>{
         var action = {
             type: 'SET_FAVOURITES',
             favourites: ['dogs','kittens']
@@ -32,7 +32,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-    it('should generate searchTweets action', ()=>{
+    it('[T.1.1] should generate searchTweets action', ()=>{
         var action = {
             type: 'SEARCH_TWEETS',
             searchText: 'programming'
@@ -60,7 +60,7 @@ describe('Actions', ()=>{
     })
 
 
-    it('should generate initial state for fetch tweets action', ()=>{
+    it('[T.1.1] should generate initial state for fetch tweets action', ()=>{
         var action = {
             type: 'START_SEARCH_TWEETS',
             searchText: 'Pizza'
@@ -70,7 +70,7 @@ describe('Actions', ()=>{
     })
 
     
-    it('should generate completion for fetch tweets action', ()=>{
+    it('[T.1.1] should generate completion for fetch tweets action', ()=>{
         var action = {
             type: 'COMPLETE_SEARCH_TWEETS',
             searchText: 'Dog',
@@ -80,7 +80,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-     it('expected actions should be fired on successful fetchTweets request', ()=> {
+     it('[T.1.1] expected actions should be fired on successful fetchTweets request', ()=> {
         var middlewares = [thunk];
         var mockstore = configureMockStore(middlewares);
         var store = mockstore({searchText: 'Dog', tweets: []})

@@ -1,8 +1,8 @@
 var expect = require('expect');
 
 
-describe('App', ()=>{
-    it('should properly run tests', ()=>{
+describe('Test Env', ()=>{
+    it('[T.0] should properly run tests', ()=>{
         expect(1).toBe(1);
     })
 })

@@ -2,18 +2,18 @@ var expect = require('expect');
 var TwitterCall = require('TwitterCall');
 
 describe('TwitterCall', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.1] should exist', ()=>{
         expect(TwitterCall).toExist();
     })
 
     describe('getTweetData', ()=>{
-        it('should return an object on successful twitter call', ()=>{
+        it('[T.1.1] should return an object on successful twitter call', ()=>{
             TwitterCall.getTweetData('pizza').then((res)=>{
                 expect(res).toBeAn(Object)
             })
         })
 
-        it('should return a string on unsuccessful twitter call', ()=>{
+        it('[T.1.1] should return a string on unsuccessful twitter call', ()=>{
             TwitterCall.getTweetData().then((res)=>{
                 expect(res).toBeAn(String);
             })

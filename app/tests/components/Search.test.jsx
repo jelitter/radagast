@@ -11,11 +11,11 @@ import SearchForm from 'SearchForm';
 import Favourites from 'Favourites';
 
 describe('Search', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.1] should exist', ()=>{
         expect(Search).toExist()
     })
 
-    it('should render SearchForm and Favourites components', ()=>{
+    it('[T.1.1] should render SearchForm and Favourites components', ()=>{
         var store = configureStore.configure()
         var provider = TestUtils.renderIntoDocument(
             <Provider store={store}>

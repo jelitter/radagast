@@ -7,11 +7,11 @@ var $ = require('jQuery')
 import ConnectedFavElements, {FavouritesElement} from 'FavouritesElement'
 
 describe('FavouritesElement', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.2] should exist', ()=>{
         expect('FavouritesElement').toExist
     })
 
-    it('should render remove element when a favourite is passed', ()=>{
+    it('[T.1.2] should render remove element when a favourite is passed', ()=>{
         var element = {
             text: "test",
             id: 1,
@@ -26,7 +26,7 @@ describe('FavouritesElement', ()=>{
         expect($el.find('.removebutton').length).toBe(1);
     })
 
-    it('should render add element when no favourite is passed but a search has been made', ()=>{
+    it('[T.1.2] should render add element when no favourite is passed but a search has been made', ()=>{
         var element = {
             text: "",
             id: 1,
@@ -41,7 +41,7 @@ describe('FavouritesElement', ()=>{
         expect($el.find('.addbutton').length).toBe(1);
     })
 
-    it('should render instructions when no favourite is passed and a search has not been made', ()=>{
+    it('[T.1.2] should render instructions when no favourite is passed and a search has not been made', ()=>{
         var element = {
             text: "",
             id: 1,

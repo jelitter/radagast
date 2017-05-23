@@ -4,7 +4,7 @@ var reducers = require('reducers');
 
 describe('Reducers', ()=>{
     describe('searchTweetReducer', ()=> {
-        it('Should start searching for tweets', ()=> {
+        it('[T.1.1] Should start searching for tweets', ()=> {
             var action = {
                 type: 'START_SEARCH_TWEETS',
                 searchText: 'dog'
@@ -15,7 +15,7 @@ describe('Reducers', ()=>{
             expect(res.searchText).toEqual(action.searchText);
         })
 
-        it('Should stop fetching for tweets after complete is fired', ()=>{
+        it('[T.1.1] Should stop fetching for tweets after complete is fired', ()=>{
             var action = {
                 type: 'COMPLETE_SEARCH_TWEETS',
                 tweets: ['one tweet', 'other tweet'],
@@ -42,7 +42,7 @@ describe('Reducers', ()=>{
     })
 
     describe('favouritesReducer', ()=>{
-        it('should remove favourite from list', ()=>{
+        it('[T.1.2.2] should remove favourite from list', ()=>{
             var action = {
                 type: 'REMOVE_FAVOURITE',
                 favourite: 'Dog'
@@ -54,7 +54,7 @@ describe('Reducers', ()=>{
             expect(res.indexOf(action.favourite)).toBe(-1);
         })
 
-        it('should set favourites array', ()=> {
+        it('[T.1.2] should set favourites array', ()=> {
             var action = {
                 type: 'SET_FAVOURITES',
                 favourites: ['Dog', 'Cat']

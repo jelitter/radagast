@@ -2,7 +2,7 @@ var expect = require('expect');
 var FavCall = require('FavCall');
 
 describe('FavCall scripts', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.2] should exist', ()=>{
         expect(FavCall).toExist();
     })
 
@@ -36,26 +36,26 @@ describe('FavCall scripts', ()=>{
     })
 
     describe('addFavs', ()=> {
-        it('should add favourites data if provided with string', ()=>{
+        it('[T.1.2.1] should add favourites data if provided with string', ()=>{
             FavCall.addFav("automatedTestKarma", "some fav").then((res)=>{
                 expect(res.status).toEqual("OK")
             })
         })
-        it('should not add a favourite if data provided is incorrect', ()=>{
+        it('[T.1.2.1] should not add a favourite if data provided is incorrect', ()=>{
             FavCall.addFav("automatedTestKarma", ["a"]).then((res) =>{
                 expect(res.status).toNotBe(Object)
             })
         })
     })
 
-    describe('getFavs', ()=>{
+    describe('[T.1.2] getFavs', ()=>{
         it('should return valid data if provided valid user', ()=>{
             FavCall.getFavs("automatedTestKarma").then((res) => {
                 expect(res.data).toEqual(["some fav"]);
             })
         })
 
-        it('should return empty if provided with invalid user', ()=>{
+        it('[T.1.2] should return empty if provided with invalid user', ()=>{
             FavCall.getFavs("dañsldkaffasfas").then((res)=>{
                 expect(res.data).toEqual(null);
             })
@@ -63,7 +63,7 @@ describe('FavCall scripts', ()=>{
     })
 
     describe("removeFav", ()=> {
-        it("should not remove favourite if it exists", ()=>{
+        it("[T.1.2.2] should not remove favourite if it does not exists", ()=>{
             FavCall.removeFav("automatedTestKarma", "some test").then((res)=>{
                  FavCall.getFavs("automatedTestKarma").then((res) => {
                     expect(res.data).toEqual(["some fav"]);
@@ -71,7 +71,7 @@ describe('FavCall scripts', ()=>{
             })
         })
 
-        it("should remove favourite if it exists", ()=> {
+        it("[T.1.2.2] should remove favourite if it exists", ()=> {
             FavCall.removeFav("automatedTestKarma", "some fav").then((res) =>{
                 FavCall.getFavs("automatedTestKarma").then((res) => {
                     expect(res.data).toEqual([]);

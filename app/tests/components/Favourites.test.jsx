@@ -10,11 +10,11 @@ import ConnectedFavourites, {Favourites} from 'Favourites'
 import ConnectedFavouritesElement, {FavouritesElement} from 'FavouritesElement'
 
 describe('Favourites', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.2] should exist', ()=>{
         expect(Favourites).toExist
     })
 
-    it('should render a FavouriteElement for each element in favourites array', ()=> {
+    it('[T.1.2] should render a FavouriteElement for each element in favourites array', ()=> {
         var favourites = {favourites: ["Dog", "Cat"]};
         var store = configure(favourites);
         var provider = TestUtils.renderIntoDocument(
@@ -28,7 +28,7 @@ describe('Favourites', ()=>{
         expect(favouriteElement.length).toBe(favourites.favourites.length);
     })
 
-    it('should render a single element if the favourites list is empty', ()=> {
+    it('[T.1.2] should render a single element if the favourites list is empty', ()=> {
         var favourites = {favourites: []}
         var store = configure(favourites)
         var provider = TestUtils.renderIntoDocument(
@@ -42,7 +42,7 @@ describe('Favourites', ()=>{
         expect(favouriteElement.length).toBe(1);
     })
 
-    it('should render a maximum of five FavouriteElement', ()=> {
+    it('[T.1.2] should render a maximum of five FavouriteElement', ()=> {
         var favourites = {favourites: ["Dog", "Cat", "Frog", "Sky", "Elephant", "Extra"]};
         var store = configure(favourites);
         var provider = TestUtils.renderIntoDocument(

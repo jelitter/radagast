@@ -68,3 +68,10 @@ export var fetchTweets = (searchText) =>{
         });
     };
 };
+
+export var toggleView = (view) => {
+    return {
+        type: 'TOGGLE_VIEW',
+        view
+    }
+}

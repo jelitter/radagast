@@ -13,11 +13,11 @@ import Wordcloud from 'Wordcloud';
 import Search from 'Search';
 
 describe('Main', ()=>{
-    it('should exist', ()=>{
+    it('[T.1] should exist', ()=>{
         expect(Main).toExist()
     })
 
-    it('should render four components', ()=>{
+    it('[T.1] should render four components', ()=>{
         var store = configureStore.configure()
         var provider = TestUtils.renderIntoDocument(
             <Provider store={store}>
