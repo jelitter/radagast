@@ -6,7 +6,7 @@ var expect = require('expect')
 var $ = require('jQuery')
 
 var configureStore = require('configureStore')
-var Main = require('Main')
+import Main from 'Main';
 import Sentiment from 'Sentiment';
 import Map from 'Map';
 import Wordcloud from 'Wordcloud';

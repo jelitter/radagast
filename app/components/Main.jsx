@@ -1,11 +1,12 @@
 var React = require('react');
 var Search = require('Search');
 var createReactClass = require('create-react-class');
+var {connect} = require('react-redux');
 import Sentiment from 'Sentiment';
 import Map from 'Map';
 import Wordcloud from 'Wordcloud';
 
-var Main = createReactClass({
+export var Main = createReactClass({
     render: function(){
         return(
             <div className="container">
@@ -38,4 +39,4 @@ var Main = createReactClass({
     }
 })
 
-module.exports = Main;
+export default connect(state => state)(Main);
