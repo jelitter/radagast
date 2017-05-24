@@ -6,12 +6,12 @@ var actions = require('actions');
 
 export var FavouritesElement = createReactClass({
     render: function(){
-        var {dispatch, text, id, user} = this.props;
+        var {dispatch, text, id, user, favourites} = this.props;
         var {searchText} = this.props.twitter;
         if (text !== "") {
              return (
                 <tr key={id} ref="favourite">
-                    <td>{text}</td>
+                    <td onClick={() => {dispatch(actions.fetchTweets(text))}}><div className="fav favitem"><a href="#">{text}</a></div></td>
                     <td><div className="removebutton" onClick={() => {
                         FavCall.removeFav(user, text).then(()=>{
                             dispatch(actions.removeFavourite(text));
@@ -20,10 +20,10 @@ export var FavouritesElement = createReactClass({
                     </td>
                 </tr>
             )    
-        } else if (searchText && searchText.length > 0 ){
+        } else if (searchText && searchText.length > 0 && favourites.indexOf(searchText)<0){
             return (
                 <tr key={id}>
-                    <td>Add {searchText} as Favourite</td>
+                    <td><div className="fav favadd">Add {searchText} as Favourite</div></td>
                     <td><div ref={id} className="addbutton" onClick={() =>{
                         FavCall.addFav(user, searchText).then(() => {
                             //dispatch(actions.setFavourites(searchText));
@@ -38,7 +38,7 @@ export var FavouritesElement = createReactClass({
         } else {
             return (
                 <tr key={id}>
-                    <td className="notfound">Search something to add as favourite</td>
+                    <td className="notfound"><div className="fav favnothing">Search something to add as favourite</div></td>
                 </tr>
             )
         }
