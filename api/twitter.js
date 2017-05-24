@@ -3,11 +3,10 @@ var _count  = 100;
 var sent   = require('./sentiment');
 var Twit   = require('twit');
 var twits  = [];
-// https://nominatim.openstreetmap.org/search/?city=sevilla&format=json
-var jsonfile = require('jsonfile')
+var jsonfile = require('jsonfile'); // SOURCE: https://nominatim.openstreetmap.org/search/?city=sevilla&format=json
 var cities = jsonfile.readFileSync('./api/data/cities.json');
 
-// console.log("Location for New York is " + cities["New York"].lon, cities["New York"].lat);
+
 
 var config = {
   consumer_key:         process.env.consumer_key,
@@ -49,13 +48,8 @@ exports.getTwitsSearch = function(res, search, lang, count) {
     q: search,
     lang: lang ? lang : "en",
     count: count ? count : _count,
-    // geocode: geocode,
-    // include_entities: false,
-    // geocode: "0.0, 0.0, 10000km",
     result_type: "mixed" // mixed, recent, popular
   }, function (err, data, response) {
-
-    // console.log("data", JSON.stringify(data.statuses)); OK
 
     twits = [];
 
@@ -86,8 +80,6 @@ exports.getTwitsSearch = function(res, search, lang, count) {
     }
 
     sent.getSentiment(res, search, twits);
-    // res.send(data);
-
   });
 }
 

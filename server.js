@@ -18,7 +18,6 @@ console.log("   ░░ Twitter search API started on port "+ PORT +" ░░     
 console.log("   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░========`'==>>=====<_(>");
 console.log("                                                                     <)'`-<>");
 
-// https://www.npmjs.com/package/google-trends-api
 
 app.set('view engine', 'jade');
 app.use(time.init);
@@ -118,12 +117,6 @@ app.get('/api/?*',function (req, res) {
 
 app.use(express.static(__dirname + "/html"));
 
-/*app.get(/\w{1,}/,function (req, res) {
-  log(req, "Wrong route (404)");
-  // console.warn(req.timestamp.format() + "-> Wrong route (404): " + req.originalUrl);
-  res.sendFile(page404, {root: __dirname });
-});*/
-
 
 // ----------------------------------------------------
 //         FRONTEND
@@ -140,10 +133,6 @@ app.use(function (req, res, next){
 
 app.use(express.static('public'));
 app.listen(PORT);
-
-// app.listen(PORT, function(){
-//     console.log("  Express is running on port " + PORT);
-// })
 
 
 

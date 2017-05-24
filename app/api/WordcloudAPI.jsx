@@ -1,9 +1,4 @@
-// Added proxy to avoid cross domain loading error.
-// const PROXY = "https://crossorigin.me/"
-// const API_URL = "https://radagast-cit.herokuapp.com/api/v1/twitter/search/?q="
-
 var $ = require('jQuery');
-
 const API_URL = "./api/v1/twitter/search/?q="
 
 const IGNORED_WORDS = {

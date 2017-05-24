@@ -6,8 +6,11 @@ const accessToken = "pk.eyJ1IjoibmFyc2hlIiwiYSI6ImNqMjNwamRvYjAwMWozM25zM2g5cG5l
 const style = "mapbox://styles/mapbox/basic-v9";
 
 const mapStyle = {
-  height: '30vh',
-  width: '30vw'
+  // height: '30vh',
+  // width: '30vw'
+  height: '100ch',
+  width: '100cw',
+  'max-height' : '600px'
 }
 
 export class Map extends Component {
@@ -27,11 +30,7 @@ export class Map extends Component {
                     id={"marker" + id }
                     layout={{ 
                         "icon-image" : "marker-15", 
-                        "icon-size" : 2
-                        //"text-field": "test",
-                        //"text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                        //"text-offset": [0, 0.6],
-                        //"text-anchor": "top"
+                        "icon-size" : 1
                         }}>
                     <Feature coordinates={[element.lon,element.lat]}/>
                 </Layer>
@@ -58,8 +57,8 @@ export class Map extends Component {
             style={style}
             accessToken={accessToken}
             containerStyle={mapStyle}
-            center={[0,0]}
-            zoom={[0]}>
+            center={[0,30]}
+            zoom={[1.2]}>
                 {this.createLayers(coords)}
             </ReactMap>
         </div>

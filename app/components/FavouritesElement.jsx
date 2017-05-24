@@ -11,7 +11,10 @@ export var FavouritesElement = createReactClass({
         if (text !== "") {
              return (
                 <tr key={id} ref="favourite">
-                    <td onClick={() => {dispatch(actions.fetchTweets(text))}}><div className="fav favitem"><a href="#">{text}</a></div></td>
+                    <td onClick={() => {
+                        dispatch(actions.fetchTweets(text));
+                        $('#inputBox').val(text);
+                    }}><div className="fav favitem">{text}</div></td>
                     <td><div className="removebutton" onClick={() => {
                         FavCall.removeFav(user, text).then(()=>{
                             dispatch(actions.removeFavourite(text));
@@ -26,7 +29,6 @@ export var FavouritesElement = createReactClass({
                     <td><div className="fav favadd">Add {searchText} as Favourite</div></td>
                     <td><div ref={id} className="addbutton" onClick={() =>{
                         FavCall.addFav(user, searchText).then(() => {
-                            //dispatch(actions.setFavourites(searchText));
                                 FavCall.getFavs(user).then((res) => {
                                      dispatch(actions.setFavourites(res));
                                 });

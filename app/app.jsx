@@ -11,17 +11,14 @@ var FavCall = require('FavCall');
 
 store.subscribe(() => {
     var state = store.getState();
-     console.log("State change. New state = ", state);
     if(state.twitter.isfetching) {
-        console.log("loading...") // nice loading icon?
+        // TODO: Loading icon
     } else if (state.twitter.tweets) {
-        console.log("tweets fetched") //remove icon. render page
+        // TODO: Loaded icon
     }
-
-})
+});
 
 var user = FavCall.getUser() || "default";
-console.log("user=", user)
 store.dispatch(actions.setUser(user));
 
 FavCall.getFavs(user).then((res) => {

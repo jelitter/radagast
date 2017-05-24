@@ -14,11 +14,12 @@ export var SearchForm = createReactClass({
         }
     },
     render: function(){
+        var { searchText } = this.props;
         return(
             <div>
                 <form onSubmit={this.onFormSubmit} className="row">
                     <div>
-                        <input type="text" ref="searchText" placeholder="Search tweets"/>
+                        <input type="text" id="inputBox" ref="searchText" placeholder="Search tweets">{ searchText }</input>
                         <button className="button">Go!</button>
                     </div>
                 </form>

@@ -46,7 +46,6 @@ exports.remove = function(user, text, res) {
     if (favourites[user]) {
       var pos = favourites[user].indexOf(text);
       if (pos >= 0) {
-        // favourites[user].push(text);
         favourites[user].splice(pos,1);
       } else {
         res.send({

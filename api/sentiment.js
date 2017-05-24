@@ -1,12 +1,8 @@
-// var mashapeKey = "D1jk6XoHkpmsh4wd3y1bCHuTr6STp1TqCAPjsnwAtZ6kHUUBay";
-
 var unirest  = require('unirest');
 var jsonfile = require('jsonfile')
 var st       = require('./stemmer-porter2');
 var results  = {}
 var warriner = jsonfile.readFileSync('./api/data/warriner-english.json');
-
-// console.log("  Sentiment dictionary loaded.")
 
 jsonfile.spaces = 2;
 var file = './api/data/data.json'
@@ -18,7 +14,6 @@ function saveData() {
 }
 
 exports.loadData = function() {
-  // console.dir(jsonfile.readFileSync(file))
   try {
     results = jsonfile.readFileSync(file);
   } catch (e) {
@@ -90,7 +85,6 @@ exports.getSentiment = function(res, search, twits) {
     .replace(/\bRT\b|\n|#\S+|https?\:\/\/\S+|\@\w+/g, "")
     .replace(/[^a-zA-Záéíóúàèìòùâêîôûäëïöü\!\?\,\.'\- ]/g, "")
     .replace(/\s{2,}/g, " ")
-    // .replace(search, "")
     .trim();
 
 
@@ -103,11 +97,9 @@ exports.getSentiment = function(res, search, twits) {
   
   results[search.toLowerCase()]["Score"] = this.getSentimentScore(txt);
   results[search.toLowerCase()]["numberOfTweets"] = results[search.toLowerCase()].Twits.length;
-
   results[search.toLowerCase()]["Raw Text"] = alltwits
   results[search.toLowerCase()]["Text"] = txt
   results[search.toLowerCase()]["Stemmed Text"] = stemmedText
-  // results[search]["Twits"] = 
 
   console.log("Sentiment for \"" +search+ "\" is " + results[search.toLowerCase()]["Score"].score_perc + " % possitive.");
 
