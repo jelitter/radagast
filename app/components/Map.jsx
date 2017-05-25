@@ -10,7 +10,7 @@ const mapStyle = {
   // width: '30vw'
   height: '100ch',
   width: '100cw',
-  'max-height' : '600px'
+  maxHeight : '600px'
 }
 
 export class Map extends Component {
