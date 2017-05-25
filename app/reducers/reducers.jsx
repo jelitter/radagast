@@ -57,22 +57,18 @@ export var favouritesReducer = (state = [], action) => {
     };
 };
 
-export var viewReducer = (state, action) => {
+var defaultViews = {
+    wordcloud: true,
+    map: true,
+    sentiment: true
+}
+export var viewReducer = (state = defaultViews, action) => {
     switch(action.type) {
         case 'TOGGLE_VIEW':
-            /*return state.map((todo) => {
-                if (todo.id === action.id) {
-                    var nextCompleted = !todo.completed;
-
-                    return {
-                        ...todo,
-                        completed: nextCompleted,
-                        completedAt: nextCompleted ? moment().unix() : undefined
-                    }
-                } else {
-                    return todo;
-                }
-            */    
+            return {
+                ...state,
+                [action.view]: ![state.view]
+            };
         default:
             return state
     };
