@@ -67,7 +67,7 @@ export var viewReducer = (state = defaultViews, action) => {
         case 'TOGGLE_VIEW':
             return {
                 ...state,
-                [action.view]: ![state.view]
+                [action.view]: !state[action.view]
             };
         default:
             return state

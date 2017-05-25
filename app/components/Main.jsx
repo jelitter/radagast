@@ -8,6 +8,7 @@ import Wordcloud from 'Wordcloud';
 
 export var Main = createReactClass({
     render: function(){
+        var {views} = this.props;
         return(
             <div className="container">
                 <div className="container-left">
@@ -17,7 +18,7 @@ export var Main = createReactClass({
                             <Search />
                         </pre>
                     </div>
-                    <div className="article">
+                    <div className="article" hidden={!views.sentiment}>
                         <h3>Sentiment</h3>
                         <pre id="sentimentresults">
                             <Sentiment />
@@ -25,11 +26,11 @@ export var Main = createReactClass({
                     </div>
                 </div>
                 <div className="container-right">
-                    <div className="article">
+                    <div className="article" hidden={!views.map}>
                         <h3>World Map</h3>
                         <Map />
                     </div>
-                    <div className="article">
+                    <div className="article" hidden={!views.wordcloud}>
                         <h3>Word Cloud</h3>
                         <Wordcloud />
                     </div>
