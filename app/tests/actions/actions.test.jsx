@@ -94,5 +94,15 @@ describe('Actions', ()=>{
             var actualActions = store.getActions().map(action => action.type)
             expect(actualActions).toEqual(expectedActions);
         })
-     })   
+     })
+
+    it('should generate toggle view action', ()=>{
+        var action = {
+            type: 'TOGGLE_VIEW',
+            view: 'view'
+        }
+        var res = actions.toggleView(action.view);
+        expect(res).toEqual(action);
+    })
+
 })

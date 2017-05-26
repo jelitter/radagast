@@ -32,7 +32,7 @@ describe('FavouritesElement', ()=>{
             id: 1,
             user: "tester",
             twitter: {
-                searchText: "search"
+                searchText: "random search"
             }
         }
 

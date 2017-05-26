@@ -64,4 +64,37 @@ describe('Reducers', ()=>{
             expect(res).toEqual(action.favourites);
         })
     })
+
+    describe('viewReducer', ()=>{
+        it('should toggle view if valid view is passed', ()=>{
+            var action ={
+                type: 'TOGGLE_VIEW',
+                view: 'menu'
+            }
+            var state =  {
+                menu: true
+            }
+            var res = reducers.viewReducer(df(state), df(action));
+            expect(res.menu).toEqual(!state.menu); 
+
+            var state2 =  {
+                menu: false
+            }
+            var res = reducers.viewReducer(df(state2), df(action));
+            expect(res.menu).toEqual(!state2.menu);
+        })
+
+        it('should return the state if invalid view is passed', ()=>{
+            var action = {
+                type: 'TOGGLE_VIEW',
+                view: 'menu'
+            }
+            var state = {
+                nomenu: true
+            }
+
+            var res = reducers.viewReducer(df(state), df(action));
+            expect(res.menu).toEqual(!state.menu); 
+        })
+    })
 })
