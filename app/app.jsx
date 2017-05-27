@@ -1,8 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var {Provider} = require('react-redux');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+var {Route, Router, IndexRoute, hashHistory, browserHistory} = require('react-router');
 import Main from 'Main';
+var About = require('About');
+var ApiDoc = require('ApiDoc');
 
 //State configuration
 var actions = require('actions');
@@ -40,8 +42,9 @@ require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
     <Provider store = {store}>
-        <Router history={hashHistory}>
-            <Route path="/" component={Main}></Route>
+        <Router history={browserHistory}>
+            <Route path="/" component={Main}>
+            </Route>
         </Router>
     </Provider>,
     document.getElementById('app')
