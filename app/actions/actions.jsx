@@ -75,3 +75,10 @@ export var toggleView = (view) => {
         view
     }
 }
+
+export var setViews = (views) => {
+    return {
+        type: 'SET_VIEWS',
+        views
+    }
+}

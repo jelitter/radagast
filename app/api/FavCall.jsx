@@ -50,5 +50,11 @@ module.exports= {
     },
     setUser: function(user) {
         localStorage.setItem("RadagastUser", user);
+    },
+    saveViews: function(views) {
+        localStorage.setItem("RadagastSettings", JSON.stringify(views));
+    },
+    loadViews: function() {
+        return JSON.parse(localStorage.getItem("RadagastSettings"));
     }
 }

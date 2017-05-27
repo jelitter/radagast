@@ -69,6 +69,8 @@ export var viewReducer = (state = defaultViews, action) => {
                 ...state,
                 [action.view]: !state[action.view]
             };
+        case 'SET_VIEWS':
+            return action.views;
         default:
             return state
     };

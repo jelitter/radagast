@@ -16,7 +16,16 @@ store.subscribe(() => {
     } else if (state.twitter.tweets) {
         // TODO: Loaded icon
     }
+    FavCall.saveViews(state.views);
 });
+
+var defaultViews = {
+    wordcloud: true,
+    map: true,
+    sentiment: true
+}
+var settings = FavCall.loadViews() || defaultViews;
+store.dispatch(actions.setViews(settings));
 
 var user = FavCall.getUser() || "default";
 store.dispatch(actions.setUser(user));
