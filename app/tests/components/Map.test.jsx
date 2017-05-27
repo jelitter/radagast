@@ -10,7 +10,7 @@ import {configure} from 'configureStore'
 import ReactMap, {Layer, Feature} from 'react-mapbox-gl';
 
 describe('Map', ()=> {
-    it('should exist', ()=> {
+    it('[T.2.1] should exist', ()=> {
         expect(Map).toExist
     })
 })

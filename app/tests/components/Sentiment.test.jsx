@@ -7,11 +7,11 @@ var $ = require('jQuery')
 import ConnectedSentiment, {Sentiment} from 'Sentiment'
 
 describe('Sentiment', ()=>{
-    it('should exist', ()=>{
+    it('[T.4.1] should exist', ()=>{
         expect('Sentiment').toExist
     })
 
-    it('should render results to the screen when a twitter object is passed', ()=>{
+    it('[T.4.1] should render results to the screen when a twitter object is passed', ()=>{
         var element = {
             twitter: {
                 tweets:{
@@ -28,7 +28,7 @@ describe('Sentiment', ()=>{
         expect($el.find('.sentelement').length).toBe(1);
     })
 
-    it('should not render any elements when an empty object is passed', ()=>{
+    it('[T.4.1] should not render any elements when an empty object is passed', ()=>{
         var element = {
             twitter: {
                 tweets:{
