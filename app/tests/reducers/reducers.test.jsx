@@ -30,7 +30,7 @@ describe('Reducers', ()=>{
     })
 
     describe('userReducer', ()=>{
-        it('should return current user', ()=>{
+        it('[T.5] should return current user', ()=>{
             var action = {
                 type: 'SET_USER',
                 user: 'Kevin'
@@ -66,7 +66,7 @@ describe('Reducers', ()=>{
     })
 
     describe('viewReducer', ()=>{
-        it('should toggle view if valid view is passed', ()=>{
+        it('[T.1.4] should toggle view if valid view is passed', ()=>{
             var action ={
                 type: 'TOGGLE_VIEW',
                 view: 'menu'
@@ -84,7 +84,7 @@ describe('Reducers', ()=>{
             expect(res.menu).toEqual(!state2.menu);
         })
 
-        it('should return the state if invalid view is passed', ()=>{
+        it('[T.1.4] should return the state if invalid view is passed', ()=>{
             var action = {
                 type: 'TOGGLE_VIEW',
                 view: 'menu'

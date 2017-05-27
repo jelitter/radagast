@@ -11,7 +11,7 @@ describe('FavCall scripts', ()=>{
     })
 
     describe('getUser', ()=> {
-        it('should return user name from browser localStorage', ()=>{
+        it('[T.5] should return user name from browser localStorage', ()=>{
             var user = 'testing'
             localStorage.setItem("RadagastUser", user)
             var res = FavCall.getUser();
@@ -19,14 +19,14 @@ describe('FavCall scripts', ()=>{
             expect(res).toEqual(user);
         })
 
-        it('should return empty if no previous user was added', ()=>{
+        it('[T.5] should return empty if no previous user was added', ()=>{
             var res = FavCall.getUser();
             expect(res).toBe(null);
         })
     })
 
     describe('setUser', ()=>{
-        it('should store user name in localStorage', ()=>{
+        it('[T.5] should store user name in localStorage', ()=>{
             var user = "testing"
             FavCall.setUser(user);
             var res = localStorage.getItem("RadagastUser");
@@ -48,8 +48,8 @@ describe('FavCall scripts', ()=>{
         })
     })
 
-    describe('[T.1.2] getFavs', ()=>{
-        it('should return valid data if provided valid user', ()=>{
+    describe('getFavs', ()=>{
+        it('[T.1.2] should return valid data if provided valid user', ()=>{
             FavCall.getFavs("automatedTestKarma").then((res) => {
                 expect(res.data).toEqual(["some fav"]);
             })

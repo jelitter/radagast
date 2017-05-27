@@ -41,7 +41,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-    it('should generate add user action', ()=>{
+    it('[T.5] should generate add user action', ()=>{
         var action = {
             type: 'ADD_USER',
             user: 'Steve'
@@ -50,7 +50,7 @@ describe('Actions', ()=>{
         expect(res).toEqual(action);
     })
 
-    it('should generate set user action', ()=>{
+    it('[T.5] should generate set user action', ()=>{
         var action = {
             type: 'SET_USER',
             user: 'Kevin'
@@ -96,7 +96,7 @@ describe('Actions', ()=>{
         })
      })
 
-    it('should generate toggle view action', ()=>{
+    it('[T.1.4] should generate toggle view action', ()=>{
         var action = {
             type: 'TOGGLE_VIEW',
             view: 'view'

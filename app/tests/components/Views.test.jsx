@@ -7,7 +7,7 @@ var $ = require('jQuery');
 var {Views} = require('Views')
 
 describe('Views', ()=>{
-    it('should exist', ()=>{
+    it('[T.1.4] should exist', ()=>{
         expect(Views).toExist()
     })
 
