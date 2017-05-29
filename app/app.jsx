@@ -3,8 +3,6 @@ var ReactDOM = require('react-dom');
 var {Provider} = require('react-redux');
 var {Route, Router, IndexRoute, hashHistory, browserHistory} = require('react-router');
 import Main from 'Main';
-var About = require('About');
-var ApiDoc = require('ApiDoc');
 
 //State configuration
 var actions = require('actions');
