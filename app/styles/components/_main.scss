@@ -20,63 +20,63 @@
 }
 
 :root {
-   --background-color: #B0B0C0;
-   --main-color: #202050;
-   --main-hover-color: #404070;
-   --hover-color: #B0B0C0;
-   --box-color: #8080A0;
-   --radius: 4px;
- }
- 
- * {
-     box-sizing: border-box;
- }
- 
- html {
-   background: var(--background-color);
-   font-family: Helvetica;
-   transition-duration: 0.5s;
- }
- 
- body {
-   margin: 0;
- }
- 
- header {
-     opacity: 0.7;
-     width: 100%;
-     height: 100%;
-     background-color: #EEE;
-     background: url(https://unsplash.it/800/600/?blur&random) no-repeat; 
-     background-size:cover;
-     top: 0;
-     position: fixed;
-     z-index: -1;
- }
- 
- #form {
-   padding: 10px;
-   margin: 10px;
- }
- 
- input {
-   padding: 5px;
-   font-size: 1.5em;
-   margin-left: 5px;
- }
- 
- button {
-   background-color: var(--main-color);
-   border-radius: var(--radius);
-   font-size: 1.5em;
-   padding: 7px 20px;
-   border: none;
-   color: White;
-   margin: 5px;
- }
- 
- button:hover {
-   background-color: var(--main-hover-color);
+ --background-color: #B0B0C0;
+ --main-color: #202050;
+ --main-hover-color: #404070;
+ --hover-color: #B0B0C0;
+ --box-color: #8080A0;
+ --radius: 4px;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+html {
+ background: var(--background-color);
+ font-family: Helvetica;
+ transition-duration: 0.5s;
+}
+
+body {
+ margin: 0;
+}
+
+header {
+ opacity: 0.7;
+ width: 100%;
+ height: 100%;
+ background-color: #EEE;
+ background: url(https://unsplash.it/800/600/?blur&random) no-repeat; 
+ background-size:cover;
+ top: 0;
+ position: fixed;
+ z-index: -1;
+}
+
+#form {
+ padding: 10px;
+ margin: 10px;
+}
+
+input {
+ padding: 5px;
+ font-size: 1.5em;
+ margin-left: 5px;
+}
+
+button {
+ background-color: var(--main-color);
+ border-radius: var(--radius);
+ font-size: 1.5em;
+ padding: 7px 20px;
+ border: none;
+ color: White;
+ margin: 5px;
+}
+
+button:hover {
+ background-color: var(--main-hover-color);
    box-shadow: 0px 0px 8px white; //var(--background-color);
  }
  
@@ -189,6 +189,7 @@
    margin: 5px;
    min-width: calc(100% - 10px);
    max-width: calc(100% - 10px);
+   margin-bottom: 20px;
  }
  td {
    background: var(--background-color);
@@ -211,7 +212,10 @@
    box-shadow: 0px 0px 8px white; //var(--background-color);
  }
  
- 
+ .favitem {
+  cursor: pointer;
+ }
+
  #searchresults p, #sentimentresults p {
    background: #EEEEFF;
    margin: 5px;
@@ -219,7 +223,7 @@
    box-shadow: 1px 2px 3px var(--main-color);
    white-space: normal;
  }
- 
+
  .footer {
    background: var(--main-color);
    position: fixed;
@@ -240,8 +244,8 @@
  
  
  @keyframes grow {
-     75%  { transform: scale(2, 2); }
-     100% { transform: scale(2.5, 2.5); }
+   75%  { transform: scale(2, 2); }
+   100% { transform: scale(2.5, 2.5); }
  }
  
  
@@ -256,7 +260,7 @@
    
    list-style: none;
    /*text-align: justify;*/
- 
+
    display: flex;
    justify-content: center;
    /*flex-wrap: wrap;*/
@@ -276,54 +280,77 @@
    color: #90d6f3;
  }
 
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+div.views {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  vertical-align: bottom;
+}
+
+div.viewMenu {
+  font-family: Helvetica;
+  padding-top: 4px;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 50%;
+  font-size: 14px;
+  text-align: right;
+  vertical-align: center;
 }
 
 /* Hide default HTML checkbox */
 .switch input {display:none;}
 
+/* The switch - the box around the slider */
+.switch {
+  display: inline-block;
+  height: 26px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-top: 4px;
+  position: relative;
+  vertical-align: top;
+  width: 44px;
+}
+
 /* The slider */
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
+  -webkit-transition: .4s;
+  background-color: var(--background-color);;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
+  top: 0;
+  cursor: pointer;
+  position: absolute;
   transition: .4s;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 18px;
+  width: 18px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #FFF;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  // background-color: #2196F3;
+  background-color: var(--main-color);;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  // box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px var(--main-color);;
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
 }
 
 /* Rounded sliders */

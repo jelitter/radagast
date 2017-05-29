@@ -11,7 +11,7 @@ export var Views = createReactClass({
         }
 
         return(
-            <div>
+            <div className="views">
                 <div className="viewMenu">
                     Map
                     <label className="switch">
