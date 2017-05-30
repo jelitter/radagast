@@ -1,3 +1,12 @@
+:root {
+ --background-color: #B0B0C0;
+ --main-color: #202050;
+ --main-hover-color: #404070;
+ --hover-color: #B0B0C0;
+ --box-color: #8080A0;
+ --radius: 4px;
+}
+
 .box {
 	display: inline-block;
   width: calc(50% - 80px);
@@ -17,15 +26,6 @@
   box-shadow: 1px 1px 6px #888888;
   vertical-align: top;
   overflow: hidden;
-}
-
-:root {
- --background-color: #B0B0C0;
- --main-color: #202050;
- --main-hover-color: #404070;
- --hover-color: #B0B0C0;
- --box-color: #8080A0;
- --radius: 4px;
 }
 
 * {
@@ -310,6 +310,7 @@ div.viewMenu {
   position: relative;
   vertical-align: top;
   width: 44px;
+  box-shadow: 0px 0px 6px var(--background-color);
 }
 
 /* The slider */
@@ -361,3 +362,46 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+// .progressbar {
+
+//   padding: 5px;
+//   margin: 5px;
+//   height: 34px;
+//   width: calc(100% - 10px);
+//   color: var(--main-color);;
+//   background-color: var(--background-color);
+//   box-shadow: 1px 1px 4px var(--main-color);
+// }
+
+progress {
+  display: block;
+  width: calc(100% - 10px);
+  margin: 2em auto;
+  margin-top: 5px;
+  padding: 4px;
+  border: 0 none;
+  background: #B0B0C0;
+  // border-radius: 14px;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+progress::-moz-progress-bar {
+  // border-radius: 12px;
+  background: #B0B0C0;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+  
+}
+/* webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  progress {
+    height: 34px;
+  }
+}
+progress::-webkit-progress-bar {
+    background: transparent;
+}  
+progress::-webkit-progress-value {  
+  // border-radius: 12px;
+  background: #202050;
+  box-shadow: inset 0 -2px 4px rgba(128,128,128,0.4), 0 2px 5px 0px rgba(255,255,255,0.3); 
+} 
