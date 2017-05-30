@@ -16,7 +16,6 @@ export var Sentiment = createReactClass({
                     {totalScore > 7 ? <div className="sentFaceHappy"></div> : null}
                     {totalScore < 3 ? <div className="sentFaceSad"></div> : null}
                     <p className="wordcount">Total words counted: {words}</p>
-                    <p className="wcpercentage">{percentScore}% positive</p>
                     <progress className="progressbar" value={percentScore} max="100"></progress>
                 </div>
             } else {
