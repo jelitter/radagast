@@ -21,7 +21,7 @@ module.exports = function(config){
             stats: 'errors-only'
         },
         proxies:{
-            '/api/v1/': 'http://localhost:3000/api/v1'
+            '/api/v1/': 'http://localhost:5000/api/v1'
         }
     });
 };

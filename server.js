@@ -1,7 +1,7 @@
 var   compression = require('compression');
 var   express    = require('express');
 var   app        = express();
-const PORT       = process.env.PORT || 3000;
+const PORT       = process.env.PORT || 5000;
 var   twitter    = require('./api/twitter'); 
 var   favourites = require('./api/favourites');
 var   time       = require('express-timestamp')
