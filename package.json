@@ -28,7 +28,7 @@
     "express": "^4.14.1",
     "express-timestamp": "^0.1.4",
     "generate-object-property": "^1.2.0",
-    "hawk": "^6.0.1",
+    "hawk": "^7.0.0",
     "jsonfile": "^2.4.0",
     "mapbox-gl": "^0.43.0",
     "react": "^15.4.0",
