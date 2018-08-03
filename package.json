@@ -32,7 +32,7 @@
     "jsonfile": "^2.4.0",
     "mapbox-gl": "^0.43.0",
     "react": "^15.4.0",
-    "react-dom": "^15.4.0",
+    "react-dom": "^16.0.1",
     "react-mapbox-gl": "^1.9.2",
     "react-router": "^3.0.0",
     "reduce-object": "^0.1.3",
